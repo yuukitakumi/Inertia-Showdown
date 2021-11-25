@@ -21,22 +21,22 @@ public class StepOnAnimator : MonoBehaviour
         {
             anim.SetBool("stepIN", false);
         }
-        
+
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.CompareTag("Pushable"))
         {
             objectInRange = true;
-            
         }
+        
     }
     private void OnTriggerExit2D(Collider2D collision)
     {
         if (collision.CompareTag("Pushable"))
         {
             objectInRange = false;
-            
         }
+        
     }
 }
