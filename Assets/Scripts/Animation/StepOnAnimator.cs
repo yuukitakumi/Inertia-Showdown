@@ -6,9 +6,13 @@ public class StepOnAnimator : MonoBehaviour
 {
     public Animator anim;
     public bool objectInRange;
+    public string tap;
+    public GameManager gameManager;
     void Start()
-    {
+    {      
         anim = GetComponent<Animator>();
+        gameManager = FindObjectOfType<GameManager>();
+
     }
     // Update is called once per frame
     void Update()
@@ -23,11 +27,17 @@ public class StepOnAnimator : MonoBehaviour
         }
 
     }
+    
     private void OnTriggerEnter2D(Collider2D collision)
     {
+        
         if (collision.CompareTag("Pushable"))
-        {
+        {              
             objectInRange = true;
+            if (collision.GetComponent<StatueController>().tap == tap)
+            {
+                gameManager.counter++;
+            }
         }
         
     }
@@ -36,6 +46,10 @@ public class StepOnAnimator : MonoBehaviour
         if (collision.CompareTag("Pushable"))
         {
             objectInRange = false;
+            if (collision.GetComponent<StatueController>().tap == tap)
+            {
+                gameManager.counter--;
+            }
         }
         
     }
