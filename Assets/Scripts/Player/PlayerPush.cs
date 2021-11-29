@@ -29,7 +29,7 @@ public class PlayerPush : MonoBehaviour
             hit = Physics2D.Raycast(transform.position, Vector2.right * playerMovement.movement.x, distance, boxMax);
         }
         
-        if (hit.collider != null && hit.collider.gameObject.tag == "Pushable"  && Input.GetKeyDown(KeyCode.E))
+        if (hit.collider != null && hit.collider.gameObject.tag == "Pushable"  && Input.GetKeyDown(KeyCode.X))
         {
             
             isGrab = !isGrab;
