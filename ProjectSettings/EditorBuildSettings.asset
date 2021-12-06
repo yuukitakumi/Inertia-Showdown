@@ -29,4 +29,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Main Room (Future).unity
     guid: 6b0c630a097389f458868d7289ce2df6
+  - enabled: 1
+    path: Assets/Scenes/Ruang Bedroom (Future).unity
+    guid: b72c78d6c0ac8a547b2fd2c244d84a97
+  - enabled: 1
+    path: Assets/Scenes/Ruang Hancur (Future).unity
+    guid: 888263d787bbaf8428ddaca3a21ebafe
   m_configObjects: {}

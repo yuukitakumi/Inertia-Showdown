@@ -4728,6 +4728,37 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
+--- !u!1 &831645355
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 831645356}
+  m_Layer: 0
+  m_Name: Pindah Scene
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &831645356
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 831645355}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1.3019834, y: 2.7958834, z: -0.0390625}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1863618635}
+  m_Father: {fileID: 0}
+  m_RootOrder: 9
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &835474485
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6679,7 +6710,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e27ea28bc7e3c2c48b778b3bd20f78a3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scene: Testing
+  scene: Ruang Hancur (Future)
   counterNeeded: 5
   gameManager: {fileID: 0}
   isDone: 0
@@ -7098,6 +7129,120 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!1001 &1863618634
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 831645356}
+    m_Modifications:
+    - target: {fileID: 1619752748313194135, guid: c4faca8f20390cf4ab841312fbbb6300,
+        type: 3}
+      propertyPath: m_Name
+      value: Door (Bedroom)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8469534725601754181, guid: c4faca8f20390cf4ab841312fbbb6300,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 2.244336
+      objectReference: {fileID: 0}
+    - target: {fileID: 8469534725601754181, guid: c4faca8f20390cf4ab841312fbbb6300,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.735271
+      objectReference: {fileID: 0}
+    - target: {fileID: 8469534725601754181, guid: c4faca8f20390cf4ab841312fbbb6300,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.01171875
+      objectReference: {fileID: 0}
+    - target: {fileID: 8469534725601754181, guid: c4faca8f20390cf4ab841312fbbb6300,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8469534725601754181, guid: c4faca8f20390cf4ab841312fbbb6300,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8469534725601754181, guid: c4faca8f20390cf4ab841312fbbb6300,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8469534725601754181, guid: c4faca8f20390cf4ab841312fbbb6300,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8469534725601754181, guid: c4faca8f20390cf4ab841312fbbb6300,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8469534725601754181, guid: c4faca8f20390cf4ab841312fbbb6300,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8469534725601754181, guid: c4faca8f20390cf4ab841312fbbb6300,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8469534725601754181, guid: c4faca8f20390cf4ab841312fbbb6300,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6580208366944717286, guid: c4faca8f20390cf4ab841312fbbb6300,
+        type: 3}
+      propertyPath: m_Offset.x
+      value: -12.902939
+      objectReference: {fileID: 0}
+    - target: {fileID: 6580208366944717286, guid: c4faca8f20390cf4ab841312fbbb6300,
+        type: 3}
+      propertyPath: m_Offset.y
+      value: 1.3384306
+      objectReference: {fileID: 0}
+    - target: {fileID: 6580208366944717286, guid: c4faca8f20390cf4ab841312fbbb6300,
+        type: 3}
+      propertyPath: m_Size.y
+      value: 0.9507208
+      objectReference: {fileID: 0}
+    - target: {fileID: 6580208366944717286, guid: c4faca8f20390cf4ab841312fbbb6300,
+        type: 3}
+      propertyPath: m_Size.x
+      value: 1.0349188
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: c4faca8f20390cf4ab841312fbbb6300, type: 3}
+--- !u!4 &1863618635 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8469534725601754181, guid: c4faca8f20390cf4ab841312fbbb6300,
+    type: 3}
+  m_PrefabInstance: {fileID: 1863618634}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1863618636 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1619752748313194135, guid: c4faca8f20390cf4ab841312fbbb6300,
+    type: 3}
+  m_PrefabInstance: {fileID: 1863618634}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1863618637
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1863618636}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bedb305ae9d53da409f2518ff5b221f4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scene: Ruang Bedroom (Future)
 --- !u!1001 &1905802690
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7741,17 +7886,17 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2373511449829782444, guid: 0b23122a76bc8cc438f86906eee6772f,
+        type: 3}
+      propertyPath: Xmove
+      value: 
+      objectReference: {fileID: 1391022242}
     - target: {fileID: 2373511449829782434, guid: 0b23122a76bc8cc438f86906eee6772f,
         type: 3}
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: 21300000, guid: 47ae19c397f26564993391a483bfb963,
         type: 3}
-    - target: {fileID: 2373511449829782444, guid: 0b23122a76bc8cc438f86906eee6772f,
-        type: 3}
-      propertyPath: Xmove
-      value: 
-      objectReference: {fileID: 1391022242}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0b23122a76bc8cc438f86906eee6772f, type: 3}
 --- !u!1001 &6339635098528356059
