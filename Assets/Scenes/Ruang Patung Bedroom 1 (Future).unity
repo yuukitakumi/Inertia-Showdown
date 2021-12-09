@@ -7199,7 +7199,7 @@ PrefabInstance:
     - target: {fileID: 6580208366944717286, guid: c4faca8f20390cf4ab841312fbbb6300,
         type: 3}
       propertyPath: m_Offset.x
-      value: -12.902939
+      value: -13.17
       objectReference: {fileID: 0}
     - target: {fileID: 6580208366944717286, guid: c4faca8f20390cf4ab841312fbbb6300,
         type: 3}
@@ -7243,6 +7243,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scene: Ruang Bedroom (Future)
+  playerPosition: {x: 5.4, y: -6}
+  playerStorage: {fileID: 11400000, guid: ab7deaa185c23b04c9f9823fac236b51, type: 2}
 --- !u!1001 &1905802690
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7834,12 +7836,12 @@ PrefabInstance:
     - target: {fileID: 2373511449829782433, guid: 0b23122a76bc8cc438f86906eee6772f,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -7.76
+      value: -7.91
       objectReference: {fileID: 0}
     - target: {fileID: 2373511449829782433, guid: 0b23122a76bc8cc438f86906eee6772f,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 3.04
+      value: 4.04
       objectReference: {fileID: 0}
     - target: {fileID: 2373511449829782433, guid: 0b23122a76bc8cc438f86906eee6772f,
         type: 3}
@@ -7897,6 +7899,11 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 21300000, guid: 47ae19c397f26564993391a483bfb963,
         type: 3}
+    - target: {fileID: 6279826382063112645, guid: 0b23122a76bc8cc438f86906eee6772f,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0b23122a76bc8cc438f86906eee6772f, type: 3}
 --- !u!1001 &6339635098528356059

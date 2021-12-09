@@ -122,6 +122,7 @@ MonoBehaviour:
   rb: {fileID: 2373511449829782447}
   animator: {fileID: 2373511449829782445}
   movement: {x: 0, y: 0}
+  startingPosition: {fileID: 11400000, guid: ab7deaa185c23b04c9f9823fac236b51, type: 2}
 --- !u!95 &2373511449829782445
 Animator:
   serializedVersion: 3

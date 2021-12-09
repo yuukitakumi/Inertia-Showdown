@@ -3786,7 +3786,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1345783832}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.34, y: 1.76, z: -10}
+  m_LocalPosition: {x: -1.34, y: 4.03, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1878008895}
@@ -4651,6 +4651,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scene: Main Room (Future)
+  playerPosition: {x: -3.3, y: 7}
+  playerStorage: {fileID: 11400000, guid: ab7deaa185c23b04c9f9823fac236b51, type: 2}
 --- !u!1001 &7587282152043288523
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4662,6 +4664,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Door
+      objectReference: {fileID: 0}
+    - target: {fileID: 1619752748313194135, guid: c4faca8f20390cf4ab841312fbbb6300,
+        type: 3}
+      propertyPath: m_Icon
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 8469534725601754181, guid: c4faca8f20390cf4ab841312fbbb6300,
         type: 3}
