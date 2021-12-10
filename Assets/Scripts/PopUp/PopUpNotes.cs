@@ -9,6 +9,8 @@ public class PopUpNotes : MonoBehaviour
     public GameObject imageNote;
     [SerializeField]
     public GameObject panelNote;
+    [SerializeField]
+    public GameObject interactUI;
 
     public string note;
     public bool PlayerInRange;
@@ -35,6 +37,7 @@ public class PopUpNotes : MonoBehaviour
     {
         if (collision.CompareTag("Player"))
         {
+            interactUI.SetActive(true);
             PlayerInRange = true;
         }
     }
@@ -42,6 +45,7 @@ public class PopUpNotes : MonoBehaviour
     {
         if (collision.CompareTag("Player"))
         {
+            interactUI.SetActive(false);
             PlayerInRange = false;
             imageNote.SetActive(false);
             panelNote.SetActive(false);

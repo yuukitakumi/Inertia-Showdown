@@ -314,8 +314,8 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: 21300000, guid: 27aa7b8d11fe6e74da0c6ed8f2f3925d, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -3179,8 +3179,7 @@ GameObject:
   - component: {fileID: 829283055}
   - component: {fileID: 829283056}
   - component: {fileID: 829283059}
-  - component: {fileID: 829283058}
-  - component: {fileID: 829283057}
+  - component: {fileID: 829283060}
   m_Layer: 0
   m_Name: BukuBajuZirah
   m_TagString: Untagged
@@ -3250,48 +3249,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!58 &829283057
-CircleCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 829283054}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  serializedVersion: 2
-  m_Radius: 1.45
---- !u!61 &829283058
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 829283054}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.5, y: 0.3125}
-    newSize: {x: 0.5, y: 0.3125}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 0.5, y: 0.3125}
-  m_EdgeRadius: 0
 --- !u!114 &829283059
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3306,8 +3263,35 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   imageNote: {fileID: 1624477680}
   panelNote: {fileID: 1400685252}
+  interactUI: {fileID: 1962534984}
   note: 
   PlayerInRange: 0
+--- !u!61 &829283060
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 829283054}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.035304546, y: -0.9290967}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.5, y: 0.3125}
+    newSize: {x: 0.5, y: 0.3125}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1.417916, y: 2.594348}
+  m_EdgeRadius: 0
 --- !u!1 &835542003
 GameObject:
   m_ObjectHideFlags: 0
@@ -3429,6 +3413,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   imageNote: {fileID: 1331531814}
   panelNote: {fileID: 251386965}
+  interactUI: {fileID: 1962534984}
   note: 
   PlayerInRange: 0
 --- !u!1 &849645432
@@ -3541,7 +3526,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 0e3e42ae96a651543888037ce3f03b97, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -4354,8 +4339,8 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: 21300000, guid: 27aa7b8d11fe6e74da0c6ed8f2f3925d, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -4659,8 +4644,8 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: 21300000, guid: 27aa7b8d11fe6e74da0c6ed8f2f3925d, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -5513,9 +5498,9 @@ CircleCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0.6653677, y: -0.38521355}
   serializedVersion: 2
-  m_Radius: 1.39
+  m_Radius: 1.6934999
 --- !u!1 &1860609337
 GameObject:
   m_ObjectHideFlags: 0
@@ -5755,6 +5740,12 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1962534981}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1962534984 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5891818917621683133, guid: 0b23122a76bc8cc438f86906eee6772f,
+    type: 3}
+  m_PrefabInstance: {fileID: 1962534981}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &2030466701
 GameObject:
   m_ObjectHideFlags: 0
@@ -5929,6 +5920,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   imageNote: {fileID: 1521797877}
   panelNote: {fileID: 1283382163}
+  interactUI: {fileID: 1962534984}
   note: 
   PlayerInRange: 0
 --- !u!61 &2045999849
