@@ -419,12 +419,12 @@ PrefabInstance:
     - target: {fileID: 2373511449829782433, guid: 0b23122a76bc8cc438f86906eee6772f,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.19
+      value: -1.87
       objectReference: {fileID: 0}
     - target: {fileID: 2373511449829782433, guid: 0b23122a76bc8cc438f86906eee6772f,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 4.51
+      value: 0.02
       objectReference: {fileID: 0}
     - target: {fileID: 2373511449829782433, guid: 0b23122a76bc8cc438f86906eee6772f,
         type: 3}
@@ -4651,8 +4651,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scene: Main Room (Future)
-  playerPosition: {x: -3.3, y: 7}
-  playerStorage: {fileID: 11400000, guid: ab7deaa185c23b04c9f9823fac236b51, type: 2}
 --- !u!1001 &7587282152043288523
 PrefabInstance:
   m_ObjectHideFlags: 0
