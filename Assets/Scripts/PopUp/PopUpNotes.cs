@@ -44,6 +44,7 @@ public class PopUpNotes : MonoBehaviour
         {
             PlayerInRange = false;
             imageNote.SetActive(false);
+            panelNote.SetActive(false);
         }
     }
 }
