@@ -35,4 +35,22 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Ruang Hancur (Future).unity
     guid: 888263d787bbaf8428ddaca3a21ebafe
+  - enabled: 1
+    path: Assets/Scenes/Main Room (Past).unity
+    guid: 0a40ba59de4d56042a74641f4f3bf17d
+  - enabled: 1
+    path: Assets/Scenes/Dapur (Past).unity
+    guid: 9ff3fd233c70fae42a22ff5d70be5cbd
+  - enabled: 1
+    path: Assets/Scenes/Library (Past).unity
+    guid: c37db01294dd85c4cae56104a2f64c60
+  - enabled: 1
+    path: Assets/Scenes/Ruang Bedrom (Past).unity
+    guid: 709969396e6072b418d6179cdf0c574c
+  - enabled: 1
+    path: Assets/Scenes/Ruang Meeting (Past).unity
+    guid: 3af0433313e74d6469f2d64cc286f7ee
+  - enabled: 1
+    path: Assets/Scenes/Ruang Rahasia (Past).unity
+    guid: 13ccb736c33ac9a4083027642171550a
   m_configObjects: {}
