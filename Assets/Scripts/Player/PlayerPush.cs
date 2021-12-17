@@ -45,7 +45,7 @@ public class PlayerPush : MonoBehaviour
         if (hit.collider != null && hit.collider.gameObject.tag == "Pushable"  && Input.GetKeyDown(KeyCode.X))
         {            
             isGrab = !isGrab;
-            if (isGrab)
+            if (isGrab && Input.GetKeyDown(KeyCode.X))
             {
                 Xmove.SetActive(false);
                 statue = hit.collider.gameObject;
@@ -61,9 +61,8 @@ public class PlayerPush : MonoBehaviour
                 statue.GetComponent<FixedJoint2D>().connectedBody = null;
                 statue.GetComponent<Rigidbody2D>().velocity = new Vector2(0, 0);
                 statue = null;
-            }                      
-            
-            
+            }                                           
         }
+       
     }   
 }
