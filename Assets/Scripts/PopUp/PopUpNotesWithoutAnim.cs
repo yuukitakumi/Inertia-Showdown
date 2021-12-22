@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class PopUpNotes : MonoBehaviour
+public class PopUpNotesWithoutAnim : MonoBehaviour
 {
     [SerializeField] public GameObject imageNote;
     [SerializeField] public GameObject panelNote;
@@ -11,8 +11,6 @@ public class PopUpNotes : MonoBehaviour
     [SerializeField] public GameObject tombolNex;
     [SerializeField] public GameObject tombolPrev; 
     
-    public Animator anim;
-
     public string note;
     public bool PlayerInRange;
 
@@ -41,16 +39,7 @@ public class PopUpNotes : MonoBehaviour
                 
             }
         }
-
-        if (Input.GetKeyDown(KeyCode.E) && PlayerInRange)
-        {
-            anim.SetBool("IsOpen", true);
-        }
-        else
-         {
-            anim.SetBool("IsOpen", false);
-         }
-        
+       
         
     }
     private void OnTriggerEnter2D(Collider2D collision)
