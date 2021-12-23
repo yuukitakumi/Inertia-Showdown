@@ -3553,6 +3553,9 @@ MonoBehaviour:
   imageNote: {fileID: 1262872874}
   panelNote: {fileID: 1112891024}
   interactUI: {fileID: 1531339050}
+  tombolNex: {fileID: 0}
+  tombolPrev: {fileID: 0}
+  anim: {fileID: 0}
   note: 
   PlayerInRange: 0
 --- !u!212 &1479328237
