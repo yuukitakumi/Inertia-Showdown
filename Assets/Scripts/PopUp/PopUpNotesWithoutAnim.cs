@@ -8,8 +8,6 @@ public class PopUpNotesWithoutAnim : MonoBehaviour
     [SerializeField] public GameObject imageNote;
     [SerializeField] public GameObject panelNote;
     [SerializeField] public GameObject interactUI;
-    [SerializeField] public GameObject tombolNex;
-    [SerializeField] public GameObject tombolPrev; 
     
     public string note;
     public bool PlayerInRange;
@@ -24,8 +22,7 @@ public class PopUpNotesWithoutAnim : MonoBehaviour
                 
                 imageNote.SetActive(false);
                 panelNote.SetActive(false);
-                tombolNex.SetActive(true);
-                tombolPrev.SetActive(true);
+
                 
             }
             else
@@ -33,8 +30,7 @@ public class PopUpNotesWithoutAnim : MonoBehaviour
                 
                 imageNote.SetActive(true);
                 panelNote.SetActive(true);
-                tombolNex.SetActive(true);
-                tombolPrev.SetActive(true);
+
                 // dialogText.text = dialog;
                 
             }
@@ -58,8 +54,7 @@ public class PopUpNotesWithoutAnim : MonoBehaviour
             PlayerInRange = false;
             imageNote.SetActive(false);
             panelNote.SetActive(false);
-            tombolNex.SetActive(false);
-            tombolPrev.SetActive(false);
+
         }
     }
 }

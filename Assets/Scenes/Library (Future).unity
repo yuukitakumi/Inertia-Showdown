@@ -203,15 +203,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 10462990}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 889b3d9ec01837d4fa54b55f94309355, type: 3}
+  m_Script: {fileID: 11500000, guid: 55c7eef25615c874daec7c6c8be9d849, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   imageNote: {fileID: 722782234}
   panelNote: {fileID: 1434145922}
   interactUI: {fileID: 153026558}
-  tombolNex: {fileID: 0}
-  tombolPrev: {fileID: 0}
-  anim: {fileID: 0}
   note: 
   PlayerInRange: 0
 --- !u!61 &10462994
@@ -464,7 +461,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1575585713}
-        m_MethodName: LoadMenu
+        m_MethodName: menu
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -774,15 +771,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 58629115}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 889b3d9ec01837d4fa54b55f94309355, type: 3}
+  m_Script: {fileID: 11500000, guid: 55c7eef25615c874daec7c6c8be9d849, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   imageNote: {fileID: 366836058}
   panelNote: {fileID: 761356830}
   interactUI: {fileID: 153026558}
-  tombolNex: {fileID: 0}
-  tombolPrev: {fileID: 0}
-  anim: {fileID: 0}
   note: 
   PlayerInRange: 0
 --- !u!1 &96872976
@@ -9557,8 +9551,6 @@ MonoBehaviour:
   imageNote: {fileID: 702208122}
   panelNote: {fileID: 702208122}
   interactUI: {fileID: 153026558}
-  tombolNex: {fileID: 912663992}
-  tombolPrev: {fileID: 2097722582}
   note: 
   PlayerInRange: 0
 --- !u!58 &1640058474
