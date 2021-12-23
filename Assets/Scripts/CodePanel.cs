@@ -14,7 +14,7 @@ public class CodePanel : MonoBehaviour {
 		codeText.text = codeTextValue;
 
 		if (codeTextValue == "2375") {
-			PlayerMovement.isSafeOpened = true;
+			codepanele.isSafeOpened = false;
 		}
 
 		if (codeTextValue.Length >= 4)
