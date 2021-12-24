@@ -3,13 +3,14 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class CodePanel : MonoBehaviour {
-
+public class CodePanel : MonoBehaviour 
+{
 	[SerializeField]
 	Text codeText;
 	string codeTextValue = "";
 
 	// Update is called once per frame
+
 	void Update () {
 		codeText.text = codeTextValue;
 

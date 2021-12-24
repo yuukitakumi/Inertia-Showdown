@@ -45,6 +45,35 @@ public class codepanele : MonoBehaviour
             }
         }
        
+    void OnDisable()
+    {
+        codePanel.SetActive (true);
+    }
+
+    void OnEnable()
+    {
+        if (Input.GetKeyDown(KeyCode.E) && PlayerInRange)
+        {
+            if (isSafeOpened) 
+        {
+			codePanel.SetActive (false);
+			closedSafe.SetActive (true);
+			openedSafe.SetActive (false);
+            diarySafe.SetActive (false);
+		}       
+            else
+            {
+                
+            codePanel.SetActive (true);
+		    closedSafe.SetActive (false);
+		    openedSafe.SetActive (true);
+            diarySafe.SetActive (true);
+
+            // dialogText.text = dialog;
+                
+            }
+        }
+    }
         
     }
     private void OnTriggerEnter2D(Collider2D collision)
