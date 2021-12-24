@@ -3,16 +3,11 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-
-//1 Turn On PauseMenu
-//2 Stop-Time Completely
-//3 Pause = true
-
-
-public class PauseMenu : MonoBehaviour
+public class PausePanel : MonoBehaviour
 {
     public static bool GameIsPaused = false;
-    public GameObject pauseMenu;
+    public GameObject panelPause;
+    //public GameObject panelSetting;
 
     void Update()
     {
@@ -21,36 +16,33 @@ public class PauseMenu : MonoBehaviour
             if (GameIsPaused)
             {
                 ResumeGame();
+                
             }
             else
             {
                 PauseGame();
+                
             }
         }
     }
 
     public void ResumeGame()
     {
-        pauseMenu.SetActive(false);
+        panelPause.SetActive(false);
         Time.timeScale = 1f;
         GameIsPaused = false ;
     }
+   
 
     void PauseGame()
     {
-        pauseMenu.SetActive(true);
+        panelPause.SetActive(true);
         Time.timeScale = 0f;
         GameIsPaused = true;
     }
+    
 
-    public void LoadMenu()
-    {
-        //to -> Main Menu Scene(belum)
-        Debug.Log("Loading Menu.....");
 
-        //SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex); //buildIndex + 1 atau + "MainMenu"
-       // Time.timeScale = 1f;
-    }
 
     public void menu ()
   {
