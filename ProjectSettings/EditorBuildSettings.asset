@@ -32,7 +32,7 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/Testing.unity
     guid: 65964e46cf72051489c6bc1ace65483e
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Ruang Baju Zirah (Future).unity
     guid: 837b2695ef7b37b4c81b2c017740eeb9
   - enabled: 1
