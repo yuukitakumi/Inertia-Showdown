@@ -7,7 +7,7 @@ public class FullScreenTog : MonoBehaviour
     public void Fullscene(bool is_fullscene)
     {
         Screen.fullScreen = is_fullscene;
-        Debug.Log("is Full Screen");
     }
+
 
 }
