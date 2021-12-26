@@ -46,8 +46,9 @@ public class PausePanel : MonoBehaviour
 
     public void menu ()
   {
-      UnityEngine.SceneManagement.SceneManager.LoadScene("mainmenu");
-  }
+        //UnityEngine.SceneManagement.SceneManager.LoadScene("Testing");
+        Debug.Log("Load menu.....");
+    }
 
     public void QuitGame()
     {
