@@ -7,7 +7,7 @@ using TMPro;
 public class Inventory : MonoBehaviour
 {
     public TextMeshProUGUI noteCounter;
-    public Text keyCounter;
+    public TextMeshProUGUI keyCounter;
 
     private int notes = 0;
     private int keys = 0;
