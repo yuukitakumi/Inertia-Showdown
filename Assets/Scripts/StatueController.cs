@@ -5,15 +5,15 @@ using UnityEngine;
 public class StatueController : MonoBehaviour
 {
     public string tap;
-    // Start is called before the first frame update
+    public Vector2 statuePosition;
+    public Patung statueStorage;
+
     void Start()
     {
-        
+        transform.position = statueStorage.patungPositionNew;
     }
-
-    // Update is called once per frame
     void Update()
     {
-        
+        statueStorage.patungPositionNew = transform.position;
     }
 }
