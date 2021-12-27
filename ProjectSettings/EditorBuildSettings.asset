@@ -20,13 +20,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Library (Future).unity
     guid: 711a83fbd179f7c4d9d60bc760ed4f24
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Ruang Dapur (Future).unity
     guid: 8c96d5ee1f6d3ee4d901c7163b1315b7
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Ruang Patung Dapur 2 (Future).unity
     guid: 9e440e97eeb951f44a26df9f3e15da4c
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Ruang Patung Bedroom 1 (Future).unity
     guid: 1938b4846f72b234e8fea7182c6f0565
   - enabled: 0
