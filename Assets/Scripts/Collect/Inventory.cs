@@ -2,10 +2,11 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 
 public class Inventory : MonoBehaviour
 {
-    public Text noteCounter;
+    public TextMeshProUGUI noteCounter;
     public Text keyCounter;
 
     private int notes = 0;
