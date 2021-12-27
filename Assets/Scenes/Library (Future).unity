@@ -4598,7 +4598,7 @@ MonoBehaviour:
     lineCount: 1
     pageCount: 1
     materialCount: 1
-  m_havePropertiesChanged: 1
+  m_havePropertiesChanged: 0
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_spriteAnimator: {fileID: 0}
@@ -10493,7 +10493,7 @@ MonoBehaviour:
     lineCount: 1
     pageCount: 1
     materialCount: 1
-  m_havePropertiesChanged: 1
+  m_havePropertiesChanged: 0
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_spriteAnimator: {fileID: 0}
@@ -11148,7 +11148,7 @@ MonoBehaviour:
     lineCount: 1
     pageCount: 1
     materialCount: 1
-  m_havePropertiesChanged: 1
+  m_havePropertiesChanged: 0
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_spriteAnimator: {fileID: 0}
@@ -12783,7 +12783,7 @@ MonoBehaviour:
     lineCount: 1
     pageCount: 1
     materialCount: 1
-  m_havePropertiesChanged: 1
+  m_havePropertiesChanged: 0
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_spriteAnimator: {fileID: 0}
@@ -13486,8 +13486,8 @@ GameObject:
   - component: {fileID: 1587802484}
   - component: {fileID: 1587802487}
   - component: {fileID: 1587802486}
-  - component: {fileID: 1587802485}
   - component: {fileID: 1587802488}
+  - component: {fileID: 1587802485}
   m_Layer: 0
   m_Name: PopKotakClose
   m_TagString: Untagged
@@ -13557,8 +13557,8 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!58 &1587802485
-CircleCollider2D:
+--- !u!61 &1587802485
+BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -13570,9 +13570,19 @@ CircleCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.000000059604645, y: 0.000000044703484}
+  m_Offset: {x: 0.010049447, y: -0.09044494}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.54, y: 0.54}
+    newSize: {x: 0.54, y: 0.54}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
   serializedVersion: 2
-  m_Radius: 0.51
+  m_Size: {x: 0.22846761, y: 0.22846776}
+  m_EdgeRadius: 0
 --- !u!61 &1587802486
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -13886,6 +13896,7 @@ GameObject:
   - component: {fileID: 1640058472}
   - component: {fileID: 1640058474}
   - component: {fileID: 1640058473}
+  - component: {fileID: 1640058475}
   m_Layer: 0
   m_Name: Board
   m_TagString: Untagged
@@ -13995,16 +14006,35 @@ MonoBehaviour:
   m_GameObject: {fileID: 1640058469}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 55c7eef25615c874daec7c6c8be9d849, type: 3}
+  m_Script: {fileID: 11500000, guid: 889b3d9ec01837d4fa54b55f94309355, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   imageNote: {fileID: 702208122}
   panelNote: {fileID: 702208122}
   interactUI: {fileID: 153026558}
+  tombolNex: {fileID: 912663992}
+  tombolPrev: {fileID: 2097722582}
+  anim: {fileID: 0}
   note: 
   PlayerInRange: 0
 --- !u!58 &1640058474
 CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1640058469}
+  m_Enabled: 0
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.17625499, y: 0.036154985}
+  serializedVersion: 2
+  m_Radius: 0.7073903
+--- !u!60 &1640058475
+PolygonCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -14017,8 +14047,23 @@ CircleCollider2D:
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
-  serializedVersion: 2
-  m_Radius: 1.2
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1, y: 2.34375}
+    newSize: {x: 1, y: 2.34375}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: 0.20065856, y: 0.93668365}
+      - {x: -0.41858768, y: -0.18912816}
+      - {x: -0.31908345, y: -1.171875}
+      - {x: -0.07749367, y: -1.2080297}
+      - {x: 0.54520726, y: -0.62152624}
+      - {x: 0.4185872, y: 0.16778874}
 --- !u!1 &1647550363
 GameObject:
   m_ObjectHideFlags: 0
@@ -17093,7 +17138,7 @@ MonoBehaviour:
     lineCount: 1
     pageCount: 1
     materialCount: 1
-  m_havePropertiesChanged: 1
+  m_havePropertiesChanged: 0
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_spriteAnimator: {fileID: 0}
