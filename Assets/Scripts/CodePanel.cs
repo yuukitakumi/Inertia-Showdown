@@ -11,11 +11,12 @@ public class CodePanel : MonoBehaviour
 
 	// Update is called once per frame
 
-	void Update () {
+	void Update () 
+	{
 		codeText.text = codeTextValue;
 
 		if (codeTextValue == "2375") {
-			codepanele.isSafeOpened = false;
+			PlayerMovement.isSafeOpened = true;
 		}
 
 		if (codeTextValue.Length >= 4)
