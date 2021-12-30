@@ -11,6 +11,7 @@ public class StatueController : MonoBehaviour
     void Start()
     {
         transform.position = statueStorage.patungPositionNew;
+        statueStorage.patungPositionNew = transform.position;
     }
     void Update()
     {

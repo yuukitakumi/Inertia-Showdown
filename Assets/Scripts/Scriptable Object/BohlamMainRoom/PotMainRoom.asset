@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: PotMainRoom
   m_EditorClassIdentifier: 
   patungPosition: {x: -5.484, y: 4.564}
-  patungPositionNew: {x: 0, y: 0}
+  patungPositionNew: {x: -5.484, y: 4.564}

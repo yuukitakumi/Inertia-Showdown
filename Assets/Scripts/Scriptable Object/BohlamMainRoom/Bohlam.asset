@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: Bohlam
   m_EditorClassIdentifier: 
   patungPosition: {x: -6.481, y: 1.47}
-  patungPositionNew: {x: -1.7559612, y: 2.5603645}
+  patungPositionNew: {x: 0, y: 0}

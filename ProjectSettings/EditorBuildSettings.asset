@@ -20,25 +20,25 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Library (Future).unity
     guid: 711a83fbd179f7c4d9d60bc760ed4f24
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/Ruang Dapur (Future).unity
     guid: 8c96d5ee1f6d3ee4d901c7163b1315b7
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/Ruang Patung Dapur 2 (Future).unity
     guid: 9e440e97eeb951f44a26df9f3e15da4c
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/Ruang Patung Bedroom 1 (Future).unity
     guid: 1938b4846f72b234e8fea7182c6f0565
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/Ruang Baju Zirah (Future).unity
     guid: 837b2695ef7b37b4c81b2c017740eeb9
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/Main Room (Future).unity
     guid: 6b0c630a097389f458868d7289ce2df6
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/Ruang Bedroom (Future).unity
     guid: b72c78d6c0ac8a547b2fd2c244d84a97
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/Ruang Hancur (Future).unity
     guid: 888263d787bbaf8428ddaca3a21ebafe
   - enabled: 0

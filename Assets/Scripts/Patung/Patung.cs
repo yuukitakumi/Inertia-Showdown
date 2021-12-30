@@ -11,9 +11,11 @@ public class Patung : ScriptableObject
     [Header("New")]
     public Vector2 patungPositionNew;
 
-    private void Awake()
+    private void OnEnable()
     {
         patungPosition = patungPositionNew;
+        patungPositionNew = patungPosition;
+
     }
     private void OnDisable()
     {

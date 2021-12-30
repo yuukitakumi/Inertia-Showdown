@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: PatungBedroom
   m_EditorClassIdentifier: 
   patungPosition: {x: 4.03, y: 2.67}
-  patungPositionNew: {x: -5.06617, y: 3.758335}
+  patungPositionNew: {x: 4.03, y: 2.67}
