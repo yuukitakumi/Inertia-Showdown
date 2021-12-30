@@ -247,7 +247,7 @@ MonoBehaviour:
     lineCount: 1
     pageCount: 1
     materialCount: 1
-  m_havePropertiesChanged: 0
+  m_havePropertiesChanged: 1
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_spriteAnimator: {fileID: 0}
@@ -4952,7 +4952,7 @@ MonoBehaviour:
     lineCount: 1
     pageCount: 1
     materialCount: 1
-  m_havePropertiesChanged: 0
+  m_havePropertiesChanged: 1
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_spriteAnimator: {fileID: 0}
@@ -6493,7 +6493,7 @@ MonoBehaviour:
     lineCount: 1
     pageCount: 1
     materialCount: 1
-  m_havePropertiesChanged: 0
+  m_havePropertiesChanged: 1
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_spriteAnimator: {fileID: 0}
@@ -9128,7 +9128,6 @@ GameObject:
   - component: {fileID: 876190174}
   - component: {fileID: 876190173}
   - component: {fileID: 876190172}
-  - component: {fileID: 876190175}
   m_Layer: 5
   m_Name: SettingMenuPanel
   m_TagString: Untagged
@@ -9199,18 +9198,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &876190175
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 876190171}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e7cef77429da619469dd777d1865a708, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &878797133
 GameObject:
   m_ObjectHideFlags: 0
@@ -11382,7 +11369,7 @@ MonoBehaviour:
     lineCount: 1
     pageCount: 1
     materialCount: 1
-  m_havePropertiesChanged: 0
+  m_havePropertiesChanged: 1
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_spriteAnimator: {fileID: 0}
@@ -12269,7 +12256,7 @@ MonoBehaviour:
     lineCount: 1
     pageCount: 1
     materialCount: 1
-  m_havePropertiesChanged: 0
+  m_havePropertiesChanged: 1
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_spriteAnimator: {fileID: 0}
@@ -16148,6 +16135,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1796982273}
   - component: {fileID: 1796982275}
+  - component: {fileID: 1796982274}
   m_Layer: 5
   m_Name: FullscreenTog
   m_TagString: Untagged
@@ -16176,6 +16164,18 @@ RectTransform:
   m_AnchoredPosition: {x: 375.10004, y: 75}
   m_SizeDelta: {x: 750.2, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1796982274
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1796982272}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e7cef77429da619469dd777d1865a708, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &1796982275
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16219,7 +16219,7 @@ MonoBehaviour:
   onValueChanged:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 876190175}
+      - m_Target: {fileID: 1796982274}
         m_MethodName: Change
         m_Mode: 1
         m_Arguments:
@@ -16232,7 +16232,7 @@ MonoBehaviour:
         m_CallState: 2
     m_TypeName: UnityEngine.UI.Toggle+ToggleEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
-  m_IsOn: 0
+  m_IsOn: 1
 --- !u!1 &1806649970
 GameObject:
   m_ObjectHideFlags: 0
