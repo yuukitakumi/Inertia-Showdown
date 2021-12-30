@@ -4,7 +4,7 @@ MonoImporter:
   externalObjects: {}
   serializedVersion: 2
   defaultReferences:
-  - mouseCursor: {fileID: 2800000, guid: 2003364ccf99906458ec418224a16006, type: 3}
+  - mouseCursor: {fileID: 2800000, guid: 9baca19c7c9f67042ad09bdd962193f9, type: 3}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 

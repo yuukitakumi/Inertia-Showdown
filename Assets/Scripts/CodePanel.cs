@@ -1,14 +1,11 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.UI;
 
 public class CodePanel : MonoBehaviour 
 {
 	[SerializeField]
 	Text codeText;
-	string codeTextValue = "";
-
+	string codeTextValue ="";
 	// Update is called once per frame
 
 	void Update () 

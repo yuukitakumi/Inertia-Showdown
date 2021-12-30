@@ -305,7 +305,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Loadbar: {fileID: 150258626}
   now: 0
-  speed: 15
+  speed: 6
 --- !u!114 &439469562
 MonoBehaviour:
   m_ObjectHideFlags: 0
