@@ -5,44 +5,77 @@ using UnityEngine.UI;
 
 public class DialogueManager : MonoBehaviour
 {
-    [SerializeField] public GameObject dialogBox;
-    [SerializeField] public GameObject dialogImage;
-    [SerializeField] public Text dialogText;
-    [SerializeField] int letterPerSecond;
-    public string dialog;
-    public bool PlayerInRange;
+    public Image actorImage;
+    public Text actorName;
+    public Text messageText;
+    public RectTransform backgroundBox;
+
+    Message[] currentMessages;
+    Actor[] currentActors;
+    int activeMessage = 0;
+    
+    [SerializeField]
+    public static bool isActive = false;
+
+    public void OpenDialogue(Message[] messages, Actor[] actors){
+        currentMessages = messages;
+        currentActors = actors;
+        activeMessage = 0;
+        isActive = true;
+        Debug.Log("Started conversation! Loaded messages: " + currentMessages.Length);
+        DisplayMessage();
+        backgroundBox.LeanScale(Vector3.one, 0.5f);
+    }
+
+    void DisplayMessage()
+    {
+        Message messageToDisplay = currentMessages[activeMessage];
+        messageText.text = messageToDisplay.message;
+        Actor actorToDisplay = currentActors[messageToDisplay.actorId];
+        actorName.text = actorToDisplay.name;
+        actorImage.sprite = actorToDisplay.sprite;
+        AnimateTextColor();
+
+    }
+
+    public void NextMessage()
+    {
+        activeMessage++;
+        if (activeMessage<currentMessages.Length)
+        {
+            DisplayMessage();
+        }
+        else
+        {
+            Debug.Log("Conversation Ended!");
+            backgroundBox.LeanScale(Vector3.zero, 0.5f).setEaseInOutExpo();
+            isActive = false;
+        }
+    }
+
+    void AnimateTextColor()
+    {
+        LeanTween.textAlpha(messageText.rectTransform, 0, 0);
+        LeanTween.textAlpha(messageText.rectTransform, 1, 0.5f);
+    }
+    // Start is called before the first frame update
+    void Start()
+    {
+        backgroundBox.transform.localScale = Vector3.zero;
+    }
 
     // Update is called once per frame
     void Update()
     {
-        if(Input.GetKeyDown(KeyCode.E) && PlayerInRange)
+        if (Input.GetKeyDown(KeyCode.Space) && isActive == true)
         {
-            if (dialogBox.activeInHierarchy)
-            {
-                dialogBox.SetActive(false);
-                dialogImage.SetActive(false);
-            }
-            else
-            {
-                dialogBox.SetActive(true);
-                dialogImage.SetActive(true);
-                dialogText.text = dialog;
-            }
+            NextMessage();
         }
-    }
-    private void OnTriggerEnter2D(Collider2D collision)
-    {
-        if (collision.CompareTag("Player"))
+        
+        if (Input.GetKeyDown(KeyCode.Space) && isActive == false)
         {
-            PlayerInRange = true;
+            UnityEngine.SceneManagement.SceneManager.LoadScene("act1_bedroom");
         }
-    }
-    private void OnTriggerExit2D(Collider2D collision)
-    {
-        if (collision.CompareTag("Player"))
-        {
-            PlayerInRange = false;
-            dialogBox.SetActive(false);
-        }
+       
     }
 }

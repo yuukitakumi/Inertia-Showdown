@@ -6,7 +6,7 @@ public class mainmenu : MonoBehaviour
 {
   public void playGame ()
   {
-      UnityEngine.SceneManagement.SceneManager.LoadScene("Library (Future)");
+      UnityEngine.SceneManagement.SceneManager.LoadScene("Act1");
   }
   public void QuitGame()
       {
