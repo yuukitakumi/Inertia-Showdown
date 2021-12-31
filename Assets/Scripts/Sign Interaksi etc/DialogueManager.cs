@@ -71,10 +71,10 @@ public class DialogueManager : MonoBehaviour
         {
             NextMessage();
         }
-        
+
         if (Input.GetKeyDown(KeyCode.Space) && isActive == false)
         {
-            UnityEngine.SceneManagement.SceneManager.LoadScene("act1_bedroom");
+            UnityEngine.SceneManagement.SceneManager.LoadScene("Act1_bedroom");
         }
        
     }

@@ -17,25 +17,25 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/mainmenu.unity
     guid: a89df960b240b624093a62b1d3323190
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/act1.unity
     guid: ffd75b8553a748e44a0703f20c85dac0
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/act1dialogue.unity
     guid: 80d69a80ecd4acb49ba2215fdcda2196
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/Act1_bedroom.unity
     guid: 121a19ccd07ae7c4db5e4647c24d7403
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/Ruang Bedrom (Past).unity
     guid: 709969396e6072b418d6179cdf0c574c
   - enabled: 1
     path: Assets/Scenes/Ruang Meeting (Past).unity
     guid: 3af0433313e74d6469f2d64cc286f7ee
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/Ruang Rahasia (Past).unity
     guid: 13ccb736c33ac9a4083027642171550a
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/Library (Past).unity
     guid: c37db01294dd85c4cae56104a2f64c60
   - enabled: 0
