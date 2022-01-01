@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -13,7 +14,7 @@ public class StatueController : MonoBehaviour
         transform.position = statueStorage.patungPositionNew;
         statueStorage.patungPositionNew = transform.position;
     }
-    void Update()
+    void OnDisable()
     {
         statueStorage.patungPositionNew = transform.position;
     }
