@@ -2,29 +2,29 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class DialogTrigger : MonoBehaviour
+public class DialogTriggerphoto : MonoBehaviour
 {
-public Message [] messages;
-public Actor[] actors;
+public Messageeee [] messages;
+public Actorrrr[] actors;
 Rigidbody2D rb;
 public void StartDialogue()
 {
     rb = GetComponent<Rigidbody2D>();
-    FindObjectOfType<DialogueManager>().OpenDialogue(messages, actors);
+    FindObjectOfType<DialogForPhotos>().OpenDialogue(messages, actors);
         
 }
  
 }
 
 [System.Serializable]
-public class Message 
+public class Messageeee
 {
     public int actorId;
     public string message;
 }
 
 [System.Serializable]
-public class Actor{
+public class Actorrrr{
     public string name;
     public Sprite sprite;
 }

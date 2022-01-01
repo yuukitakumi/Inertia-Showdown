@@ -3,21 +3,21 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class DialogueManager: MonoBehaviour
+public class DialogForPhotos : MonoBehaviour
 {
     public Image actorImage;
     public Text actorName;
     public Text messageText;
     public RectTransform backgroundBox;
 
-    Message[] currentMessages;
-    Actor[] currentActors;
+    Messageeee[] currentMessages;
+    Actorrrr[] currentActors;
     int activeMessage = 0;
     [SerializeField] 
 
     public static bool isActive = false;
 
-    public void OpenDialogue(Message[] messages, Actor[] actors){
+    public void OpenDialogue(Messageeee[] messages, Actorrrr[] actors){
         currentMessages = messages;
         currentActors = actors;
         activeMessage = 0;
@@ -29,9 +29,9 @@ public class DialogueManager: MonoBehaviour
 
     void DisplayMessage()
     {
-        Message messageToDisplay = currentMessages[activeMessage];
+        Messageeee messageToDisplay = currentMessages[activeMessage];
         messageText.text = messageToDisplay.message;
-        Actor actorToDisplay = currentActors[messageToDisplay.actorId];
+        Actorrrr actorToDisplay = currentActors[messageToDisplay.actorId];
         actorName.text = actorToDisplay.name;
         actorImage.sprite = actorToDisplay.sprite;
         AnimateTextColor();

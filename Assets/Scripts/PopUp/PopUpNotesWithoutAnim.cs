@@ -8,7 +8,7 @@ public class PopUpNotesWithoutAnim : MonoBehaviour
     [SerializeField] public GameObject imageNote;
     [SerializeField] public GameObject panelNote;
     [SerializeField] public GameObject interactUI;
-    
+
     public string note;
     public bool PlayerInRange;
 
@@ -19,11 +19,8 @@ public class PopUpNotesWithoutAnim : MonoBehaviour
         {
             if (imageNote.activeInHierarchy)
             {
-                
                 imageNote.SetActive(false);
                 panelNote.SetActive(false);
-
-                
             }
             else
             {
@@ -44,6 +41,7 @@ public class PopUpNotesWithoutAnim : MonoBehaviour
         {
             interactUI.SetActive(true);
             PlayerInRange = true;
+            
         }
     }
     private void OnTriggerExit2D(Collider2D collision)

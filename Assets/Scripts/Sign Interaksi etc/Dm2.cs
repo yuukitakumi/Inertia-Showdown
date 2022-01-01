@@ -3,21 +3,21 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class DialogueManager: MonoBehaviour
+public class Dm2 : MonoBehaviour
 {
     public Image actorImage;
     public Text actorName;
     public Text messageText;
     public RectTransform backgroundBox;
 
-    Message[] currentMessages;
-    Actor[] currentActors;
+    Messagee[] currentMessages;
+    Actorr[] currentActors;
     int activeMessage = 0;
-    [SerializeField] 
-
+    
+    [SerializeField]
     public static bool isActive = false;
 
-    public void OpenDialogue(Message[] messages, Actor[] actors){
+    public void OpenDialogue(Messagee[] messages, Actorr[] actors){
         currentMessages = messages;
         currentActors = actors;
         activeMessage = 0;
@@ -29,9 +29,9 @@ public class DialogueManager: MonoBehaviour
 
     void DisplayMessage()
     {
-        Message messageToDisplay = currentMessages[activeMessage];
+        Messagee messageToDisplay = currentMessages[activeMessage];
         messageText.text = messageToDisplay.message;
-        Actor actorToDisplay = currentActors[messageToDisplay.actorId];
+        Actorr actorToDisplay = currentActors[messageToDisplay.actorId];
         actorName.text = actorToDisplay.name;
         actorImage.sprite = actorToDisplay.sprite;
         AnimateTextColor();
@@ -72,6 +72,10 @@ public class DialogueManager: MonoBehaviour
             NextMessage();
         }
 
+        if (Input.GetKeyDown(KeyCode.Space) && isActive == false)
+        {
+            UnityEngine.SceneManagement.SceneManager.LoadScene("Act1_bedroom");
+        }
        
     }
 }

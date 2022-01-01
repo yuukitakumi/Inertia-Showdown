@@ -577,8 +577,8 @@ GameObject:
   - component: {fileID: 503442911}
   - component: {fileID: 503442914}
   - component: {fileID: 503442912}
-  - component: {fileID: 503442915}
   - component: {fileID: 503442913}
+  - component: {fileID: 503442915}
   m_Layer: 5
   m_Name: Text
   m_TagString: Untagged
@@ -704,14 +704,18 @@ MonoBehaviour:
   m_GameObject: {fileID: 503442910}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3717aa7796cc6e84bb8b3ac658552660, type: 3}
+  m_Script: {fileID: 11500000, guid: 596a3afe1af90ea4b831315f3edfe453, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   messages:
   - actorId: 0
-    message: 'Selamat Pagi Dunia! '
-  - actorId: 1
-    message: Sepertinya aku butuh air
+    message: Selamat Pagi Dunia!
+  - actorId: 0
+    message: Sepertinya aku butuh air.
+  - actorId: 0
+    message: a
+  - actorId: 0
+    message: b
   actors:
   - name: Vanya
     sprite: {fileID: 21300000, guid: 264af05424b28a643b914f04d284c25f, type: 3}
@@ -1294,7 +1298,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1023535901}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 59757a18f1d40f1438922759e83181e0, type: 3}
+  m_Script: {fileID: 11500000, guid: 157c175e52de4178a660988956cb6037, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   actorImage: {fileID: 602322244}

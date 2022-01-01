@@ -119,10 +119,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4a717eb4e3edbd546b8766ad17804b34, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 5
+  moveSpeed: 3
   rb: {fileID: 2373511449829782447}
   animator: {fileID: 2373511449829782445}
   movement: {x: 0, y: 0}
+  codePanel: {fileID: 0}
+  closedSafe: {fileID: 0}
+  openedSafe: {fileID: 0}
+  diarySafe: {fileID: 0}
+  dialogLeader: {fileID: 0}
 --- !u!95 &2373511449829782445
 Animator:
   serializedVersion: 3
