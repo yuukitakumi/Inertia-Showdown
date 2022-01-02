@@ -13,6 +13,8 @@ public class PlayerMovement : MonoBehaviour
 	GameObject codePanel, closedSafe, openedSafe, diarySafe, dialogLeader;
 
 	public static bool isSafeOpened = false;
+	
+	
 
     // Update is called once per frame
 
@@ -31,13 +33,18 @@ public class PlayerMovement : MonoBehaviour
     void Update()
     {
 	    if (DialogueManager.isActive == true)
-		    return;
+		    GetComponent<Rigidbody2D>().position = Vector2.positiveInfinity;
 	    
 	    if (Dm2.isActive == true)
 		    return;
 	    
 	    if (DialogForPhotos.isActive == true)
-		    return;
+		    GetComponent<Rigidbody2D>().position = Vector2.positiveInfinity;
+
+	    if (DialogManagerTuyul.isActive == true)
+	    {
+		    GetComponent<Rigidbody2D>().position = Vector2.positiveInfinity;
+	    }
 	    
         movement.x = Input.GetAxisRaw("Horizontal");
         movement.y = Input.GetAxisRaw("Vertical");
@@ -71,6 +78,7 @@ public class PlayerMovement : MonoBehaviour
 	{
 		if (col.gameObject.name.Equals ("Safe") && !isSafeOpened) 
 			codePanel.SetActive (true);
+
 		
 	}
 

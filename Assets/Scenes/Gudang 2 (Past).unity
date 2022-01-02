@@ -1066,7 +1066,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 93123580}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 891a2121dca71d8458a0327a4a7ffe06, type: 3}
   m_Name: 
@@ -6255,6 +6255,11 @@ PrefabInstance:
       propertyPath: animator
       value: 
       objectReference: {fileID: 1261119288}
+    - target: {fileID: 7891401444955072995, guid: 38b9c2816a94f0849b160786a0ce4d7d,
+        type: 3}
+      propertyPath: animHantu
+      value: 
+      objectReference: {fileID: 93123581}
     - target: {fileID: 4374092270421814032, guid: 38b9c2816a94f0849b160786a0ce4d7d,
         type: 3}
       propertyPath: m_SortingOrder
@@ -7738,7 +7743,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1600711079}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8cbc18513b6e02c48a35cc33a1e08f38, type: 3}
   m_Name: 
