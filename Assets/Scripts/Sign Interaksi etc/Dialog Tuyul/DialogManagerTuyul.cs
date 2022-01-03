@@ -35,7 +35,6 @@ public class DialogManagerTuyul : MonoBehaviour
         actorName.text = actorToDisplay.name;
         actorImage.sprite = actorToDisplay.sprite;
         AnimateTextColor();
-
     }
 
     public void NextMessage()
@@ -71,7 +70,5 @@ public class DialogManagerTuyul : MonoBehaviour
         {
             NextMessage();
         }
-
-       
     }
 }

@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-
+using UnityEngine.SceneManagement;
 public class Dm2 : MonoBehaviour
 {
     public Image actorImage;
@@ -13,7 +13,7 @@ public class Dm2 : MonoBehaviour
     Messagee[] currentMessages;
     Actorr[] currentActors;
     int activeMessage = 0;
-    
+    public string scene;
     [SerializeField]
     public static bool isActive = false;
 
@@ -35,13 +35,12 @@ public class Dm2 : MonoBehaviour
         actorName.text = actorToDisplay.name;
         actorImage.sprite = actorToDisplay.sprite;
         AnimateTextColor();
-
     }
 
     public void NextMessage()
     {
         activeMessage++;
-        if (activeMessage<currentMessages.Length)
+        if (activeMessage < currentMessages.Length)
         {
             DisplayMessage();
         }
@@ -74,7 +73,7 @@ public class Dm2 : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.Space) && isActive == false)
         {
-            UnityEngine.SceneManagement.SceneManager.LoadScene("Act1_bedroom");
+            SceneManager.LoadScene(scene);
         }
        
     }

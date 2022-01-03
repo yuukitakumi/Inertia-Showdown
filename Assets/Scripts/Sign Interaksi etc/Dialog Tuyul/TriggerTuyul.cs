@@ -12,7 +12,6 @@ public class TriggerTuyul : MonoBehaviour
     {
         rb = GetComponent<Rigidbody2D>();
         FindObjectOfType<DialogManagerTuyul>().OpenDialogue(messages, actors);
-        
     }
  
 }

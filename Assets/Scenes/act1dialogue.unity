@@ -618,7 +618,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Navigation:
-    m_Mode: 3
+    m_Mode: 0
     m_SelectOnUp: {fileID: 0}
     m_SelectOnDown: {fileID: 0}
     m_SelectOnLeft: {fileID: 0}
@@ -710,12 +710,8 @@ MonoBehaviour:
   messages:
   - actorId: 0
     message: Selamat Pagi Dunia!
-  - actorId: 0
+  - actorId: 1
     message: Sepertinya aku butuh air.
-  - actorId: 0
-    message: a
-  - actorId: 0
-    message: b
   actors:
   - name: Vanya
     sprite: {fileID: 21300000, guid: 264af05424b28a643b914f04d284c25f, type: 3}
@@ -1305,6 +1301,7 @@ MonoBehaviour:
   actorName: {fileID: 490812926}
   messageText: {fileID: 1001444503}
   backgroundBox: {fileID: 794854654}
+  scene: Act1_bedroom
 --- !u!1 &1264182199
 GameObject:
   m_ObjectHideFlags: 0
