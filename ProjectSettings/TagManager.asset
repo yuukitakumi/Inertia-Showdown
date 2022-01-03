@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Pushable
   - collectible
+  - MusicPlayer
   layers:
   - Default
   - TransparentFX
