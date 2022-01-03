@@ -1,13 +1,17 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class SoundManager : MonoBehaviour
 {
     [SerializeField]
     Slider volumeSlider;
-   
+
+    //private float MusicVolume;
+    //public AudioSource AudiSource;
+    public static SoundManager Instance { get; set; }
     void Start()
     {
 
@@ -20,19 +24,30 @@ public class SoundManager : MonoBehaviour
             Load();
         }
     }
-
+    private void awake()
+    {
+        DontDestroyOnLoad(this);
+        if (Instance == null)
+        {
+            Instance = this;
+        }
+        else
+        {
+            Destroy(gameObject);
+        }
+    }
     public void ChangeVolume()
     {
         AudioListener.volume = volumeSlider.value;
         Save();
     }
 
-    private void Load()
+    public void Load()
     {
         volumeSlider.value = PlayerPrefs.GetFloat("musicVolume");
     }
 
-    private void Save()
+    public void Save()
     {
         PlayerPrefs.SetFloat("musicVolume", volumeSlider.value);
     }
