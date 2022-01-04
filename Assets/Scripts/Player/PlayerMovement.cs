@@ -46,6 +46,9 @@ public class PlayerMovement : MonoBehaviour
 		    GetComponent<Rigidbody2D>().position = Vector2.positiveInfinity;
 	    }
 	    
+	    if (DialogManagerNPC.isActive == true)
+			return;
+	    
         movement.x = Input.GetAxisRaw("Horizontal");
         movement.y = Input.GetAxisRaw("Vertical");
 

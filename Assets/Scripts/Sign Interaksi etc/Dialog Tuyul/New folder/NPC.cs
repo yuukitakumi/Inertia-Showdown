@@ -4,20 +4,17 @@ using UnityEngine;
 
 public class NPC : MonoBehaviour
 {
-    public DialogTrigger trigger;
+    public TriggerNPC trigger;
 
-    private void OnCollisionEnter2D(Collision2D collision)
+    private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.gameObject.CompareTag("Player")  == true)
-        trigger.StartDialogue();
-
+            trigger.StartDialogue();
     }
 
-        private void OnCollisionExit2D(Collision2D collision)
+    private void OnTriggerExit2D(Collider2D collision)
     {
         if (collision.gameObject.CompareTag("Player") == false)
-        trigger.StartDialogue();
-
+            trigger.StartDialogue();
     }
-
 }
