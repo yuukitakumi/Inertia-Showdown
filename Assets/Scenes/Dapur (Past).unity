@@ -4962,7 +4962,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -6.5519104, y: -7.3750396}
+  m_Offset: {x: -7.7814794, y: -7.3750396}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -4973,7 +4973,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1.1172695, y: 2.107541}
+  m_Size: {x: 3.5764074, y: 2.107541}
   m_EdgeRadius: 0
 --- !u!4 &879003142
 Transform:
@@ -5161,7 +5161,6 @@ GameObject:
   - component: {fileID: 907694551}
   - component: {fileID: 907694555}
   - component: {fileID: 907694554}
-  - component: {fileID: 907694553}
   - component: {fileID: 907694552}
   m_Layer: 5
   m_Name: DialogueBox
@@ -5209,17 +5208,6 @@ MonoBehaviour:
   actorName: {fileID: 2126720775}
   messageText: {fileID: 1420349080}
   backgroundBox: {fileID: 907694551}
---- !u!210 &907694553
-SortingGroup:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 907694550}
-  m_Enabled: 1
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 1
 --- !u!114 &907694554
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11371,7 +11359,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0, y: -0.3432107}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -11382,7 +11370,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1, y: 2}
+  m_Size: {x: 1, y: 2.0146046}
   m_EdgeRadius: 0
 --- !u!1 &1718469223
 GameObject:

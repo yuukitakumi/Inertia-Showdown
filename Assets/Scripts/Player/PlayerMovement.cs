@@ -10,7 +10,7 @@ public class PlayerMovement : MonoBehaviour
     public Vector2 movement;
     
     [SerializeField]
-	GameObject codePanel, closedSafe, openedSafe, diarySafe, dialogLeader;
+	GameObject codePanel, closedSafe, openedSafe, diarySafe;
 
 	public static bool isSafeOpened = false;
 	
@@ -26,8 +26,7 @@ public class PlayerMovement : MonoBehaviour
 		codePanel.SetActive (false);
 		closedSafe.SetActive (true);
 		openedSafe.SetActive (false);
-        diarySafe.SetActive (false);
-        dialogLeader.SetActive (true);
+		diarySafe.SetActive(false);
     }
 
     void Update()
@@ -62,8 +61,7 @@ public class PlayerMovement : MonoBehaviour
 			closedSafe.SetActive (false);
 			openedSafe.SetActive (true);
             diarySafe.SetActive (true);
-            dialogLeader.SetActive (false);
-		} 
+        } 
 
         else
         {

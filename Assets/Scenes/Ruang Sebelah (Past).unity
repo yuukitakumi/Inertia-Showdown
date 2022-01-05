@@ -178,6 +178,11 @@ PrefabInstance:
       propertyPath: m_Controller
       value: 
       objectReference: {fileID: 9100000, guid: f1144e4a0d856d04890fb973712937c9, type: 2}
+    - target: {fileID: 8745356906467477807, guid: 38b9c2816a94f0849b160786a0ce4d7d,
+        type: 3}
+      propertyPath: distance
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 791486032, guid: 38b9c2816a94f0849b160786a0ce4d7d, type: 3}
       propertyPath: m_SortingOrder
       value: 99
