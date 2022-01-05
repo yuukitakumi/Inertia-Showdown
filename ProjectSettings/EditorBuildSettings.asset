@@ -44,7 +44,7 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/act1c3withdialog.unity
     guid: d36d11dd70323644ea486b5eba424069
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/Ruang Putih (Past).unity
     guid: 2543e6853c795404ba8bd7f995add0bc
   - enabled: 0
@@ -83,7 +83,7 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/Ruang Bedroom (Future).unity
     guid: b72c78d6c0ac8a547b2fd2c244d84a97
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Ruang Hancur (Future).unity
     guid: 888263d787bbaf8428ddaca3a21ebafe
   m_configObjects: {}
