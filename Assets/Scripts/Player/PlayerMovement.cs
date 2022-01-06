@@ -32,18 +32,13 @@ public class PlayerMovement : MonoBehaviour
     void Update()
     {
 	    if (DialogueManager.isActive == true)
-		    GetComponent<Rigidbody2D>().position = Vector2.positiveInfinity;
-	    
-	    if (Dm2.isActive == true)
+		    
+        if (Dm2.isActive == true)
 		    return;
 	    
-	    if (DialogForPhotos.isActive == true)
-		    GetComponent<Rigidbody2D>().position = Vector2.positiveInfinity;
-
+	    if (DialogForPhotos.isActive == true) 
+		    
 	    if (DialogManagerTuyul.isActive == true)
-	    {
-		    GetComponent<Rigidbody2D>().position = Vector2.positiveInfinity;
-	    }
 	    
 	    if (DialogManagerNPC.isActive == true)
 			return;
@@ -80,14 +75,14 @@ public class PlayerMovement : MonoBehaviour
 		if (col.gameObject.name.Equals ("Safe") && !isSafeOpened) 
 			codePanel.SetActive (true);
 
-		
 	}
 
 	void OnTriggerExit2D(Collider2D col)
 	{
 		if (col.gameObject.name.Equals ("Safe")) 
 			codePanel.SetActive (false);
-		
+			
+
 	}
 	
 }
