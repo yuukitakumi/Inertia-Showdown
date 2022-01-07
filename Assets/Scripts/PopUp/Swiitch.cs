@@ -18,7 +18,7 @@ public class Swiitch : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(index >= 2) index = 2;
+        if(index >= 6) index = 6;
         if(index < 0) index = 0;
 
         if(index == 0){

@@ -15,6 +15,8 @@ public class Loadsceene : MonoBehaviour
         {
             now += speed * Time.deltaTime;
             Debug.Log((int)now);
+            
+            
         }
         else
         {

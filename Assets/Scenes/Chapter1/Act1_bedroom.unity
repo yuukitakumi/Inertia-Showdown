@@ -125,7 +125,7 @@ GameObject:
   - component: {fileID: 382538712}
   - component: {fileID: 382538714}
   m_Layer: 5
-  m_Name: Image
+  m_Name: Act1C1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -219,6 +219,7 @@ GameObject:
   - component: {fileID: 477420426}
   - component: {fileID: 477420425}
   - component: {fileID: 477420428}
+  - component: {fileID: 477420429}
   m_Layer: 5
   m_Name: Image (2)
   m_TagString: Untagged
@@ -316,6 +317,19 @@ MonoBehaviour:
   Loadbar: {fileID: 477420424}
   now: 0
   speed: 17
+--- !u!114 &477420429
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 477420423}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d0978f479067804d9cb2d5a447c15db, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animator: {fileID: 477420425}
 --- !u!1 &831005795
 GameObject:
   m_ObjectHideFlags: 0
@@ -616,7 +630,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 53f3c5b40a28f674c8bfb0a92fe8d3ef, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 96d2e3ddbc0dfb94c918ad7ab4d03fbd, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1

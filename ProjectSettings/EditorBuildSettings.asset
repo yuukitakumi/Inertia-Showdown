@@ -18,18 +18,18 @@ EditorBuildSettings:
     path: Assets/Scenes/mainmenu.unity
     guid: a89df960b240b624093a62b1d3323190
   - enabled: 0
-    path: Assets/Scenes/act1.unity
+    path: Assets/Scenes/Chapter1/act1.unity
     guid: ffd75b8553a748e44a0703f20c85dac0
   - enabled: 0
-    path: Assets/Scenes/act1dialogue.unity
+    path: Assets/Scenes/Chapter1/act1dialogue.unity
     guid: 80d69a80ecd4acb49ba2215fdcda2196
   - enabled: 0
-    path: Assets/Scenes/Act1_bedroom.unity
+    path: Assets/Scenes/Chapter1/Act1_bedroom.unity
     guid: 121a19ccd07ae7c4db5e4647c24d7403
   - enabled: 0
     path: Assets/Scenes/Chapter2/Ruang Bedrom (Past) 2.unity
     guid: f8f73c99379804d46bc12c6a0816bb26
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/Chapter1/Ruang Bedrom (Past).unity
     guid: 709969396e6072b418d6179cdf0c574c
   - enabled: 0
@@ -48,13 +48,13 @@ EditorBuildSettings:
     path: Assets/Scenes/Chapter2/Gudang 2 (Past).unity
     guid: 0eaf93e298ae18f43b930cd985706695
   - enabled: 0
-    path: Assets/Scenes/act1c3withdialog.unity
+    path: Assets/Scenes/Chapter3/act1c3withdialog.unity
     guid: d36d11dd70323644ea486b5eba424069
   - enabled: 0
-    path: Assets/Scenes/Ruang Putih (Past).unity
+    path: Assets/Scenes/Chapter3/Ruang Putih (Past).unity
     guid: 2543e6853c795404ba8bd7f995add0bc
   - enabled: 0
-    path: Assets/Scenes/cutscenechap3.unity
+    path: Assets/Scenes/Chapter3/cutscenechap3.unity
     guid: 07466dcdfa3e72a4ca711fa30782267d
   - enabled: 0
     path: Assets/Scenes/Chapter1/Library (Past).unity
@@ -71,7 +71,7 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/Chapter1/Main Room (Past).unity
     guid: 0a40ba59de4d56042a74641f4f3bf17d
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Library (Future).unity
     guid: 711a83fbd179f7c4d9d60bc760ed4f24
   - enabled: 0
@@ -101,7 +101,7 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/Ruang Baju Zirah (Future).unity
     guid: 837b2695ef7b37b4c81b2c017740eeb9
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Main Room (Future).unity
     guid: 6b0c630a097389f458868d7289ce2df6
   - enabled: 0
