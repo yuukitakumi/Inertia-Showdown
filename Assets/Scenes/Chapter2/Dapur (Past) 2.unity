@@ -3675,7 +3675,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bedb305ae9d53da409f2518ff5b221f4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scene: Main Room (Past)
+  scene: Main Room (Past) 5
 --- !u!1 &644246929
 GameObject:
   m_ObjectHideFlags: 0
@@ -7264,7 +7264,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: d7b56f854268cc84d85ed6bcbb3fad29, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -14213,7 +14213,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   players: {fileID: 0}
   playerPosition: {x: 2.2, y: 3.3}
-  sceneNama: Main Room (Past)
+  sceneNama: Main Room (Past) 5
 --- !u!4 &2146211401
 Transform:
   m_ObjectHideFlags: 0

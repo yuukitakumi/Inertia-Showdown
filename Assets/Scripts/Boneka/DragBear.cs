@@ -7,9 +7,11 @@ public class DragBear : MonoBehaviour
     public GameObject detector;
     Vector3 pos_awal, scale_awal;
     bool on_pos = false;
+    public GameManager gameManager;
     // Start is called before the first frame update
     void Start()
     {
+        gameManager = FindObjectOfType<GameManager>();
         pos_awal = transform.position;
         scale_awal = transform.localScale;
     }
@@ -26,11 +28,13 @@ public class DragBear : MonoBehaviour
         {
             transform.position = detector.transform.position;
             transform.localScale = new Vector2(1f, 1f);
+            gameManager.counter++;
         }
         else
         {
             transform.position = pos_awal;
             transform.localScale = scale_awal;
+            
         }
     }
 
@@ -48,10 +52,5 @@ public class DragBear : MonoBehaviour
         {
             on_pos = false;
         }
-    }
-    // Update is called once per frame
-    void Update()
-    {
-
     }
 }

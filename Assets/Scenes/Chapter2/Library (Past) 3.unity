@@ -1351,6 +1351,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   detector: {fileID: 40607139}
+  gameManager: {fileID: 0}
 --- !u!1001 &197774455
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5649,7 +5650,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   players: {fileID: 0}
   playerPosition: {x: -4.5, y: 9}
-  sceneNama: Main Room (Past)
+  sceneNama: Main Room (Past) 4
 --- !u!4 &909826344
 Transform:
   m_ObjectHideFlags: 0
@@ -9938,7 +9939,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bedb305ae9d53da409f2518ff5b221f4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scene: Ruang Rahasia (Past)
+  scene: Ruang Rahasia (Past) 2
 --- !u!1001 &1792230197
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10051,7 +10052,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bedb305ae9d53da409f2518ff5b221f4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scene: MRP2
+  scene: Main Room (Past) 4
 --- !u!1 &1806191783
 GameObject:
   m_ObjectHideFlags: 0
@@ -13362,6 +13363,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   detector: {fileID: 363453038}
+  gameManager: {fileID: 0}
 --- !u!1 &2045319837
 GameObject:
   m_ObjectHideFlags: 0
