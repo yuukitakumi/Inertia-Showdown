@@ -24,18 +24,7 @@ public class SoundManager : MonoBehaviour
             Load();
         }
     }
-    private void awake()
-    {
-        DontDestroyOnLoad(this);
-        if (Instance == null)
-        {
-            Instance = this;
-        }
-        else
-        {
-            Destroy(gameObject);
-        }
-    }
+    
     public void ChangeVolume()
     {
         AudioListener.volume = volumeSlider.value;
