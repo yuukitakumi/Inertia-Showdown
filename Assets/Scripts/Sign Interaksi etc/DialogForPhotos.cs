@@ -9,7 +9,7 @@ public class DialogForPhotos : MonoBehaviour
     public Text actorName;
     public Text messageText;
     public RectTransform backgroundBox;
-
+    
     Messageeee[] currentMessages;
     Actorrrr[] currentActors;
     int activeMessage = 0;
@@ -71,7 +71,8 @@ public class DialogForPhotos : MonoBehaviour
         {
             NextMessage();
         }
-
-       
+        
     }
+    
+    
 }

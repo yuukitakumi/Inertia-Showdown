@@ -11,6 +11,7 @@ public class Tuyul : MonoBehaviour
     public void Start()
     {
         gameManager = FindObjectOfType<GameManager1>();
+        
     }
 
     private void OnTriggerEnter2D(Collider2D collision)

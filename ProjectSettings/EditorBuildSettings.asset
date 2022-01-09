@@ -72,7 +72,7 @@ EditorBuildSettings:
     path: Assets/Scenes/Chapter1/Main Room (Past).unity
     guid: 0a40ba59de4d56042a74641f4f3bf17d
   - enabled: 1
-    path: Assets/Scenes/Library (Future).unity
+    path: Assets/Scenes/Act2 Chapter1/Library (Future).unity
     guid: 711a83fbd179f7c4d9d60bc760ed4f24
   - enabled: 1
     path: Assets/Scenes/Ruang Dapur (Future).unity
@@ -102,13 +102,13 @@ EditorBuildSettings:
     path: Assets/Scenes/Ruang Baju Zirah (Future).unity
     guid: 837b2695ef7b37b4c81b2c017740eeb9
   - enabled: 1
-    path: Assets/Scenes/Main Room (Future).unity
+    path: Assets/Scenes/Act2 Chapter1/Main Room (Future).unity
     guid: 6b0c630a097389f458868d7289ce2df6
   - enabled: 1
     path: Assets/Scenes/Chapter2/Ruang Bedrom (Past) 3.unity
     guid: a693cebe3514ab34cbaf5fc6859760c2
   - enabled: 1
-    path: Assets/Scenes/Ruang Bedroom (Future).unity
+    path: Assets/Scenes/Act2 Chapter2/Ruang Bedroom (Future).unity
     guid: b72c78d6c0ac8a547b2fd2c244d84a97
   - enabled: 1
     path: Assets/Scenes/Ruang Hancur (Future).unity
@@ -125,4 +125,16 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Chapter1/Library (Past) 2.unity
     guid: 498f4a73bb50dd54eacf0b32ef0c331e
+  - enabled: 1
+    path: Assets/Scenes/Act2 Chapter1/Act2C1.unity
+    guid: 2786908ba8770954a95d66d8e476834e
+  - enabled: 1
+    path: Assets/Scenes/Act2 Chapter1/ActFutureChap1.unity
+    guid: 3f3a8bceccf18944a968c1e32f72fbe0
+  - enabled: 1
+    path: Assets/Scenes/Act2 Chapter2/Act2Chapter2.unity
+    guid: 52ac2ad32a78e33428bd3f60ac8221fa
+  - enabled: 1
+    path: Assets/Scenes/Act2 Chapter2/Library (Future) Chapter2.unity
+    guid: ca9d0900399ed5f40b11219149ccc44b
   m_configObjects: {}

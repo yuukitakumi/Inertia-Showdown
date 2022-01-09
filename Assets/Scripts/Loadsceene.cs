@@ -2,12 +2,14 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class Loadsceene : MonoBehaviour 
 {
     public Transform Loadbar;
     [SerializeField]
     private float now, speed;
+    public string scene;
 
     void Update ()
     {
@@ -20,7 +22,8 @@ public class Loadsceene : MonoBehaviour
         }
         else
         {
-            Application.LoadLevel ("Ruang Bedrom (Past)");
+            // Application.LoadLevel ("Ruang Bedrom (Past)");
+            SceneManager.LoadScene(scene);
         }
         Loadbar.GetComponent<Image>().fillAmount = now/100;
     }

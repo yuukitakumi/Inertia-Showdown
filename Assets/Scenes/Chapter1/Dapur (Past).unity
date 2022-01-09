@@ -1437,6 +1437,7 @@ MonoBehaviour:
   anim: {fileID: 0}
   note: 
   PlayerInRange: 0
+  gameManager: {fileID: 0}
 --- !u!1 &577005887
 GameObject:
   m_ObjectHideFlags: 0
@@ -2400,6 +2401,7 @@ MonoBehaviour:
   actorName: {fileID: 2126720775}
   messageText: {fileID: 1420349080}
   backgroundBox: {fileID: 907694551}
+  scene: 
 --- !u!114 &907694554
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3346,7 +3348,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 91fdab1708e5c064f935ddeaad1da86b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  counter: 0
+  counter: -1
 --- !u!4 &1260412806
 Transform:
   m_ObjectHideFlags: 0

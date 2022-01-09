@@ -6,6 +6,7 @@ public class CodePanel : MonoBehaviour
 	[SerializeField]
 	Text codeText;
 	string codeTextValue ="";
+	
 	// Update is called once per frame
 
 	void Update () 

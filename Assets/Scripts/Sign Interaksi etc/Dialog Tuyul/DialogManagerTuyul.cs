@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class DialogManagerTuyul : MonoBehaviour
 {
@@ -16,6 +17,7 @@ public class DialogManagerTuyul : MonoBehaviour
     [SerializeField] 
 
     public static bool isActive = false;
+    public string scene;
 
     public void OpenDialogue(Messager[] messages, Actore[] actors){
         currentMessages = messages;
@@ -69,6 +71,11 @@ public class DialogManagerTuyul : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Space) && isActive == true)
         {
             NextMessage();
+        }
+        
+        if (Input.GetKeyDown(KeyCode.Space) && isActive == false)
+        {
+            SceneManager.LoadScene(scene);
         }
     }
 }

@@ -11,7 +11,12 @@ public class PopUpNotesWithoutAnim : MonoBehaviour
 
     public string note;
     public bool PlayerInRange;
-
+    
+    public GameManager2 gameManager;
+    public void Start()
+    {
+        gameManager = FindObjectOfType<GameManager2>();
+    }
     // Update is called once per frame
     void Update()
     {

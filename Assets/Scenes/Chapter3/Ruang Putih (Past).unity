@@ -844,6 +844,11 @@ PrefabInstance:
       propertyPath: animator
       value: 
       objectReference: {fileID: 186601329}
+    - target: {fileID: 7891401444955072995, guid: 38b9c2816a94f0849b160786a0ce4d7d,
+        type: 3}
+      propertyPath: moveSpeed
+      value: 0.7
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 2194519476029622664, guid: 38b9c2816a94f0849b160786a0ce4d7d, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 38b9c2816a94f0849b160786a0ce4d7d, type: 3}
@@ -945,6 +950,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4399699672008617505, guid: 7aefa0fd89b1e3d41a0ddfb34f2ab0af,
+        type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 575064568ae92a74b90b2f1138634192, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7aefa0fd89b1e3d41a0ddfb34f2ab0af, type: 3}
 --- !u!1 &253221512
@@ -2434,6 +2444,7 @@ MonoBehaviour:
   actorName: {fileID: 2059454431}
   messageText: {fileID: 1918158016}
   backgroundBox: {fileID: 1101566448}
+  scene: 
 --- !u!210 &1101566450
 SortingGroup:
   m_ObjectHideFlags: 0
@@ -2719,6 +2730,7 @@ MonoBehaviour:
   actorName: {fileID: 3616680}
   messageText: {fileID: 1153461435}
   backgroundBox: {fileID: 1212092902}
+  scene: 
 --- !u!210 &1212092904
 SortingGroup:
   m_ObjectHideFlags: 0
@@ -8528,6 +8540,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   trigger: {fileID: 1383863195}
+  gameManager: {fileID: 0}
 --- !u!114 &1383863195
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8633,6 +8646,7 @@ MonoBehaviour:
   actorName: {fileID: 363550881}
   messageText: {fileID: 1989850746}
   backgroundBox: {fileID: 1446726338}
+  scene: 
 --- !u!210 &1446726340
 SortingGroup:
   m_ObjectHideFlags: 0
@@ -9114,6 +9128,7 @@ MonoBehaviour:
   actorName: {fileID: 819901739}
   messageText: {fileID: 1304655890}
   backgroundBox: {fileID: 1762393449}
+  scene: 
 --- !u!210 &1762393451
 SortingGroup:
   m_ObjectHideFlags: 0
@@ -9405,6 +9420,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   trigger: {fileID: 1805485612}
+  gameManager: {fileID: 0}
 --- !u!114 &1805485612
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9674,6 +9690,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   trigger: {fileID: 1845749366}
+  gameManager: {fileID: 0}
 --- !u!61 &1845749368
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -10292,6 +10309,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   trigger: {fileID: 2057956413}
+  gameManager: {fileID: 0}
 --- !u!61 &2057956415
 BoxCollider2D:
   m_ObjectHideFlags: 0

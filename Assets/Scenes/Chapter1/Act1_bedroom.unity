@@ -317,6 +317,7 @@ MonoBehaviour:
   Loadbar: {fileID: 477420424}
   now: 0
   speed: 17
+  scene: Ruang Bedrom (Past)
 --- !u!114 &477420429
 MonoBehaviour:
   m_ObjectHideFlags: 0

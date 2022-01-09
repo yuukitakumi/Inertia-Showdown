@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
@@ -15,6 +16,12 @@ public class PopUpNotes : MonoBehaviour
 
     public string note;
     public bool PlayerInRange;
+    
+    public GameManager2 gameManager;
+    public void Start()
+    {
+        gameManager = FindObjectOfType<GameManager2>();
+    }
 
     // Update is called once per frame
     void Update()
@@ -28,6 +35,7 @@ public class PopUpNotes : MonoBehaviour
                 panelNote.SetActive(false);
                 tombolNex.SetActive(true);
                 tombolPrev.SetActive(true);
+                
                 
             }
             else
@@ -59,6 +67,7 @@ public class PopUpNotes : MonoBehaviour
         {
             interactUI.SetActive(true);
             PlayerInRange = true;
+            gameManager.counter++;
         }
     }
     private void OnTriggerExit2D(Collider2D collision)
