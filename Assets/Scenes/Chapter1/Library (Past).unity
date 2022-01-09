@@ -4063,7 +4063,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   messages:
   - actorId: 0
-    message: 'Eh! I- itu suara apa? Sepertinya dekat sekali '
+    message: Hmmm, buku ini sepertinya tidak pada tempatnya
   actors:
   - name: Vanya
     sprite: {fileID: 21300000, guid: a8b8a55bea85e9c49916080b59c4229d, type: 3}
