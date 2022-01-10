@@ -428,6 +428,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   panelPause: {fileID: 8142720247519603387}
+  panelSetting: {fileID: 8142720246633936331}
+  panelCredit: {fileID: 8142720246958074939}
+  panelQuit: {fileID: 8142720246836551593}
 --- !u!1 &8142720246258602313
 GameObject:
   m_ObjectHideFlags: 0

@@ -2,58 +2,76 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class PausePanel : MonoBehaviour
 {
-    public static bool GameIsPaused = false;
+    bool GameIsPaused ;
     public GameObject panelPause;
-    //public GameObject panelSetting;
+    public GameObject panelSetting;
+    public GameObject panelCredit;
+    public GameObject panelQuit;
+    
+
+    //public Button BackButton;
 
     void Update()
     {
         if (Input.GetKeyDown(KeyCode.Escape))
         {
-            if (GameIsPaused)
+         
+            if(GameIsPaused)
             {
                 ResumeGame();
-                
             }
-            else
+            else 
             {
-                PauseGame();
-                
+                PauseGame ();
+                CloseSetting();
+                CloseCredit();
+                CloseQuit();
+
             }
         }
     }
 
+    
     public void ResumeGame()
     {
         panelPause.SetActive(false);
         Time.timeScale = 1f;
         GameIsPaused = false ;
     }
-   
 
-    void PauseGame()
+
+    public void PauseGame()
     {
         panelPause.SetActive(true);
         Time.timeScale = 0f;
         GameIsPaused = true;
+        
+        
     }
-    
-
-
-
-    public void menu ()
-  {
-        //UnityEngine.SceneManagement.SceneManager.LoadScene("Testing");
-        Debug.Log("Load menu.....");
-    }
-
-    public void QuitGame()
+    public void CloseSetting()
     {
-        Application.Quit();
-        Debug.Log("Quiting Game...");
+       
+        panelSetting.SetActive(false);
+        panelPause.SetActive(true);
+        
+    }
+    public void CloseCredit()
+    {
+        
+        panelCredit.SetActive(false);
+        panelPause.SetActive(true);
+
+    }
+    public void CloseQuit()
+    {
+        
+        panelQuit.SetActive(false);
+        panelPause.SetActive(true);
+
     }
 
 }
