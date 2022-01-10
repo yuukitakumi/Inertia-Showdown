@@ -511,6 +511,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   detector: {fileID: 1296596263}
+  gameManager: {fileID: 0}
   on_pos: 0
   on_tempel: 0
 --- !u!61 &89469824
@@ -2549,6 +2550,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   detector: {fileID: 1916830302}
+  gameManager: {fileID: 0}
   on_pos: 0
   on_tempel: 0
 --- !u!61 &519531909
@@ -6177,6 +6179,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   detector: {fileID: 754073119}
+  gameManager: {fileID: 0}
   on_pos: 0
   on_tempel: 0
 --- !u!61 &841449542
@@ -7274,6 +7277,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   detector: {fileID: 997605268}
+  gameManager: {fileID: 0}
   on_pos: 0
   on_tempel: 0
 --- !u!61 &1126762581
@@ -7803,9 +7807,9 @@ VideoPlayer:
   m_DirectAudioMutes: 00
   m_ControlledAudioTrackCount: 1
   m_PlayOnAwake: 1
-  m_SkipOnDrop: 1
+  m_SkipOnDrop: 0
   m_Looping: 0
-  m_WaitForFirstFrame: 1
+  m_WaitForFirstFrame: 0
   m_FrameReadyEventEnabled: 0
 --- !u!222 &1180730063
 CanvasRenderer:
@@ -12391,6 +12395,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   detector: {fileID: 634869447}
+  gameManager: {fileID: 0}
   on_pos: 0
   on_tempel: 0
 --- !u!61 &2109505110

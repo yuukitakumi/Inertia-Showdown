@@ -6,10 +6,12 @@ public class DragBear : MonoBehaviour
 {
     public GameObject detector;
     Vector3 pos_awal;
+    public GameManager gameManager;
     public bool on_pos = false, on_tempel = false;
     // Start is called before the first frame update
     void Start()
     {
+        gameManager = FindObjectOfType<GameManager>();
         pos_awal = transform.position;
         // scale_awal = transform.localScale;
     }
@@ -27,6 +29,7 @@ public class DragBear : MonoBehaviour
             transform.position = detector.transform.position;
             //transform.localScale = new Vector2(1f, 1f);
             on_tempel = true;
+            gameManager.counter++;
         }
         else
         {

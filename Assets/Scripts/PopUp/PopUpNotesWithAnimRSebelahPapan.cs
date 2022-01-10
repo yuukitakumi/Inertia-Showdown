@@ -7,15 +7,22 @@ public class PopUpNotesWithAnimRSebelahPapan : MonoBehaviour
 {
     [SerializeField] public GameObject imageNote;
     [SerializeField] public GameObject panelNote;
+    [SerializeField] public GameObject lampu;
     [SerializeField] public GameObject interactUI; 
     
     public string note;
     public bool PlayerInRange;
+    public GameManageLampuPapanTulis gameManager;
+    
+    public void Start()
+    {
+        gameManager = FindObjectOfType<GameManageLampuPapanTulis>();
+    }
 
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.E) && PlayerInRange)
+        if (Input.GetKeyDown(KeyCode.E) && PlayerInRange && gameManager.counter == 1)
         {
             if (imageNote.activeInHierarchy)
             {
@@ -23,14 +30,16 @@ public class PopUpNotesWithAnimRSebelahPapan : MonoBehaviour
                 imageNote.SetActive(false);
                 panelNote.SetActive(false);
 
-                
+
+
+
             }
             else
             {
                 
                 imageNote.SetActive(true);
                 panelNote.SetActive(true);
-
+                lampu.SetActive(true);
                 // dialogText.text = dialog;
                 
             }
@@ -52,6 +61,7 @@ public class PopUpNotesWithAnimRSebelahPapan : MonoBehaviour
             PlayerInRange = false;
             imageNote.SetActive(false);
             panelNote.SetActive(false);
+
 
         }
     }

@@ -24,6 +24,7 @@ public class PopUpNotesWithAnimRSebelah : MonoBehaviour
                 
                 imageNote.SetActive(false);
                 panelNote.SetActive(false);
+                
 
                 
             }
@@ -32,7 +33,7 @@ public class PopUpNotesWithAnimRSebelah : MonoBehaviour
                 
                 imageNote.SetActive(true);
                 panelNote.SetActive(true);
-
+                
                 // dialogText.text = dialog;
                 
             }

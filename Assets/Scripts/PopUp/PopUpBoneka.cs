@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class PopUpBoneka : MonoBehaviour
 {
@@ -10,6 +11,7 @@ public class PopUpBoneka : MonoBehaviour
     public GameObject players;
     public string note;
     public bool PlayerInRange;
+    
     
     // Update is called once per frame
     void Update()
@@ -23,6 +25,8 @@ public class PopUpBoneka : MonoBehaviour
                 players.SetActive(true);
                 imageNote.SetActive(false);
                 panelNote.SetActive(false);
+                
+                
             }
             else
             {
