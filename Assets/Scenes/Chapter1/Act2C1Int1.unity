@@ -268,7 +268,7 @@ MonoBehaviour:
   Loadbar: {fileID: 0}
   now: 0
   speed: 10
-  scene: Act1C2D1
+  scene: Act2Chapter2
 --- !u!1 &685402131
 GameObject:
   m_ObjectHideFlags: 0
