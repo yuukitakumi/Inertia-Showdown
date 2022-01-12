@@ -12,6 +12,8 @@ public class HilangPatung: MonoBehaviour
     public GameObject komponen;
     public BoxCollider2D box;
 
+
+
     // Update is called once per frame
     void Update()
     {

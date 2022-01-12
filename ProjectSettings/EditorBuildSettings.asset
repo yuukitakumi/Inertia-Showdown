@@ -77,7 +77,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Chapter2/Library (Past) 3.unity
     guid: 7cfcfaf4c87541c4ba597e1993b3966d
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Chapter2/Library (Past) 4.unity
     guid: a03f0236786f2774383c61acf7b3ad9a
   - enabled: 1
