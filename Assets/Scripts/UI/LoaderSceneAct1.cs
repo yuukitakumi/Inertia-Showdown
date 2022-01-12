@@ -18,7 +18,7 @@ public class LoaderSceneAct1 : MonoBehaviour
         }
         else
         {
-            Application.LoadLevel ("act1dialogue");
+            Application.LoadLevel ("Act1C1D1");
         }
         Loadbar.GetComponent<Image>().fillAmount = now/100;
     }

@@ -5417,7 +5417,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bedb305ae9d53da409f2518ff5b221f4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scene: Ruang Rahasia (Past)
+  scene: Ruang Rahasia (Past) Chapter1
 --- !u!1001 &1792230197
 PrefabInstance:
   m_ObjectHideFlags: 0

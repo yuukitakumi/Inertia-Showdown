@@ -5113,7 +5113,7 @@ MonoBehaviour:
   actorName: {fileID: 801906123}
   messageText: {fileID: 1838131714}
   backgroundBox: {fileID: 1750010195}
-  scene: Act2C1Int1
+  scene: Act1Chapter2
 --- !u!210 &1750010197
 SortingGroup:
   m_ObjectHideFlags: 0

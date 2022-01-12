@@ -2903,6 +2903,7 @@ MonoBehaviour:
   interactUI: {fileID: 1963099544}
   note: 
   PlayerInRange: 0
+  gameManager: {fileID: 0}
 --- !u!61 &929040806
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3560,7 +3561,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bedb305ae9d53da409f2518ff5b221f4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scene: Main Room (Past) Awal
+  scene: Main Room (Past)
 --- !u!1001 &1419503162
 PrefabInstance:
   m_ObjectHideFlags: 0

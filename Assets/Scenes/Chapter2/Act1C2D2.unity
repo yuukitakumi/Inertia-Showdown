@@ -1227,7 +1227,7 @@ MonoBehaviour:
   actorName: {fileID: 490812926}
   messageText: {fileID: 1001444503}
   backgroundBox: {fileID: 794854654}
-  scene: Act2Int1
+  scene: Act1Int1
 --- !u!1 &1264182199
 GameObject:
   m_ObjectHideFlags: 0

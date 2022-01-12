@@ -1224,7 +1224,7 @@ MonoBehaviour:
   actorName: {fileID: 490812926}
   messageText: {fileID: 1001444503}
   backgroundBox: {fileID: 794854654}
-  scene: Ruang Bedrom (Past) 3
+  scene: Ruang Bedrom (Past) Chapter2
 --- !u!1 &1264182199
 GameObject:
   m_ObjectHideFlags: 0
