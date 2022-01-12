@@ -3,7 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class GameManager3 : MonoBehaviour
+public class GameManagerLP : MonoBehaviour
 {
     public int counter;
 

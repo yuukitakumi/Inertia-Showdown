@@ -637,7 +637,7 @@ MonoBehaviour:
   - actorId: 0
     message: Ezra, aku bantu Mama dulu ya
   - actorId: 1
-    message: Oke, aku rebahan sambil menulis diary ya
+    message: ' Oke, aku rebahan sambil menulis diary ya'
   actors:
   - name: Vanya
     sprite: {fileID: 21300000, guid: 264af05424b28a643b914f04d284c25f, type: 3}

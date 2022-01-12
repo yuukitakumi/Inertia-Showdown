@@ -5,13 +5,13 @@ using UnityEngine;
 public class OpenPintuMeeting : MonoBehaviour
 {
         public int counterNeeded;
-        public GameManager3 gameManager;
+        public GameManagerLP gameManager;
         public bool isDone;
         public Collider2D collider;
     
         void Start()
         {
-            gameManager = FindObjectOfType<GameManager3>();
+            gameManager = FindObjectOfType<GameManagerLP>();
             collider = FindObjectOfType<Collider2D>();
 
         }

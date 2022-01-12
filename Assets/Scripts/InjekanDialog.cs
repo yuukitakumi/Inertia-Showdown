@@ -3,14 +3,14 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Injekan : MonoBehaviour
+public class InjekanDialog : MonoBehaviour
 {
     
-    public GameManagerLP gameManager;
+    public GameManager3 gameManager;
 
     public void Start()
     {
-        gameManager = FindObjectOfType<GameManagerLP>();
+        gameManager = FindObjectOfType<GameManager3>();
         
     }
 
