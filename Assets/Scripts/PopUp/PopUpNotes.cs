@@ -10,8 +10,9 @@ public class PopUpNotes : MonoBehaviour
     [SerializeField] public GameObject panelNote;
     [SerializeField] public GameObject interactUI;
     [SerializeField] public GameObject tombolNex;
-    [SerializeField] public GameObject tombolPrev; 
-    
+    [SerializeField] public GameObject tombolPrev;
+    public AudioSource noteSound;
+
     public Animator anim;
 
     public string note;
@@ -30,7 +31,8 @@ public class PopUpNotes : MonoBehaviour
         {
             if (imageNote.activeInHierarchy)
             {
-                
+               
+
                 imageNote.SetActive(false);
                 panelNote.SetActive(false);
                 tombolNex.SetActive(true);
@@ -40,7 +42,7 @@ public class PopUpNotes : MonoBehaviour
             }
             else
             {
-                
+                noteSound.Play();
                 imageNote.SetActive(true);
                 panelNote.SetActive(true);
                 tombolNex.SetActive(true);

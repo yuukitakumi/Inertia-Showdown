@@ -5469,6 +5469,7 @@ MonoBehaviour:
   interactUI: {fileID: 1841390169}
   note: 
   PlayerInRange: 0
+  gameManager: {fileID: 0}
 --- !u!212 &1479328237
 SpriteRenderer:
   m_ObjectHideFlags: 0
