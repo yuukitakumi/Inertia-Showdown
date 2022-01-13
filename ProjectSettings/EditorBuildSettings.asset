@@ -62,4 +62,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Chapter2/Ruang Sebelah (Past).unity
     guid: 5d7f53183b2d2d54689df82370ce81a7
+  - enabled: 1
+    path: Assets/Scenes/Chapter3/act1c3withdialog.unity
+    guid: d36d11dd70323644ea486b5eba424069
   m_configObjects: {}

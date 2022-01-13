@@ -493,6 +493,7 @@ GameObject:
   - component: {fileID: 93123582}
   - component: {fileID: 93123581}
   - component: {fileID: 93123584}
+  - component: {fileID: 93123587}
   - component: {fileID: 93123585}
   - component: {fileID: 93123586}
   m_Layer: 0
@@ -590,7 +591,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 93123580}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 891a2121dca71d8458a0327a4a7ffe06, type: 3}
   m_Name: 
@@ -605,9 +606,23 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 93123580}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 21c2e27ea0c9166458c4332c29df84cf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!61 &93123586
@@ -636,6 +651,20 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.9152105, y: 2.495566}
   m_EdgeRadius: 0
+--- !u!114 &93123587
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 93123580}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bcb6a960d27c2604f8883ce2c0f169d0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animHantu: {fileID: 93123581}
+  PlayerInRange: 0
 --- !u!1 &139497320
 GameObject:
   m_ObjectHideFlags: 0
@@ -1680,6 +1709,11 @@ PrefabInstance:
       propertyPath: m_Controller
       value: 
       objectReference: {fileID: 9100000, guid: f1144e4a0d856d04890fb973712937c9, type: 2}
+    - target: {fileID: 4374092270421814032, guid: 38b9c2816a94f0849b160786a0ce4d7d,
+        type: 3}
+      propertyPath: m_SortingOrder
+      value: 100
+      objectReference: {fileID: 0}
     - target: {fileID: 3514853190653884008, guid: 38b9c2816a94f0849b160786a0ce4d7d,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -1701,11 +1735,6 @@ PrefabInstance:
       propertyPath: animHantu
       value: 
       objectReference: {fileID: 93123581}
-    - target: {fileID: 4374092270421814032, guid: 38b9c2816a94f0849b160786a0ce4d7d,
-        type: 3}
-      propertyPath: m_SortingOrder
-      value: 100
-      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 2194519476029622664, guid: 38b9c2816a94f0849b160786a0ce4d7d, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 38b9c2816a94f0849b160786a0ce4d7d, type: 3}
