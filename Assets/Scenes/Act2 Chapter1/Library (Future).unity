@@ -1038,6 +1038,11 @@ PrefabInstance:
       propertyPath: diarySafe
       value: 
       objectReference: {fileID: 1992147534}
+    - target: {fileID: 2373511449829782446, guid: 0b23122a76bc8cc438f86906eee6772f,
+        type: 3}
+      propertyPath: walkSound
+      value: 
+      objectReference: {fileID: 351582324}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0b23122a76bc8cc438f86906eee6772f, type: 3}
 --- !u!1 &153026556 stripped
@@ -4006,7 +4011,7 @@ GameObject:
   - component: {fileID: 351582323}
   - component: {fileID: 351582324}
   m_Layer: 0
-  m_Name: Sfx2
+  m_Name: SoundWalking
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4036,11 +4041,11 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: cf012986b28fce045ad825b5f414b1e5, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
-  m_Pitch: 1
-  Loop: 0
+  m_Pitch: -1
+  Loop: 1
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
@@ -4916,7 +4921,7 @@ GameObject:
   - component: {fileID: 494007977}
   - component: {fileID: 494007978}
   m_Layer: 0
-  m_Name: SFx_Board
+  m_Name: SoundInteractNote
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4946,7 +4951,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 7f4726fa92ce50545a48c78c3f8eb17e, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 6e3fb2469d11ee84c91884bc1f181bf9, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -11555,7 +11560,6 @@ GameObject:
   - component: {fileID: 1640058474}
   - component: {fileID: 1640058472}
   - component: {fileID: 1640058475}
-  - component: {fileID: 1640058476}
   m_Layer: 0
   m_Name: Board
   m_TagString: Untagged
@@ -11725,19 +11729,6 @@ PolygonCollider2D:
       - {x: -0.07749367, y: -1.2080297}
       - {x: 0.54520726, y: -0.62152624}
       - {x: 0.4185872, y: 0.16778874}
---- !u!114 &1640058476
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1640058469}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0928a05629c16874086830901dab5bd6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  noteSound: {fileID: 494007978}
 --- !u!1 &1647550363
 GameObject:
   m_ObjectHideFlags: 0

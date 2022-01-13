@@ -8,7 +8,9 @@ public class PlayerMovement : MonoBehaviour
     public Rigidbody2D rb;
     public Animator animator;
     public Vector2 movement;
-    
+    public AudioSource walkSound;
+    bool isMoving = false;
+
     [SerializeField]
 	GameObject codePanel, closedSafe, openedSafe, diarySafe;
 
@@ -22,6 +24,7 @@ public class PlayerMovement : MonoBehaviour
 
     void start()
     {
+       
         rb = GetComponent<Rigidbody2D> ();
 		codePanel.SetActive (false);
 		closedSafe.SetActive (true);
@@ -31,7 +34,8 @@ public class PlayerMovement : MonoBehaviour
 
     void Update()
     {
-	    if (DialogueManager.isActive == true)
+       
+        if (DialogueManager.isActive == true)
 		    
         if (Dm2.isActive == true)
 		    return;
@@ -42,7 +46,8 @@ public class PlayerMovement : MonoBehaviour
 	    
 	    if (DialogManagerNPC.isActive == true)
 			return;
-	    
+
+       
         movement.x = Input.GetAxisRaw("Horizontal");
         movement.y = Input.GetAxisRaw("Vertical");
 
@@ -63,6 +68,12 @@ public class PlayerMovement : MonoBehaviour
             diarySafe.SetActive (false);
         }
 
+       // if (rigidbody.velocity.magnitude >= 0.2)
+       // {
+         //   if(!walkSound.isPlaying)
+                walkSound.Play();
+       // }else
+        //    walkSound.Play();
     }
 
     void FixedUpdate()
@@ -84,5 +95,7 @@ public class PlayerMovement : MonoBehaviour
 			
 
 	}
-	
+
+ 
+
 }
