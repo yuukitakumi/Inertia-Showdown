@@ -658,6 +658,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   detector: {fileID: 40607139}
   gameManager: {fileID: 0}
+  on_pos: 0
+  on_tempel: 0
 --- !u!1001 &197774455
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1239,6 +1241,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   trigger: {fileID: 309587410}
+  gameManager: {fileID: 0}
 --- !u!61 &309587412
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3267,6 +3270,63 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!1001 &1244845046
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1189241582, guid: a7023828261b10c4d8787be0a5c1745f, type: 3}
+      propertyPath: m_Name
+      value: basePast
+      objectReference: {fileID: 0}
+    - target: {fileID: 1189241585, guid: a7023828261b10c4d8787be0a5c1745f, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1189241585, guid: a7023828261b10c4d8787be0a5c1745f, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1189241585, guid: a7023828261b10c4d8787be0a5c1745f, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1189241585, guid: a7023828261b10c4d8787be0a5c1745f, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1189241585, guid: a7023828261b10c4d8787be0a5c1745f, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1189241585, guid: a7023828261b10c4d8787be0a5c1745f, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1189241585, guid: a7023828261b10c4d8787be0a5c1745f, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1189241585, guid: a7023828261b10c4d8787be0a5c1745f, type: 3}
+      propertyPath: m_RootOrder
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 1189241585, guid: a7023828261b10c4d8787be0a5c1745f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1189241585, guid: a7023828261b10c4d8787be0a5c1745f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1189241585, guid: a7023828261b10c4d8787be0a5c1745f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: a7023828261b10c4d8787be0a5c1745f, type: 3}
 --- !u!1 &1265863606
 GameObject:
   m_ObjectHideFlags: 0
@@ -6383,6 +6443,7 @@ MonoBehaviour:
   actorName: {fileID: 821746264}
   messageText: {fileID: 1180508752}
   backgroundBox: {fileID: 2001807939}
+  scene: 
 --- !u!210 &2001807941
 SortingGroup:
   m_ObjectHideFlags: 0
@@ -6552,6 +6613,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   detector: {fileID: 363453038}
   gameManager: {fileID: 0}
+  on_pos: 0
+  on_tempel: 0
 --- !u!1 &2056500254
 GameObject:
   m_ObjectHideFlags: 0

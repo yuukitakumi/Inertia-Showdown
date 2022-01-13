@@ -12,6 +12,7 @@ public class PlayerPush : MonoBehaviour
     public RaycastHit2D hit;
     public bool isGrab;
     public GameObject Xmove;
+    public AudioSource walkSound;
     // Start is called before the first frame update
     void Start()
     {
@@ -34,6 +35,7 @@ public class PlayerPush : MonoBehaviour
         }
         if (hit.collider != null && hit.collider.gameObject.tag == "Pushable")
         {
+          
             Xmove.SetActive(true);
         }
         else
@@ -55,6 +57,7 @@ public class PlayerPush : MonoBehaviour
             }
             else
             {
+
                 Xmove.SetActive(true);
                 statue.GetComponent<Rigidbody2D>().bodyType = RigidbodyType2D.Kinematic;
                 statue.GetComponent<FixedJoint2D>().enabled = false;
@@ -62,6 +65,14 @@ public class PlayerPush : MonoBehaviour
                 statue.GetComponent<Rigidbody2D>().velocity = new Vector2(0, 0);
                 statue = null;
             }                                           
+        }
+
+        if(playerMovement.isActiveAndEnabled)
+        {
+            walkSound.Play();
+        }else
+        {
+            walkSound.Stop();
         }
        
     }   

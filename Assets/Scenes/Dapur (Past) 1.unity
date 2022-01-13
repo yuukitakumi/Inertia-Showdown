@@ -972,6 +972,63 @@ PolygonCollider2D:
       - {x: -0.609375, y: -1.234375}
       - {x: -0.140625, y: -1.328125}
       - {x: 0.453125, y: -1.328125}
+--- !u!1001 &400517618
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1189241582, guid: a7023828261b10c4d8787be0a5c1745f, type: 3}
+      propertyPath: m_Name
+      value: basePast
+      objectReference: {fileID: 0}
+    - target: {fileID: 1189241585, guid: a7023828261b10c4d8787be0a5c1745f, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1189241585, guid: a7023828261b10c4d8787be0a5c1745f, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1189241585, guid: a7023828261b10c4d8787be0a5c1745f, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1189241585, guid: a7023828261b10c4d8787be0a5c1745f, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1189241585, guid: a7023828261b10c4d8787be0a5c1745f, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1189241585, guid: a7023828261b10c4d8787be0a5c1745f, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1189241585, guid: a7023828261b10c4d8787be0a5c1745f, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1189241585, guid: a7023828261b10c4d8787be0a5c1745f, type: 3}
+      propertyPath: m_RootOrder
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 1189241585, guid: a7023828261b10c4d8787be0a5c1745f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1189241585, guid: a7023828261b10c4d8787be0a5c1745f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1189241585, guid: a7023828261b10c4d8787be0a5c1745f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: a7023828261b10c4d8787be0a5c1745f, type: 3}
 --- !u!1 &415772791
 GameObject:
   m_ObjectHideFlags: 0
@@ -1434,9 +1491,11 @@ MonoBehaviour:
   interactUI: {fileID: 1128124716}
   tombolNex: {fileID: 1238339104}
   tombolPrev: {fileID: 1699212311}
+  noteSound: {fileID: 0}
   anim: {fileID: 0}
   note: 
   PlayerInRange: 0
+  gameManager: {fileID: 0}
 --- !u!1 &577005887
 GameObject:
   m_ObjectHideFlags: 0
@@ -2425,6 +2484,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   trigger: {fileID: 879003139}
+  gameManager: {fileID: 0}
 --- !u!61 &879003141
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2523,6 +2583,7 @@ MonoBehaviour:
   actorName: {fileID: 2126720775}
   messageText: {fileID: 1420349080}
   backgroundBox: {fileID: 907694551}
+  scene: 
 --- !u!114 &907694554
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2722,6 +2783,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   panelPause: {fileID: 0}
+  panelSetting: {fileID: 0}
+  panelCredit: {fileID: 0}
+  panelQuit: {fileID: 0}
 --- !u!114 &1024909024
 MonoBehaviour:
   m_ObjectHideFlags: 0

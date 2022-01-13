@@ -8,17 +8,13 @@ public class PlayerMovement : MonoBehaviour
     public Rigidbody2D rb;
     public Animator animator;
     public Vector2 movement;
-    public AudioSource walkSound;
-    bool isMoving = false;
+   
 
     [SerializeField]
 	GameObject codePanel, closedSafe, openedSafe, diarySafe;
 
 	public static bool isSafeOpened = false;
-	
-	
-
-    // Update is called once per frame
+    //private static bool isActive;
 
     // Update is called once per frame
 
@@ -34,48 +30,42 @@ public class PlayerMovement : MonoBehaviour
 
     void Update()
     {
-       
-        if (DialogueManager.isActive == true)
-		    
-        if (Dm2.isActive == true)
-		    return;
-	    
-	    if (DialogForPhotos.isActive == true) 
-		    
-	    if (DialogManagerTuyul.isActive == true)
-	    
-	    if (DialogManagerNPC.isActive == true)
-			return;
 
-       
+        if (DialogueManager.isActive == true)
+
+            if (Dm2.isActive == true)
+                return;
+
+        if (DialogForPhotos.isActive == true)
+
+            if (DialogManagerTuyul.isActive == true)
+
+                if (DialogManagerNPC.isActive == true)
+                    return;
+
+
         movement.x = Input.GetAxisRaw("Horizontal");
         movement.y = Input.GetAxisRaw("Vertical");
 
         animator.SetFloat("Horizontal", movement.x);
         animator.SetFloat("Vertical", movement.y);
-        animator.SetFloat("Speed", movement.sqrMagnitude); 
+        animator.SetFloat("Speed", movement.sqrMagnitude);
 
-        if (isSafeOpened) 
+        if (isSafeOpened)
         {
-			codePanel.SetActive (false);
-			closedSafe.SetActive (false);
-			openedSafe.SetActive (true);
-            diarySafe.SetActive (true);
-        } 
+            codePanel.SetActive(false);
+            closedSafe.SetActive(false);
+            openedSafe.SetActive(true);
+            diarySafe.SetActive(true);
+        }
 
         else
         {
-            diarySafe.SetActive (false);
+            diarySafe.SetActive(false);
         }
 
-       // if (rigidbody.velocity.magnitude >= 0.2)
-       // {
-         //   if(!walkSound.isPlaying)
-                walkSound.Play();
-       // }else
-        //    walkSound.Play();
-    }
 
+    }
     void FixedUpdate()
     {
         rb.MovePosition(rb.position + movement * moveSpeed * Time.fixedDeltaTime);
@@ -95,7 +85,5 @@ public class PlayerMovement : MonoBehaviour
 			
 
 	}
-
- 
 
 }

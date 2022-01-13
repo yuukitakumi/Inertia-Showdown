@@ -8,6 +8,10 @@ TagManager:
   - collectible
   - MusicPlayer
   - MusicPlayerPast
+  - BaseFuture
+  - BasePast
+  - TickPhase1
+  - TickPhase0
   layers:
   - Default
   - TransparentFX
