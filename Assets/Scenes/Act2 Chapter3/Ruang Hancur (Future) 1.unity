@@ -1796,7 +1796,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bedb305ae9d53da409f2518ff5b221f4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scene: Ruang Patung Bedroom 1 (Future)
+  scene: Ruang Patung Bedroom 1 (Future) 1
 --- !u!1 &392901159
 GameObject:
   m_ObjectHideFlags: 0
@@ -9397,7 +9397,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   players: {fileID: 0}
   playerPosition: {x: -2, y: -3}
-  sceneNama: Ruang Patung Bedroom 1 (Future)
+  sceneNama: Ruang Patung Bedroom 1 (Future) 1
 --- !u!4 &1699409558
 Transform:
   m_ObjectHideFlags: 0
@@ -11066,16 +11066,6 @@ PrefabInstance:
       propertyPath: Xmove
       value: 
       objectReference: {fileID: 1962534982}
-    - target: {fileID: 4967545168735099822, guid: 0b23122a76bc8cc438f86906eee6772f,
-        type: 3}
-      propertyPath: m_Name
-      value: Xmove
-      objectReference: {fileID: 0}
-    - target: {fileID: 525754676651571704, guid: 0b23122a76bc8cc438f86906eee6772f,
-        type: 3}
-      propertyPath: m_SortingOrder
-      value: 99
-      objectReference: {fileID: 0}
     - target: {fileID: 2373511449829782446, guid: 0b23122a76bc8cc438f86906eee6772f,
         type: 3}
       propertyPath: dialogLeader
@@ -11101,12 +11091,22 @@ PrefabInstance:
       propertyPath: codePanel
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 4967545168735099822, guid: 0b23122a76bc8cc438f86906eee6772f,
+        type: 3}
+      propertyPath: m_Name
+      value: Xmove
+      objectReference: {fileID: 0}
     - target: {fileID: 6137530813435743073, guid: 0b23122a76bc8cc438f86906eee6772f,
         type: 3}
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6334611552709597789, guid: 0b23122a76bc8cc438f86906eee6772f,
+        type: 3}
+      propertyPath: m_SortingOrder
+      value: 99
+      objectReference: {fileID: 0}
+    - target: {fileID: 525754676651571704, guid: 0b23122a76bc8cc438f86906eee6772f,
         type: 3}
       propertyPath: m_SortingOrder
       value: 99

@@ -1,11 +1,12 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using UnityEngine.SceneManagement;
 public class FeedBackArtifak : MonoBehaviour
 {
     public GameObject feedback;
     bool selesai = false;
+    public string scene;
     // Start is called before the first frame update
     void Start()
     {
@@ -28,7 +29,7 @@ public class FeedBackArtifak : MonoBehaviour
         }
         if (selesai)
         {
-            feedback.SetActive(true);
+            SceneManager.LoadScene(scene);
 
         }
 
