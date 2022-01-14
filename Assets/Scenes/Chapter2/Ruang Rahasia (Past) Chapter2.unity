@@ -1403,6 +1403,7 @@ MonoBehaviour:
   col: {fileID: 353247431}
   note: 
   PlayerInRange: 0
+  vaseSound: {fileID: 1546415872}
 --- !u!95 &353247430
 Animator:
   serializedVersion: 3
@@ -2635,6 +2636,7 @@ MonoBehaviour:
   panelNote: {fileID: 853382250}
   interactUI: {fileID: 1213052985}
   komponen: {fileID: 1133607628}
+  noteSound: {fileID: 0}
   note: 
   PlayerInRange: 0
 --- !u!60 &1133607632
@@ -2859,6 +2861,7 @@ MonoBehaviour:
   col: {fileID: 0}
   note: 
   PlayerInRange: 0
+  vaseSound: {fileID: 0}
 --- !u!61 &1187382023
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2904,6 +2907,8 @@ MonoBehaviour:
   collidere: {fileID: 0}
   gameManagerPrasasti: {fileID: 0}
   anim: {fileID: 0}
+  vaseSound: {fileID: 0}
+  switchSound: {fileID: 0}
 --- !u!1001 &1210222969
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3820,6 +3825,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 921c81bf4053d084d833f9f4e2d356c4, type: 3}
+--- !u!82 &1546415872 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 1138520119060169207, guid: 38b9c2816a94f0849b160786a0ce4d7d,
+    type: 3}
+  m_PrefabInstance: {fileID: 1662252576}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1562880866
 GameObject:
   m_ObjectHideFlags: 0

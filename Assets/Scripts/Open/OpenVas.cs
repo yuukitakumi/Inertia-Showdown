@@ -11,8 +11,8 @@ public class OpenVas: MonoBehaviour
         public Collider2D collidere;
         public GameManagerPrasasti gameManagerPrasasti;
         public Animator anim;
-    public AudioSource vaseSound;
-    public AudioSource switchSound;
+    // public AudioSource vaseSound;
+    // public AudioSource switchSound;
     void Start()
         {
             gameManager = FindObjectOfType<GameManagerVas>();
@@ -24,7 +24,7 @@ public class OpenVas: MonoBehaviour
         {
             if (gameManager.counter >= counterNeeded)
             {
-                switchSound.Play();
+                // switchSound.Play();
                 isDone = true;
                 gameObject.GetComponent<BoxCollider2D>().enabled = true;
                 

@@ -10,7 +10,7 @@ public class DialogManagerTuyul : MonoBehaviour
     public Text actorName;
     public Text messageText;
     public RectTransform backgroundBox;
-    public AudioSource noteSound;
+    // public AudioSource noteSound;
 
     Messager[] currentMessages;
     Actore[] currentActors;
@@ -21,7 +21,7 @@ public class DialogManagerTuyul : MonoBehaviour
     public string scene;
 
     public void OpenDialogue(Messager[] messages, Actore[] actors){
-        noteSound.Play();
+        // noteSound.Play();
         currentMessages = messages;
         currentActors = actors;
         activeMessage = 0;

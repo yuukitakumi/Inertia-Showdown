@@ -11,7 +11,7 @@ public class PopUpNotes : MonoBehaviour
     [SerializeField] public GameObject interactUI;
     [SerializeField] public GameObject tombolNex;
     [SerializeField] public GameObject tombolPrev;
-    public AudioSource noteSound;
+    // public AudioSource noteSound;
 
     public Animator anim;
 
@@ -39,7 +39,7 @@ public class PopUpNotes : MonoBehaviour
             }
             else
             {
-                noteSound.Play();
+                // noteSound.Play(true);
                 imageNote.SetActive(true);
                 panelNote.SetActive(true);
                 tombolNex.SetActive(true);

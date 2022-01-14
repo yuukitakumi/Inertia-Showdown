@@ -9,7 +9,7 @@ public class DialogueManager: MonoBehaviour
     public Text actorName;
     public Text messageText;
     public RectTransform backgroundBox;
-    public AudioSource noteSound;
+    // public AudioSource noteSound;
 
     Message[] currentMessages;
     Actor[] currentActors;
@@ -20,7 +20,7 @@ public class DialogueManager: MonoBehaviour
 
     public void OpenDialogue(Message[] messages, Actor[] actors){
 
-        noteSound.Play();
+        // noteSound.Play();
 
         currentMessages = messages;
         currentActors = actors;

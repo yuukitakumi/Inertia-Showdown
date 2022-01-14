@@ -395,6 +395,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1413792393}
   - component: {fileID: 1413792397}
+  - component: {fileID: 1413792398}
   - component: {fileID: 1413792396}
   - component: {fileID: 1413792395}
   - component: {fileID: 1413792394}
@@ -589,6 +590,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1413792392}
   m_CullTransparentMesh: 0
+--- !u!114 &1413792398
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1413792392}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c22996d663072484b9fd75957f39d384, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  VideoPlayer: {fileID: 1413792396}
+  scene: Act2Chapter3
 --- !u!1 &1721870392
 GameObject:
   m_ObjectHideFlags: 0
@@ -641,6 +656,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3d615a015f8628648ad55e049aa69053, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  scene: 
 --- !u!114 &1721870395
 MonoBehaviour:
   m_ObjectHideFlags: 0

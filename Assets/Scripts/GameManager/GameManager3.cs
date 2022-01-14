@@ -6,5 +6,8 @@ using UnityEngine;
 public class GameManager3 : MonoBehaviour
 {
     public int counter;
-    
+        public void Start()
+        {
+            DontDestroyOnLoad(this);
+        }
 }

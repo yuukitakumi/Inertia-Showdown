@@ -17,7 +17,7 @@ public class VasBunga : MonoBehaviour
     public bool PlayerInRange;
 
    
-    public AudioSource vaseSound;
+    // public AudioSource vaseSound;
 
     // Update is called once per frame
 
@@ -25,7 +25,9 @@ public class VasBunga : MonoBehaviour
     {
         gameManager = FindObjectOfType<GameManagerVas>();
         gameManagerPrasasti = FindObjectOfType<GameManagerPrasasti>();
+        // vaseSound = FindObjectOfType<AudioSource>();
     }
+    
     void Update()
     {
         if (Input.GetKeyDown(KeyCode.E) && PlayerInRange)
@@ -37,7 +39,7 @@ public class VasBunga : MonoBehaviour
             }
             else
             {
-                vaseSound.Play();
+                // vaseSound.Play();
                 imageNote.SetActive(true);
                 panelNote.SetActive(true);
                 gameManager.counter++;
@@ -51,6 +53,7 @@ public class VasBunga : MonoBehaviour
         {
             
             anim.SetBool("IsOpen", true);
+            // vaseSound.Play();
         }
         
         

@@ -9,7 +9,7 @@ public class PopUpRuangRahasia : MonoBehaviour
     [SerializeField] public GameObject panelNote;
     [SerializeField] public GameObject interactUI;
     public GameObject komponen;
-    public AudioSource noteSound;
+    // public AudioSource noteSound;
 
     public string note;
     public bool PlayerInRange;
@@ -28,7 +28,7 @@ public class PopUpRuangRahasia : MonoBehaviour
             }
             else
             {
-                noteSound.Play();
+                // noteSound.Play();
                 imageNote.SetActive(true);
                 panelNote.SetActive(true);
                 gameObject.SetActive(true);

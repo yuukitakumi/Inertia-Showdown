@@ -5,7 +5,7 @@ using UnityEngine;
 public class Maptrigger : MonoBehaviour
 {
     public DialogTrigger trigger;
-    public AudioSource noteSound;
+    // public AudioSource noteSound;
 
     public GameManager2 gameManager;
     public void Start()

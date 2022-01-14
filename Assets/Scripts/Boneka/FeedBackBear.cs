@@ -1,10 +1,12 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class FeedBackBear : MonoBehaviour
 {
     public GameObject feedback;
+    public string scene;
     bool selesai = false;
     // Start is called before the first frame update
     void Start()
@@ -28,7 +30,7 @@ public class FeedBackBear : MonoBehaviour
         }
         if (selesai)
         {
-            feedback.SetActive(true);
+            SceneManager.LoadScene(scene);
 
         }
 
