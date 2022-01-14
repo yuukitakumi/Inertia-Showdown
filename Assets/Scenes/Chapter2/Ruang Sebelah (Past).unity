@@ -351,17 +351,22 @@ PrefabInstance:
       propertyPath: m_Controller
       value: 
       objectReference: {fileID: 9100000, guid: f1144e4a0d856d04890fb973712937c9, type: 2}
+    - target: {fileID: 4374092270421814032, guid: 38b9c2816a94f0849b160786a0ce4d7d,
+        type: 3}
+      propertyPath: m_SortingOrder
+      value: 99
+      objectReference: {fileID: 0}
+    - target: {fileID: 8370828399110470559, guid: 38b9c2816a94f0849b160786a0ce4d7d,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8745356906467477807, guid: 38b9c2816a94f0849b160786a0ce4d7d,
         type: 3}
       propertyPath: distance
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 791486032, guid: 38b9c2816a94f0849b160786a0ce4d7d, type: 3}
-      propertyPath: m_SortingOrder
-      value: 99
-      objectReference: {fileID: 0}
-    - target: {fileID: 4374092270421814032, guid: 38b9c2816a94f0849b160786a0ce4d7d,
-        type: 3}
       propertyPath: m_SortingOrder
       value: 99
       objectReference: {fileID: 0}
@@ -376,6 +381,12 @@ Transform:
 --- !u!1 &41991481 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8293165169655984513, guid: 38b9c2816a94f0849b160786a0ce4d7d,
+    type: 3}
+  m_PrefabInstance: {fileID: 41991479}
+  m_PrefabAsset: {fileID: 0}
+--- !u!82 &41991482 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 451862809575158336, guid: 38b9c2816a94f0849b160786a0ce4d7d,
     type: 3}
   m_PrefabInstance: {fileID: 41991479}
   m_PrefabAsset: {fileID: 0}
@@ -5247,6 +5258,7 @@ MonoBehaviour:
   panelNote: {fileID: 361355199}
   interactUI: {fileID: 1580859219}
   komponen: {fileID: 1126415625}
+  noteSound: {fileID: 41991482}
   note: 
   PlayerInRange: 0
 --- !u!61 &1126415629
@@ -5333,6 +5345,7 @@ MonoBehaviour:
   actorName: {fileID: 1267697943}
   messageText: {fileID: 759469168}
   backgroundBox: {fileID: 1230451000}
+  noteSound: {fileID: 0}
   scene: 
 --- !u!114 &1230451002
 MonoBehaviour:
@@ -8127,6 +8140,7 @@ MonoBehaviour:
   actorName: {fileID: 550420905}
   messageText: {fileID: 398903591}
   backgroundBox: {fileID: 2116664912}
+  noteSound: {fileID: 0}
   scene: 
 --- !u!114 &2116664914
 MonoBehaviour:

@@ -11,6 +11,8 @@ public class PopUpBoneka : MonoBehaviour
     public GameObject players;
     public string note;
     public bool PlayerInRange;
+
+    public AudioSource noteSound;
     
     
     // Update is called once per frame
@@ -30,7 +32,7 @@ public class PopUpBoneka : MonoBehaviour
             }
             else
             {
-                
+                noteSound.Play();
                 players.SetActive(false);
                 imageNote.SetActive(true);
                 panelNote.SetActive(true);

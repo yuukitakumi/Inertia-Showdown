@@ -11149,7 +11149,7 @@ MonoBehaviour:
   interactUI: {fileID: 153026558}
   tombolNex: {fileID: 622855859}
   tombolPrev: {fileID: 10822392}
-  noteSound: {fileID: 0}
+  noteSound: {fileID: 494007978}
   anim: {fileID: 1587802488}
   note: 
   PlayerInRange: 0
