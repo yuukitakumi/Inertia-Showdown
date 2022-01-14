@@ -2750,6 +2750,12 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 854397947}
   m_PrefabAsset: {fileID: 0}
+--- !u!82 &781576241 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 8219688045952870191, guid: 38b9c2816a94f0849b160786a0ce4d7d,
+    type: 3}
+  m_PrefabInstance: {fileID: 854397947}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &854397947
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2816,6 +2822,11 @@ PrefabInstance:
       propertyPath: m_Controller
       value: 
       objectReference: {fileID: 9100000, guid: f1144e4a0d856d04890fb973712937c9, type: 2}
+    - target: {fileID: 6454471996746756088, guid: 38b9c2816a94f0849b160786a0ce4d7d,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 38b9c2816a94f0849b160786a0ce4d7d, type: 3}
 --- !u!4 &854397948 stripped
@@ -3046,6 +3057,7 @@ MonoBehaviour:
   panelNote: {fileID: 179463387}
   interactUI: {fileID: 748526715}
   komponen: {fileID: 908965730}
+  noteSound: {fileID: 781576241}
   note: 
   PlayerInRange: 0
 --- !u!1 &929040802
@@ -3146,6 +3158,7 @@ MonoBehaviour:
   interactUI: {fileID: 1963099544}
   note: 
   PlayerInRange: 0
+  noteSound: {fileID: 781576241}
   gameManager: {fileID: 0}
 --- !u!61 &929040806
 BoxCollider2D:

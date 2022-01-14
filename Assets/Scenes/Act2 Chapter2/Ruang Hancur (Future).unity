@@ -6045,6 +6045,7 @@ MonoBehaviour:
   interactUI: {fileID: 1962534984}
   tombolNex: {fileID: 723225032}
   tombolPrev: {fileID: 1724382168}
+  noteSound: {fileID: 0}
   anim: {fileID: 0}
   note: 
   PlayerInRange: 0
@@ -6199,6 +6200,7 @@ MonoBehaviour:
   interactUI: {fileID: 1962534984}
   tombolNex: {fileID: 0}
   tombolPrev: {fileID: 0}
+  noteSound: {fileID: 1190412129}
   anim: {fileID: 0}
   note: 
   PlayerInRange: 0
@@ -7988,6 +7990,12 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1180730058}
   m_CullTransparentMesh: 0
+--- !u!82 &1190412129 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 8026622285132187135, guid: 0b23122a76bc8cc438f86906eee6772f,
+    type: 3}
+  m_PrefabInstance: {fileID: 1962534981}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1210670842
 GameObject:
   m_ObjectHideFlags: 0
@@ -10592,6 +10600,7 @@ MonoBehaviour:
   players: {fileID: 1962534985}
   note: 
   PlayerInRange: 0
+  noteSound: {fileID: 0}
 --- !u!61 &1822955561
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -11728,6 +11737,11 @@ PrefabInstance:
       propertyPath: codePanel
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 6137530813435743073, guid: 0b23122a76bc8cc438f86906eee6772f,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6334611552709597789, guid: 0b23122a76bc8cc438f86906eee6772f,
         type: 3}
       propertyPath: m_SortingOrder
@@ -12090,6 +12104,7 @@ MonoBehaviour:
   interactUI: {fileID: 1962534984}
   tombolNex: {fileID: 0}
   tombolPrev: {fileID: 0}
+  noteSound: {fileID: 1190412129}
   anim: {fileID: 0}
   note: 
   PlayerInRange: 0

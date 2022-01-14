@@ -11,7 +11,7 @@ public class PopUpNotesWithoutAnim : MonoBehaviour
 
     public string note;
     public bool PlayerInRange;
-    public AudioSource noteSound;
+    [SerializeField] private AudioSource noteSound;
 
     public GameManager2 gameManager;
     public void Start()

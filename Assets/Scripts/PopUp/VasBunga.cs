@@ -7,8 +7,10 @@ public class VasBunga : MonoBehaviour
 {
     [SerializeField] public GameObject imageNote;
     [SerializeField] public GameObject panelNote;
-    [SerializeField] public GameObject interactUI; 
-    
+    [SerializeField] public GameObject interactUI;
+    [SerializeField]
+    private AudioSource vaseSound;
+
     public Animator anim;
     public GameManagerVas gameManager;
     public GameManagerPrasasti gameManagerPrasasti;
@@ -17,7 +19,6 @@ public class VasBunga : MonoBehaviour
     public bool PlayerInRange;
 
    
-    // public AudioSource vaseSound;
 
     // Update is called once per frame
 
@@ -39,7 +40,7 @@ public class VasBunga : MonoBehaviour
             }
             else
             {
-                // vaseSound.Play();
+                vaseSound.Play();
                 imageNote.SetActive(true);
                 panelNote.SetActive(true);
                 gameManager.counter++;
@@ -53,7 +54,7 @@ public class VasBunga : MonoBehaviour
         {
             
             anim.SetBool("IsOpen", true);
-            // vaseSound.Play();
+            
         }
         
         

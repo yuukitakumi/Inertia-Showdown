@@ -5781,6 +5781,7 @@ MonoBehaviour:
   interactUI: {fileID: 1962534984}
   tombolNex: {fileID: 723225032}
   tombolPrev: {fileID: 1724382168}
+  noteSound: {fileID: 0}
   anim: {fileID: 0}
   note: 
   PlayerInRange: 0
@@ -5935,6 +5936,7 @@ MonoBehaviour:
   interactUI: {fileID: 1962534984}
   tombolNex: {fileID: 0}
   tombolPrev: {fileID: 0}
+  noteSound: {fileID: 932045335}
   anim: {fileID: 0}
   note: 
   PlayerInRange: 0
@@ -6465,6 +6467,12 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 8.320035, y: 1.2719688}
   m_EdgeRadius: 0
+--- !u!82 &932045335 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 8026622285132187135, guid: 0b23122a76bc8cc438f86906eee6772f,
+    type: 3}
+  m_PrefabInstance: {fileID: 1962534981}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &943343288
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11093,6 +11101,11 @@ PrefabInstance:
       propertyPath: codePanel
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 6137530813435743073, guid: 0b23122a76bc8cc438f86906eee6772f,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6334611552709597789, guid: 0b23122a76bc8cc438f86906eee6772f,
         type: 3}
       propertyPath: m_SortingOrder
@@ -11449,6 +11462,7 @@ MonoBehaviour:
   interactUI: {fileID: 1962534984}
   tombolNex: {fileID: 0}
   tombolPrev: {fileID: 0}
+  noteSound: {fileID: 932045335}
   anim: {fileID: 0}
   note: 
   PlayerInRange: 0

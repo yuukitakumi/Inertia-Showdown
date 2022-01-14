@@ -3,49 +3,63 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class PopUpBoneka : MonoBehaviour
+public class VasBunga1 : MonoBehaviour
 {
     [SerializeField] public GameObject imageNote;
     [SerializeField] public GameObject panelNote;
     [SerializeField] public GameObject interactUI;
-    public GameObject players;
+
+    [SerializeField] private AudioSource switchSound;
+
+    public Animator anim;
+    public GameManagerVas gameManager;
+    public GameManagerPrasasti gameManagerPrasasti;
+    public BoxCollider2D col;
     public string note;
     public bool PlayerInRange;
 
-   //[SerializeField] private AudioSource noteSound;
-    
-    
+   
+
     // Update is called once per frame
+
+    void Start()
+    {
+        gameManager = FindObjectOfType<GameManagerVas>();
+        gameManagerPrasasti = FindObjectOfType<GameManagerPrasasti>();
+        // vaseSound = FindObjectOfType<AudioSource>();
+    }
+    
     void Update()
     {
-        
-
         if (Input.GetKeyDown(KeyCode.E) && PlayerInRange)
         {
             if (imageNote.activeInHierarchy)
             {
-                players.SetActive(true);
                 imageNote.SetActive(false);
                 panelNote.SetActive(false);
-                
-                
             }
             else
             {
-                // noteSound.Play();
-                players.SetActive(false);
+               switchSound.Play();
                 imageNote.SetActive(true);
                 panelNote.SetActive(true);
-
+                gameManager.counter++;
+                gameManagerPrasasti.counter++;
                 // dialogText.text = dialog;
 
             }
         }
+
+        if (Input.GetKeyDown(KeyCode.E) && PlayerInRange)
+        {
+            
+            anim.SetBool("IsOpen", true);
+            
+        }
+        
+        
+        
     }
-    
-
-
-
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.CompareTag("Player"))
@@ -62,7 +76,7 @@ public class PopUpBoneka : MonoBehaviour
             PlayerInRange = false;
             imageNote.SetActive(false);
             panelNote.SetActive(false);
-          
+            gameObject.GetComponent<BoxCollider2D>().enabled = false;
         }
     }
 }

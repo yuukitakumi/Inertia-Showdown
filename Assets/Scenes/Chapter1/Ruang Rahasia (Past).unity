@@ -1323,13 +1323,13 @@ MonoBehaviour:
   imageNote: {fileID: 378312837}
   panelNote: {fileID: 44456076}
   interactUI: {fileID: 1519127989}
+  vaseSound: {fileID: 1662252578}
   anim: {fileID: 353247430}
   gameManager: {fileID: 0}
   gameManagerPrasasti: {fileID: 0}
   col: {fileID: 353247431}
   note: 
   PlayerInRange: 0
-  vaseSound: {fileID: 1662252578}
 --- !u!95 &353247430
 Animator:
   serializedVersion: 3
@@ -2424,6 +2424,7 @@ GameObject:
   - component: {fileID: 1187382020}
   - component: {fileID: 1187382023}
   - component: {fileID: 1187382024}
+  - component: {fileID: 1187382025}
   - component: {fileID: 1187382022}
   - component: {fileID: 1187382021}
   m_Layer: 0
@@ -2521,7 +2522,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1187382018}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2399086fa0cea3246be97949b576431e, type: 3}
   m_Name: 
@@ -2529,13 +2530,13 @@ MonoBehaviour:
   imageNote: {fileID: 1517203521}
   panelNote: {fileID: 1223338559}
   interactUI: {fileID: 1519127989}
+  vaseSound: {fileID: 0}
   anim: {fileID: 1187382021}
   gameManager: {fileID: 0}
   gameManagerPrasasti: {fileID: 0}
   col: {fileID: 0}
   note: 
   PlayerInRange: 0
-  vaseSound: {fileID: 0}
 --- !u!61 &1187382023
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2581,8 +2582,28 @@ MonoBehaviour:
   collidere: {fileID: 0}
   gameManagerPrasasti: {fileID: 0}
   anim: {fileID: 0}
-  vaseSound: {fileID: 0}
+--- !u!114 &1187382025
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1187382018}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f1cd9aed872d3f24a810be9de1ca9098, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  imageNote: {fileID: 1517203521}
+  panelNote: {fileID: 1223338559}
+  interactUI: {fileID: 1519127989}
   switchSound: {fileID: 1766861238}
+  anim: {fileID: 1187382021}
+  gameManager: {fileID: 0}
+  gameManagerPrasasti: {fileID: 0}
+  col: {fileID: 0}
+  note: 
+  PlayerInRange: 0
 --- !u!1001 &1210222969
 PrefabInstance:
   m_ObjectHideFlags: 0

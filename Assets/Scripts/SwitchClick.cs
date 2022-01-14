@@ -10,7 +10,7 @@ public class SwitchClick : MonoBehaviour
     public bool isDone;
     public GameManager gameManager;
 
-    public AudioSource switchSound;
+    [SerializeField] private AudioSource switchSound;
     void Start()
     {
         gameManager = FindObjectOfType<GameManager>();

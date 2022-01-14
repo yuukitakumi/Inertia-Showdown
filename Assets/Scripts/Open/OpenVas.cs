@@ -4,15 +4,15 @@ using UnityEngine;
 
 public class OpenVas: MonoBehaviour
 {
-    public int counterNeeded;
+        
+        public int counterNeeded;
         public GameManagerVas gameManager;
         public bool isDone;
         public Collider2D collider;
         public Collider2D collidere;
         public GameManagerPrasasti gameManagerPrasasti;
         public Animator anim;
-    // public AudioSource vaseSound;
-    // public AudioSource switchSound;
+  
     void Start()
         {
             gameManager = FindObjectOfType<GameManagerVas>();
@@ -24,7 +24,7 @@ public class OpenVas: MonoBehaviour
         {
             if (gameManager.counter >= counterNeeded)
             {
-                // switchSound.Play();
+                
                 isDone = true;
                 gameObject.GetComponent<BoxCollider2D>().enabled = true;
                 
@@ -36,6 +36,7 @@ public class OpenVas: MonoBehaviour
             
             if (gameManagerPrasasti.counter >= counterNeeded)
             {
+                //switchSound.Play();
                 isDone = true;
                 anim.SetBool("IsOpen", true);
                 
