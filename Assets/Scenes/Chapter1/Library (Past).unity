@@ -1837,6 +1837,11 @@ PrefabInstance:
       propertyPath: m_Controller
       value: 
       objectReference: {fileID: 9100000, guid: f1144e4a0d856d04890fb973712937c9, type: 2}
+    - target: {fileID: 6454471996746756088, guid: 38b9c2816a94f0849b160786a0ce4d7d,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 38b9c2816a94f0849b160786a0ce4d7d, type: 3}
 --- !u!4 &314835513 stripped
@@ -4533,6 +4538,7 @@ MonoBehaviour:
   actorName: {fileID: 705496041}
   messageText: {fileID: 1417125302}
   backgroundBox: {fileID: 1328028486}
+  noteSound: {fileID: 0}
   scene: 
 --- !u!210 &1328028488
 SortingGroup:

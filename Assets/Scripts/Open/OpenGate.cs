@@ -10,6 +10,8 @@ public class OpenGate : MonoBehaviour
     public GameManager gameManager;
     public bool isDone;
     public Animator animGate;
+
+
     // Start is called before the first frame update
     void Start()
     {

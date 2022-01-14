@@ -10,9 +10,12 @@ public class PlayerPush : MonoBehaviour
     public GameObject statue;
     public PlayerMovement playerMovement;
     public RaycastHit2D hit;
+
     public bool isGrab;
+
     public GameObject Xmove;
-    //private AudioSource walkSound;
+
+    public AudioSource pullSound;
     //private bool IsMoving;
 
 
@@ -40,11 +43,13 @@ public class PlayerPush : MonoBehaviour
         }
         if (hit.collider != null && hit.collider.gameObject.tag == "Pushable")
         {
-
+           
             Xmove.SetActive(true);
+
         }
         else
         {
+           
             Xmove.SetActive(false);
         }
         
@@ -54,6 +59,7 @@ public class PlayerPush : MonoBehaviour
             isGrab = !isGrab;
             if (isGrab && Input.GetKeyDown(KeyCode.X))
             {
+               
                 Xmove.SetActive(false);
                 statue = hit.collider.gameObject;
                 statue.GetComponent<Rigidbody2D>().bodyType = RigidbodyType2D.Dynamic;
@@ -62,16 +68,20 @@ public class PlayerPush : MonoBehaviour
             }
             else
             {
-
+               
                 Xmove.SetActive(true);
                 statue.GetComponent<Rigidbody2D>().bodyType = RigidbodyType2D.Kinematic;
                 statue.GetComponent<FixedJoint2D>().enabled = false;
                 statue.GetComponent<FixedJoint2D>().connectedBody = null;
                 statue.GetComponent<Rigidbody2D>().velocity = new Vector2(0, 0);
                 statue = null;
+
+
             }                                           
         }
        
        
     }   
+   
+  
 }

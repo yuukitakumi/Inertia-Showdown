@@ -167,6 +167,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1189241584, guid: f0b4588b2ff54ae48a3baca250d431f3, type: 3}
+      propertyPath: m_PlayOnAwake
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f0b4588b2ff54ae48a3baca250d431f3, type: 3}
 --- !u!1 &265036425
@@ -433,6 +437,7 @@ MonoBehaviour:
   actorName: {fileID: 370043893}
   messageText: {fileID: 265036428}
   backgroundBox: {fileID: 402527766}
+  noteSound: {fileID: 0}
 --- !u!114 &402527768
 MonoBehaviour:
   m_ObjectHideFlags: 0

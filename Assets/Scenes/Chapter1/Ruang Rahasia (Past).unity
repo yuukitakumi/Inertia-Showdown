@@ -1329,6 +1329,7 @@ MonoBehaviour:
   col: {fileID: 353247431}
   note: 
   PlayerInRange: 0
+  vaseSound: {fileID: 1662252578}
 --- !u!95 &353247430
 Animator:
   serializedVersion: 3
@@ -2421,8 +2422,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1187382019}
   - component: {fileID: 1187382020}
-  - component: {fileID: 1187382024}
   - component: {fileID: 1187382023}
+  - component: {fileID: 1187382024}
   - component: {fileID: 1187382022}
   - component: {fileID: 1187382021}
   m_Layer: 0
@@ -2534,6 +2535,7 @@ MonoBehaviour:
   col: {fileID: 0}
   note: 
   PlayerInRange: 0
+  vaseSound: {fileID: 0}
 --- !u!61 &1187382023
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2579,6 +2581,8 @@ MonoBehaviour:
   collidere: {fileID: 0}
   gameManagerPrasasti: {fileID: 0}
   anim: {fileID: 0}
+  vaseSound: {fileID: 0}
+  switchSound: {fileID: 1766861238}
 --- !u!1001 &1210222969
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3533,11 +3537,43 @@ PrefabInstance:
       propertyPath: m_Controller
       value: 
       objectReference: {fileID: 9100000, guid: f1144e4a0d856d04890fb973712937c9, type: 2}
+    - target: {fileID: 2713579708197107904, guid: 38b9c2816a94f0849b160786a0ce4d7d,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5844868608145408026, guid: 38b9c2816a94f0849b160786a0ce4d7d,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3311935336871851591, guid: 38b9c2816a94f0849b160786a0ce4d7d,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6126320748153660300, guid: 38b9c2816a94f0849b160786a0ce4d7d,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 38b9c2816a94f0849b160786a0ce4d7d, type: 3}
 --- !u!4 &1662252577 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 314835513, guid: 38b9c2816a94f0849b160786a0ce4d7d,
+    type: 3}
+  m_PrefabInstance: {fileID: 1662252576}
+  m_PrefabAsset: {fileID: 0}
+--- !u!82 &1662252578 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 1138520119060169207, guid: 38b9c2816a94f0849b160786a0ce4d7d,
+    type: 3}
+  m_PrefabInstance: {fileID: 1662252576}
+  m_PrefabAsset: {fileID: 0}
+--- !u!82 &1766861238 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 2373311550456862035, guid: 38b9c2816a94f0849b160786a0ce4d7d,
     type: 3}
   m_PrefabInstance: {fileID: 1662252576}
   m_PrefabAsset: {fileID: 0}

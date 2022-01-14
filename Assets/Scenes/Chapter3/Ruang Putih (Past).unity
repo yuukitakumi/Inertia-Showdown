@@ -849,6 +849,11 @@ PrefabInstance:
       propertyPath: moveSpeed
       value: 0.7
       objectReference: {fileID: 0}
+    - target: {fileID: 6454471996746756088, guid: 38b9c2816a94f0849b160786a0ce4d7d,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 2194519476029622664, guid: 38b9c2816a94f0849b160786a0ce4d7d, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 38b9c2816a94f0849b160786a0ce4d7d, type: 3}
@@ -2449,6 +2454,7 @@ MonoBehaviour:
   actorName: {fileID: 2059454431}
   messageText: {fileID: 1918158016}
   backgroundBox: {fileID: 1101566448}
+  noteSound: {fileID: 0}
   scene: 
 --- !u!210 &1101566450
 SortingGroup:
@@ -2735,6 +2741,7 @@ MonoBehaviour:
   actorName: {fileID: 3616680}
   messageText: {fileID: 1153461435}
   backgroundBox: {fileID: 1212092902}
+  noteSound: {fileID: 0}
   scene: 
 --- !u!210 &1212092904
 SortingGroup:
@@ -8712,6 +8719,7 @@ MonoBehaviour:
   actorName: {fileID: 363550881}
   messageText: {fileID: 1989850746}
   backgroundBox: {fileID: 1446726338}
+  noteSound: {fileID: 0}
   scene: 
 --- !u!210 &1446726340
 SortingGroup:
@@ -9194,6 +9202,7 @@ MonoBehaviour:
   actorName: {fileID: 819901739}
   messageText: {fileID: 1304655890}
   backgroundBox: {fileID: 1762393449}
+  noteSound: {fileID: 0}
   scene: 
 --- !u!210 &1762393451
 SortingGroup:
