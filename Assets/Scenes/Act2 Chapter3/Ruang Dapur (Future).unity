@@ -5140,6 +5140,16 @@ PrefabInstance:
       propertyPath: SuaraDorong5
       value: 
       objectReference: {fileID: 944964408}
+    - target: {fileID: 2373511449829782444, guid: 0b23122a76bc8cc438f86906eee6772f,
+        type: 3}
+      propertyPath: SuaraDorong6
+      value: 
+      objectReference: {fileID: 1943925618}
+    - target: {fileID: 2373511449829782444, guid: 0b23122a76bc8cc438f86906eee6772f,
+        type: 3}
+      propertyPath: SuaraDorong7
+      value: 
+      objectReference: {fileID: 944964408}
     - target: {fileID: 4967545168735099822, guid: 0b23122a76bc8cc438f86906eee6772f,
         type: 3}
       propertyPath: m_Name

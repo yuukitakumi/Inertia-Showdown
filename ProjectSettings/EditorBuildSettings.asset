@@ -6,80 +6,17 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/Act2 Chapter1/Act2C1.unity
-    guid: 2786908ba8770954a95d66d8e476834e
+    path: Assets/Scenes/loadscenelogo.unity
+    guid: 1bacc90b92e029f4ab48f668c9e4a55b
   - enabled: 1
-    path: Assets/Scenes/Act2 Chapter1/ActFutureChap1.unity
-    guid: 3f3a8bceccf18944a968c1e32f72fbe0
+    path: Assets/Scenes/loadscenewarn.unity
+    guid: a6ab1c34a1374774fbb212384651c7d8
   - enabled: 1
-    path: Assets/Scenes/Act2 Chapter1/Library (Future).unity
-    guid: 711a83fbd179f7c4d9d60bc760ed4f24
+    path: Assets/Scenes/mainmenu.unity
+    guid: a89df960b240b624093a62b1d3323190
   - enabled: 1
-    path: Assets/Scenes/Act2 Chapter1/Main Room (Future).unity
-    guid: 6b0c630a097389f458868d7289ce2df6
-  - enabled: 1
-    path: Assets/Scenes/Act2 Chapter2/Act2C2D1.unity
-    guid: 269e8a39589899a45a5daf6e362c96e7
-  - enabled: 1
-    path: Assets/Scenes/Act2 Chapter2/Act2Chapter2.unity
-    guid: 8f02ba50822f44343b5c05dfd8e402fd
-  - enabled: 1
-    path: Assets/Scenes/Act2 Chapter2/Library (Future) Chapter2.unity
-    guid: ca9d0900399ed5f40b11219149ccc44b
-  - enabled: 1
-    path: Assets/Scenes/Act2 Chapter2/Main Room (Future) 1.unity
-    guid: ab9c2b24497f1eb4f85422d351b36d28
-  - enabled: 1
-    path: Assets/Scenes/Act2 Chapter2/Ruang Bedroom (Future).unity
-    guid: b72c78d6c0ac8a547b2fd2c244d84a97
-  - enabled: 1
-    path: Assets/Scenes/Act2 Chapter2/Ruang Hancur (Future).unity
-    guid: 888263d787bbaf8428ddaca3a21ebafe
-  - enabled: 1
-    path: Assets/Scenes/Act2 Chapter2/Ruang Patung Bedroom 1 (Future).unity
-    guid: 1938b4846f72b234e8fea7182c6f0565
-  - enabled: 1
-    path: Assets/Scenes/Act2 Chapter2/VideoChapter2.unity
-    guid: 74f13d153741ecd4baab96cb7a9df9ac
-  - enabled: 1
-    path: Assets/Scenes/Act2 Chapter3/Ruang Patung Dapur 2 (Future).unity
-    guid: 9e440e97eeb951f44a26df9f3e15da4c
-  - enabled: 1
-    path: Assets/Scenes/Act2 Chapter3/Act2C3D1.unity
-    guid: 280f3ce9811e32e44b76aaf824cc979e
-  - enabled: 1
-    path: Assets/Scenes/Act2 Chapter3/Act2C3D2.unity
-    guid: e1e0bc1f2e89bfc48a9be427c134f8e0
-  - enabled: 1
-    path: Assets/Scenes/Act2 Chapter3/Act2Chapter3.unity
-    guid: 3a4867d63af76554984564e02d148e9c
-  - enabled: 1
-    path: Assets/Scenes/Act2 Chapter3/Act2Int1.unity
-    guid: 0d9562a163b40ad40916b12aa3cfb947
-  - enabled: 1
-    path: Assets/Scenes/Act2 Chapter3/Act2Int2.unity
-    guid: 1b17d3c9f470847499a0469a64d2b675
-  - enabled: 1
-    path: Assets/Scenes/Act2 Chapter3/Act2V1C3.unity
-    guid: 032bff8dfedc7d54da21b70fc7c073f4
-  - enabled: 1
-    path: Assets/Scenes/Act2 Chapter3/Main Room (Future) 2.unity
-    guid: 801cf29cff14c5b4386e404a1ff9f6d3
-  - enabled: 1
-    path: Assets/Scenes/Act2 Chapter3/Ruang Baju Zirah (Future).unity
-    guid: 837b2695ef7b37b4c81b2c017740eeb9
-  - enabled: 1
-    path: Assets/Scenes/Act2 Chapter3/Ruang Bedroom (Future) 1.unity
-    guid: 7d14a898462e13e4ca252bf8947ad880
-  - enabled: 1
-    path: Assets/Scenes/Act2 Chapter3/Ruang Dapur (Future).unity
-    guid: 8c96d5ee1f6d3ee4d901c7163b1315b7
-  - enabled: 1
-    path: Assets/Scenes/Act2 Chapter3/Ruang Hancur (Future) 1.unity
-    guid: e1c3c5aafba2d6047a98a5b7cdedc4dc
-  - enabled: 1
-    path: Assets/Scenes/Act2 Chapter3/Ruang Patung Bedroom 1 (Future) 1.unity
-    guid: 0ca81a12c18123943a239bac535ea102
+    path: Assets/Scenes/Chapter1/Act1CS1.unity
+    guid: ffd75b8553a748e44a0703f20c85dac0
   - enabled: 1
     path: Assets/Scenes/Chapter1/Act1C1.unity
     guid: 121a19ccd07ae7c4db5e4647c24d7403
@@ -89,9 +26,6 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Chapter1/Act1C1Int1.unity
     guid: cffff18b3b2aeae47b902916df82f9bd
-  - enabled: 1
-    path: Assets/Scenes/Chapter1/Act1CS1.unity
-    guid: ffd75b8553a748e44a0703f20c85dac0
   - enabled: 1
     path: Assets/Scenes/Chapter1/Dapur (Past).unity
     guid: 9ff3fd233c70fae42a22ff5d70be5cbd
@@ -186,12 +120,90 @@ EditorBuildSettings:
     path: Assets/Scenes/Chapter3/Ruang Putih (Past).unity
     guid: 2543e6853c795404ba8bd7f995add0bc
   - enabled: 1
-    path: Assets/Scenes/Chapter4/Act1Chapter.unity
-    guid: 454c5c358a778b1488776a75b6a65c47
+    path: Assets/Scenes/Dapur (Past) 1.unity
+    guid: ab1ad9717d61c324c8a22fcfbfc9cc5c
   - enabled: 1
-    path: Assets/Scenes/Chapter4/Act1V1C4.unity
-    guid: 32414d0ece102a74aa91a6bd68df854f
+    path: Assets/Scenes/Main Room (Past).unity
+    guid: 04612cc1644243c499d36239e916ce7b
   - enabled: 1
-    path: Assets/Scenes/Chapter4/Main Room (Past) 1.unity
-    guid: b915b3b1cb5d85e4a9d08fdf572db567
+    path: Assets/Scenes/SampleScene.unity
+    guid: 24daa190bed735940b9aad65530c9015
+  - enabled: 1
+    path: Assets/Scenes/Testing.unity
+    guid: 65964e46cf72051489c6bc1ace65483e
+  - enabled: 1
+    path: Assets/Scenes/Act2 Chapter1/Act2C1.unity
+    guid: 2786908ba8770954a95d66d8e476834e
+  - enabled: 1
+    path: Assets/Scenes/Act2 Chapter1/ActFutureChap1.unity
+    guid: 3f3a8bceccf18944a968c1e32f72fbe0
+  - enabled: 1
+    path: Assets/Scenes/Act2 Chapter1/Library (Future).unity
+    guid: 711a83fbd179f7c4d9d60bc760ed4f24
+  - enabled: 1
+    path: Assets/Scenes/Act2 Chapter1/Main Room (Future).unity
+    guid: 6b0c630a097389f458868d7289ce2df6
+  - enabled: 1
+    path: Assets/Scenes/Act2 Chapter2/Act2C2D1.unity
+    guid: 269e8a39589899a45a5daf6e362c96e7
+  - enabled: 1
+    path: Assets/Scenes/Act2 Chapter2/Act2Chapter2.unity
+    guid: 8f02ba50822f44343b5c05dfd8e402fd
+  - enabled: 1
+    path: Assets/Scenes/Act2 Chapter2/Library (Future) Chapter2.unity
+    guid: ca9d0900399ed5f40b11219149ccc44b
+  - enabled: 1
+    path: Assets/Scenes/Act2 Chapter2/Main Room (Future) 1.unity
+    guid: ab9c2b24497f1eb4f85422d351b36d28
+  - enabled: 1
+    path: Assets/Scenes/Act2 Chapter2/Ruang Bedroom (Future).unity
+    guid: b72c78d6c0ac8a547b2fd2c244d84a97
+  - enabled: 1
+    path: Assets/Scenes/Act2 Chapter2/Ruang Hancur (Future).unity
+    guid: 888263d787bbaf8428ddaca3a21ebafe
+  - enabled: 1
+    path: Assets/Scenes/Act2 Chapter2/Ruang Patung Bedroom 1 (Future).unity
+    guid: 1938b4846f72b234e8fea7182c6f0565
+  - enabled: 1
+    path: Assets/Scenes/Act2 Chapter3/Act2C3D1.unity
+    guid: 280f3ce9811e32e44b76aaf824cc979e
+  - enabled: 1
+    path: Assets/Scenes/Act2 Chapter3/Act2C3D2.unity
+    guid: e1e0bc1f2e89bfc48a9be427c134f8e0
+  - enabled: 1
+    path: Assets/Scenes/Act2 Chapter3/Act2Chapter3.unity
+    guid: 3a4867d63af76554984564e02d148e9c
+  - enabled: 1
+    path: Assets/Scenes/Act2 Chapter3/Act2Int1.unity
+    guid: 0d9562a163b40ad40916b12aa3cfb947
+  - enabled: 1
+    path: Assets/Scenes/Act2 Chapter3/Act2Int2.unity
+    guid: 1b17d3c9f470847499a0469a64d2b675
+  - enabled: 1
+    path: Assets/Scenes/Act2 Chapter3/Act2V1C3.unity
+    guid: 032bff8dfedc7d54da21b70fc7c073f4
+  - enabled: 1
+    path: Assets/Scenes/Act2 Chapter3/Main Room (Future) 2.unity
+    guid: 801cf29cff14c5b4386e404a1ff9f6d3
+  - enabled: 1
+    path: Assets/Scenes/Act2 Chapter3/Ruang Baju Zirah (Future).unity
+    guid: 837b2695ef7b37b4c81b2c017740eeb9
+  - enabled: 1
+    path: Assets/Scenes/Act2 Chapter3/Ruang Bedroom (Future) 1.unity
+    guid: 7d14a898462e13e4ca252bf8947ad880
+  - enabled: 1
+    path: Assets/Scenes/Act2 Chapter3/Ruang Dapur (Future).unity
+    guid: 8c96d5ee1f6d3ee4d901c7163b1315b7
+  - enabled: 1
+    path: Assets/Scenes/Act2 Chapter3/Ruang Hancur (Future) 1.unity
+    guid: e1c3c5aafba2d6047a98a5b7cdedc4dc
+  - enabled: 1
+    path: Assets/Scenes/Act2 Chapter3/Ruang Patung Bedroom 1 (Future) 1.unity
+    guid: 0ca81a12c18123943a239bac535ea102
+  - enabled: 1
+    path: Assets/Scenes/Act2 Chapter3/Ruang Patung Dapur 2 (Future).unity
+    guid: 9e440e97eeb951f44a26df9f3e15da4c
+  - enabled: 1
+    path: Assets/Scenes/Act2 Chapter2/VideoChapter2.unity
+    guid: 74f13d153741ecd4baab96cb7a9df9ac
   m_configObjects: {}

@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PlayerPush : MonoBehaviour
+public class PushBox7 : MonoBehaviour
 {
-
+    
     public float distance = 1f;
     public LayerMask boxMax;
     public GameObject statue;
@@ -101,8 +101,8 @@ public class PlayerPush : MonoBehaviour
                 SuaraDorong3.Stop();
                 SuaraDorong4.Stop();
                 SuaraDorong5.Stop();
-                SuaraDorong6.Play();
-                SuaraDorong7.Play();
+                SuaraDorong6.Stop();
+                SuaraDorong7.Stop();
                 Xmove.SetActive(true);
                 statue.GetComponent<Rigidbody2D>().bodyType = RigidbodyType2D.Kinematic;
                 statue.GetComponent<FixedJoint2D>().enabled = false;

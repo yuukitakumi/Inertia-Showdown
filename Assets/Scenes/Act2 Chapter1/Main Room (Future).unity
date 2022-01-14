@@ -6560,6 +6560,11 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 681547483978723105, guid: 0b23122a76bc8cc438f86906eee6772f,
+        type: 3}
+      propertyPath: Loop
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2373511449829782433, guid: 0b23122a76bc8cc438f86906eee6772f,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -6665,6 +6670,16 @@ PrefabInstance:
       propertyPath: SuaraDorong5
       value: 
       objectReference: {fileID: 541479974}
+    - target: {fileID: 2373511449829782444, guid: 0b23122a76bc8cc438f86906eee6772f,
+        type: 3}
+      propertyPath: SuaraDorong6
+      value: 
+      objectReference: {fileID: 224400619}
+    - target: {fileID: 2373511449829782444, guid: 0b23122a76bc8cc438f86906eee6772f,
+        type: 3}
+      propertyPath: SuaraDorong7
+      value: 
+      objectReference: {fileID: 224400619}
     - target: {fileID: 4967545168735099822, guid: 0b23122a76bc8cc438f86906eee6772f,
         type: 3}
       propertyPath: m_Name
@@ -6710,11 +6725,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_IsActive
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 681547483978723105, guid: 0b23122a76bc8cc438f86906eee6772f,
-        type: 3}
-      propertyPath: Loop
-      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0b23122a76bc8cc438f86906eee6772f, type: 3}
