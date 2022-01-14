@@ -895,6 +895,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: bgmPast
       objectReference: {fileID: 0}
+    - target: {fileID: 4399699672008617507, guid: 7aefa0fd89b1e3d41a0ddfb34f2ab0af,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4399699672008617504, guid: 7aefa0fd89b1e3d41a0ddfb34f2ab0af,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2875,6 +2880,10 @@ PrefabInstance:
     - target: {fileID: 1189241582, guid: a7023828261b10c4d8787be0a5c1745f, type: 3}
       propertyPath: m_Name
       value: basePast
+      objectReference: {fileID: 0}
+    - target: {fileID: 1189241582, guid: a7023828261b10c4d8787be0a5c1745f, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1189241585, guid: a7023828261b10c4d8787be0a5c1745f, type: 3}
       propertyPath: m_LocalPosition.x

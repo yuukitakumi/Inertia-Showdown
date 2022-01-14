@@ -12,7 +12,10 @@ public class PlayerPush : MonoBehaviour
     public RaycastHit2D hit;
     public bool isGrab;
     public GameObject Xmove;
-    public AudioSource walkSound;
+    //private AudioSource walkSound;
+    //private bool IsMoving;
+
+
     // Start is called before the first frame update
     void Start()
     {
@@ -26,16 +29,18 @@ public class PlayerPush : MonoBehaviour
         Physics2D.queriesStartInColliders = false;
         if(playerMovement.movement.y != 0)
         {
+
             hit = Physics2D.Raycast(transform.position,   Vector2.up*playerMovement.movement.y, distance, boxMax);
             
         }else if(playerMovement.movement.x != 0 && playerMovement.movement.y == 0)
         {
+            
             hit = Physics2D.Raycast(transform.position, Vector2.right * playerMovement.movement.x, distance, boxMax);
             
         }
         if (hit.collider != null && hit.collider.gameObject.tag == "Pushable")
         {
-          
+
             Xmove.SetActive(true);
         }
         else
@@ -66,14 +71,7 @@ public class PlayerPush : MonoBehaviour
                 statue = null;
             }                                           
         }
-
-        if(playerMovement.isActiveAndEnabled)
-        {
-            walkSound.Play();
-        }else
-        {
-            walkSound.Stop();
-        }
+       
        
     }   
 }

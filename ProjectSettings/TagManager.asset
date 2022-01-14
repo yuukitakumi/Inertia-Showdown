@@ -12,6 +12,7 @@ TagManager:
   - BasePast
   - TickPhase1
   - TickPhase0
+  - SFX
   layers:
   - Default
   - TransparentFX

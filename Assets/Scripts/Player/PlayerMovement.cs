@@ -8,28 +8,36 @@ public class PlayerMovement : MonoBehaviour
     public Rigidbody2D rb;
     public Animator animator;
     public Vector2 movement;
-   
+    //public PlayerMovement playerMovement;
 
     [SerializeField]
 	GameObject codePanel, closedSafe, openedSafe, diarySafe;
 
 	public static bool isSafeOpened = false;
-    //private static bool isActive;
 
-    // Update is called once per frame
-
+    public AudioSource walkSound;
+    private bool AnimatorIsPlaying;
+    //private bool IsMoving;
+    
     void start()
     {
        
+
         rb = GetComponent<Rigidbody2D> ();
 		codePanel.SetActive (false);
 		closedSafe.SetActive (true);
 		openedSafe.SetActive (false);
 		diarySafe.SetActive(false);
+
+        //animator = this.gameObject.GetComponent<Animator>();
     }
 
     void Update()
     {
+        if (Input.GetButtonDown("Horizontal") || Input.GetButtonDown("Vertical"))
+            walkSound.Play();
+        else if (!Input.GetButton("Horizontal") && !Input.GetButton("Vertical") && walkSound.isPlaying)
+            walkSound.Stop(); // or Pause()
 
         if (DialogueManager.isActive == true)
 
@@ -50,6 +58,7 @@ public class PlayerMovement : MonoBehaviour
         animator.SetFloat("Horizontal", movement.x);
         animator.SetFloat("Vertical", movement.y);
         animator.SetFloat("Speed", movement.sqrMagnitude);
+        
 
         if (isSafeOpened)
         {
@@ -64,7 +73,7 @@ public class PlayerMovement : MonoBehaviour
             diarySafe.SetActive(false);
         }
 
-
+      
     }
     void FixedUpdate()
     {
@@ -82,7 +91,6 @@ public class PlayerMovement : MonoBehaviour
 	{
 		if (col.gameObject.name.Equals ("Safe")) 
 			codePanel.SetActive (false);
-			
 
 	}
 

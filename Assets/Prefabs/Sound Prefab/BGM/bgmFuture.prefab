@@ -140,3 +140,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 16afe6916f03c93449c4bb06e330536a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  musicObj1: {fileID: 7452264917102613420}
+  musicObj2: {fileID: 0}
+  musicObj3: {fileID: 8274256514178748174, guid: d6c8318b5e1b75d4196263c38f83acae,
+    type: 3}
+  musicObj4: {fileID: 0}
+  musicObj5: {fileID: 0}
+  musicObj6: {fileID: 0}
