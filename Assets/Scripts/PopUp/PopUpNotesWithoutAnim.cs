@@ -11,7 +11,8 @@ public class PopUpNotesWithoutAnim : MonoBehaviour
 
     public string note;
     public bool PlayerInRange;
-    
+    public AudioSource noteSound;
+
     public GameManager2 gameManager;
     public void Start()
     {
@@ -24,12 +25,13 @@ public class PopUpNotesWithoutAnim : MonoBehaviour
         {
             if (imageNote.activeInHierarchy)
             {
+                
                 imageNote.SetActive(false);
                 panelNote.SetActive(false);
             }
             else
             {
-                
+                noteSound.Play();
                 imageNote.SetActive(true);
                 panelNote.SetActive(true);
 

@@ -31,13 +31,10 @@ public class PopUpNotes : MonoBehaviour
         {
             if (imageNote.activeInHierarchy)
             {
-               
-
                 imageNote.SetActive(false);
                 panelNote.SetActive(false);
                 tombolNex.SetActive(true);
                 tombolPrev.SetActive(true);
-                
                 
             }
             else

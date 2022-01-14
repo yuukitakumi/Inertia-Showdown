@@ -10,6 +10,10 @@ public class OpenSpike : MonoBehaviour
     public bool isDone;
     public Animator animGate;
     public Collider2D collider;
+
+    public AudioSource OpenGlass;
+    public AudioSource CloseGlass;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -22,12 +26,14 @@ public class OpenSpike : MonoBehaviour
     {
         if(gameManager.counter == counterNeeded)
         {
+            CloseGlass.Play();
             isDone = true;
             animGate.SetBool("isOpen", true);
             gameObject.GetComponent<BoxCollider2D>().enabled = false;
         }
         else
-        {           
+        {
+            OpenGlass.Play();
             animGate.SetBool("isOpen", false);
             gameObject.GetComponent<BoxCollider2D>().enabled = true;
         }    

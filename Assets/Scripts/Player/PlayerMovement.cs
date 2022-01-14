@@ -21,7 +21,6 @@ public class PlayerMovement : MonoBehaviour
     
     void start()
     {
-       
 
         rb = GetComponent<Rigidbody2D> ();
 		codePanel.SetActive (false);
@@ -34,10 +33,7 @@ public class PlayerMovement : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetButtonDown("Horizontal") || Input.GetButtonDown("Vertical"))
-            walkSound.Play();
-        else if (!Input.GetButton("Horizontal") && !Input.GetButton("Vertical") && walkSound.isPlaying)
-            walkSound.Stop(); // or Pause()
+        
 
         if (DialogueManager.isActive == true)
 
@@ -77,6 +73,11 @@ public class PlayerMovement : MonoBehaviour
     }
     void FixedUpdate()
     {
+        if (Input.GetButtonDown("Horizontal") || Input.GetButtonDown("Vertical"))
+            walkSound.Play();
+        else if (!Input.GetButton("Horizontal") && !Input.GetButton("Vertical") && walkSound.isPlaying)
+            walkSound.Stop(); // or Pause()
+
         rb.MovePosition(rb.position + movement * moveSpeed * Time.fixedDeltaTime);
     }
 

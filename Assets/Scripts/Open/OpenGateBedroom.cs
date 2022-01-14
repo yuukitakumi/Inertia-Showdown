@@ -10,6 +10,7 @@ public class OpenGateBedroom : MonoBehaviour
     public GameManager gameManager;
     public bool isDone;
     public Animator animGate;
+   // public AudioSource gateSound;
     // Start is called before the first frame update
     void Start()
     {
@@ -21,6 +22,7 @@ public class OpenGateBedroom : MonoBehaviour
     {
         if (gameManager.counter == counterNeeded)
         {
+            //gateSound.Play();
             isDone = true;
             animGate.SetBool("isOpen", true);
         }

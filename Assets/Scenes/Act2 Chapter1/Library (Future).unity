@@ -1037,7 +1037,7 @@ PrefabInstance:
         type: 3}
       propertyPath: walkSound
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 507618714}
     - target: {fileID: 1488957967816119489, guid: 0b23122a76bc8cc438f86906eee6772f,
         type: 3}
       propertyPath: m_IsActive
@@ -5098,6 +5098,12 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 499736706}
   m_CullTransparentMesh: 0
+--- !u!82 &507618714 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 7145895789795762908, guid: 0b23122a76bc8cc438f86906eee6772f,
+    type: 3}
+  m_PrefabInstance: {fileID: 153026555}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &544752002
 PrefabInstance:
   m_ObjectHideFlags: 0

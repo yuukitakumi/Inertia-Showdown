@@ -212,6 +212,7 @@ MonoBehaviour:
   interactUI: {fileID: 153026558}
   note: 
   PlayerInRange: 0
+  noteSound: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!61 &10462994
 BoxCollider2D:
@@ -523,6 +524,7 @@ MonoBehaviour:
   interactUI: {fileID: 153026558}
   note: 
   PlayerInRange: 0
+  noteSound: {fileID: 2015310617}
   gameManager: {fileID: 0}
 --- !u!1 &90893778
 GameObject:
@@ -923,6 +925,11 @@ PrefabInstance:
         type: 3}
       propertyPath: diarySafe
       value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 6137530813435743073, guid: 0b23122a76bc8cc438f86906eee6772f,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0b23122a76bc8cc438f86906eee6772f, type: 3}
@@ -11365,6 +11372,12 @@ RectTransform:
   m_AnchoredPosition: {x: -274, y: 482}
   m_SizeDelta: {x: 74.1, y: 74.1}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!82 &2015310617 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 8026622285132187135, guid: 0b23122a76bc8cc438f86906eee6772f,
+    type: 3}
+  m_PrefabInstance: {fileID: 153026555}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &2024312849
 GameObject:
   m_ObjectHideFlags: 0

@@ -1059,6 +1059,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6438529519093570086, guid: d6c8318b5e1b75d4196263c38f83acae,
+        type: 3}
+      propertyPath: m_PlayOnAwake
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d6c8318b5e1b75d4196263c38f83acae, type: 3}
 --- !u!1001 &468316043
@@ -3010,6 +3015,8 @@ MonoBehaviour:
   isDone: 0
   animGate: {fileID: 739664714}
   collider: {fileID: 739664713}
+  OpenGlass: {fileID: 2013449838}
+  CloseGlass: {fileID: 1869637330}
 --- !u!212 &739664711
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3690,6 +3697,11 @@ PrefabInstance:
       propertyPath: m_audioClip
       value: 
       objectReference: {fileID: 8300000, guid: b903842b58db92744ae04a3d4b5b6f59, type: 3}
+    - target: {fileID: 7452264917102613419, guid: d3c44ffdd0906cf41acf631b4a17ea5a,
+        type: 3}
+      propertyPath: m_PlayOnAwake
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d3c44ffdd0906cf41acf631b4a17ea5a, type: 3}
 --- !u!1001 &992502459
@@ -5912,6 +5924,16 @@ PrefabInstance:
       value: 97
       objectReference: {fileID: 0}
     - target: {fileID: 5891818917621683133, guid: 0b23122a76bc8cc438f86906eee6772f,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8280272693501152602, guid: 0b23122a76bc8cc438f86906eee6772f,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7838512629506354953, guid: 0b23122a76bc8cc438f86906eee6772f,
         type: 3}
       propertyPath: m_IsActive
       value: 0
@@ -8402,6 +8424,12 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.08796215, y: 1.912611}
   m_EdgeRadius: 0
+--- !u!82 &1869637330 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 3209057294392194532, guid: 0b23122a76bc8cc438f86906eee6772f,
+    type: 3}
+  m_PrefabInstance: {fileID: 1531339048}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1884123820
 GameObject:
   m_ObjectHideFlags: 0
@@ -8867,6 +8895,12 @@ SpriteRenderer:
   m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!82 &2013449838 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 6637020158746202735, guid: 0b23122a76bc8cc438f86906eee6772f,
+    type: 3}
+  m_PrefabInstance: {fileID: 1531339048}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &2028675666
 GameObject:
   m_ObjectHideFlags: 0

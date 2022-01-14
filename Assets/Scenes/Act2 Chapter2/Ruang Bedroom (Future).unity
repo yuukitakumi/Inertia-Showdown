@@ -1747,6 +1747,16 @@ PrefabInstance:
       propertyPath: m_SortingOrder
       value: 6
       objectReference: {fileID: 0}
+    - target: {fileID: 1488957967816119489, guid: 0b23122a76bc8cc438f86906eee6772f,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6137530813435743073, guid: 0b23122a76bc8cc438f86906eee6772f,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0b23122a76bc8cc438f86906eee6772f, type: 3}
 --- !u!1 &314759559 stripped
@@ -2874,6 +2884,7 @@ MonoBehaviour:
   PlayerInRange: 0
   isDone: 0
   gameManager: {fileID: 0}
+  switchSound: {fileID: 1118023314}
 --- !u!1 &544247657
 GameObject:
   m_ObjectHideFlags: 0
@@ -5829,6 +5840,12 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!82 &1118023314 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 2649227772536071706, guid: 0b23122a76bc8cc438f86906eee6772f,
+    type: 3}
+  m_PrefabInstance: {fileID: 314759558}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1121089605 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8574921838500100373, guid: 921c81bf4053d084d833f9f4e2d356c4,
@@ -6152,6 +6169,7 @@ MonoBehaviour:
   interactUI: {fileID: 1241991816}
   note: 
   PlayerInRange: 0
+  noteSound: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!1 &1186570052
 GameObject:
@@ -6785,6 +6803,7 @@ MonoBehaviour:
   gameManager: {fileID: 0}
   isDone: 0
   animGate: {fileID: 548638544}
+  gateSound: {fileID: 0}
 --- !u!61 &1312367204
 BoxCollider2D:
   m_ObjectHideFlags: 0

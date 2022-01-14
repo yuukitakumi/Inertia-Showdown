@@ -9,6 +9,8 @@ public class SwitchClick : MonoBehaviour
     public bool PlayerInRange;
     public bool isDone;
     public GameManager gameManager;
+
+    public AudioSource switchSound;
     void Start()
     {
         gameManager = FindObjectOfType<GameManager>();
@@ -18,6 +20,7 @@ public class SwitchClick : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.E) && PlayerInRange)
         {
+            switchSound.Play();
             isDone = true;
             gameManager.counter++;
         }

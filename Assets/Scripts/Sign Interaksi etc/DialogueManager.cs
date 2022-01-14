@@ -9,6 +9,7 @@ public class DialogueManager: MonoBehaviour
     public Text actorName;
     public Text messageText;
     public RectTransform backgroundBox;
+    
 
     Message[] currentMessages;
     Actor[] currentActors;
@@ -29,6 +30,7 @@ public class DialogueManager: MonoBehaviour
 
     void DisplayMessage()
     {
+        
         Message messageToDisplay = currentMessages[activeMessage];
         messageText.text = messageToDisplay.message;
         Actor actorToDisplay = currentActors[messageToDisplay.actorId];
@@ -43,6 +45,7 @@ public class DialogueManager: MonoBehaviour
         activeMessage++;
         if (activeMessage<currentMessages.Length)
         {
+
             DisplayMessage();
         }
         else
@@ -67,6 +70,7 @@ public class DialogueManager: MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        
         if (Input.GetKeyDown(KeyCode.Space) && isActive == true)
         {
             NextMessage();
