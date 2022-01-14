@@ -251,6 +251,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   trigger: {fileID: 10462996}
+  noteSound: {fileID: 494007978}
   gameManager: {fileID: 0}
 --- !u!1 &10822392
 GameObject:
@@ -607,7 +608,7 @@ MonoBehaviour:
   interactUI: {fileID: 153026558}
   tombolNex: {fileID: 0}
   tombolPrev: {fileID: 0}
-  noteSound: {fileID: 0}
+  noteSound: {fileID: 494007978}
   anim: {fileID: 0}
   note: 
   PlayerInRange: 0
@@ -1122,6 +1123,11 @@ PrefabInstance:
         type: 3}
       propertyPath: Priority
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7838512629506354953, guid: 0b23122a76bc8cc438f86906eee6772f,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0b23122a76bc8cc438f86906eee6772f, type: 3}
@@ -4321,6 +4327,7 @@ MonoBehaviour:
   actorName: {fileID: 0}
   messageText: {fileID: 0}
   backgroundBox: {fileID: 0}
+  noteSound: {fileID: 0}
 --- !u!1 &396438490
 GameObject:
   m_ObjectHideFlags: 0
@@ -5381,6 +5388,7 @@ MonoBehaviour:
   actorName: {fileID: 908278339}
   messageText: {fileID: 1205026491}
   backgroundBox: {fileID: 582744950}
+  noteSound: {fileID: 0}
 --- !u!1 &601034452 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8574921838500100373, guid: 921c81bf4053d084d833f9f4e2d356c4,
@@ -10788,6 +10796,7 @@ MonoBehaviour:
   actorName: {fileID: 315805858}
   messageText: {fileID: 403928136}
   backgroundBox: {fileID: 1524887344}
+  noteSound: {fileID: 0}
   scene: 
 --- !u!114 &1524887347
 MonoBehaviour:

@@ -9,7 +9,7 @@ public class DialogueManager: MonoBehaviour
     public Text actorName;
     public Text messageText;
     public RectTransform backgroundBox;
-    
+    public AudioSource noteSound;
 
     Message[] currentMessages;
     Actor[] currentActors;
@@ -19,6 +19,9 @@ public class DialogueManager: MonoBehaviour
     public static bool isActive = false;
 
     public void OpenDialogue(Message[] messages, Actor[] actors){
+
+        noteSound.Play();
+
         currentMessages = messages;
         currentActors = actors;
         activeMessage = 0;

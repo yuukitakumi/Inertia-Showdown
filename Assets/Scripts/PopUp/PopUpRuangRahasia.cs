@@ -10,6 +10,7 @@ public class PopUpRuangRahasia : MonoBehaviour
     [SerializeField] public GameObject interactUI;
     public GameObject komponen;
     public AudioSource noteSound;
+
     public string note;
     public bool PlayerInRange;
     

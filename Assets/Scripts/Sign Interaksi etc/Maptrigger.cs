@@ -5,6 +5,7 @@ using UnityEngine;
 public class Maptrigger : MonoBehaviour
 {
     public DialogTrigger trigger;
+    public AudioSource noteSound;
 
     public GameManager2 gameManager;
     public void Start()
@@ -15,6 +16,7 @@ public class Maptrigger : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Player")  == true)
             trigger.StartDialogue();
+        
         gameManager.counter++;
     }
 

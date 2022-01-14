@@ -611,20 +611,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 21c2e27ea0c9166458c4332c29df84cf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!61 &93123586
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -665,6 +651,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   animHantu: {fileID: 93123581}
   PlayerInRange: 0
+  interactUI: {fileID: 0}
 --- !u!1 &139497320
 GameObject:
   m_ObjectHideFlags: 0
@@ -2176,6 +2163,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: bgmPast
       objectReference: {fileID: 0}
+    - target: {fileID: 4399699672008617507, guid: 7aefa0fd89b1e3d41a0ddfb34f2ab0af,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4399699672008617504, guid: 7aefa0fd89b1e3d41a0ddfb34f2ab0af,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2604,6 +2596,7 @@ MonoBehaviour:
   PlayerInRange: 0
   isDone: 0
   gameManager: {fileID: 0}
+  switchSound: {fileID: 0}
 --- !u!61 &1600711081
 BoxCollider2D:
   m_ObjectHideFlags: 0
