@@ -279,7 +279,7 @@ MonoBehaviour:
   Loadbar: {fileID: 0}
   now: 0
   speed: 15
-  scene: Library (Future)
+  scene: Main Room (Future) 1
 --- !u!1 &905726794
 GameObject:
   m_ObjectHideFlags: 0

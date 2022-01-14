@@ -24,18 +24,20 @@ public class OpenSpike : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(gameManager.counter == counterNeeded)
+        if(gameManager.counter >= counterNeeded)
         {
-            //CloseGlass.Play();
+            // CloseGlass.Play();
+            // OpenGlass.Stop();
             isDone = true;
             animGate.SetBool("isOpen", true);
             gameObject.GetComponent<BoxCollider2D>().enabled = false;
         }
         else
         {
+            // this.OpenGlass.playOnAwake = false;
             OpenGlass.Play();
             animGate.SetBool("isOpen", false);
             gameObject.GetComponent<BoxCollider2D>().enabled = true;
-        }    
+        }
     }
 }
