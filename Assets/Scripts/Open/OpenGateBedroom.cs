@@ -7,14 +7,14 @@ public class OpenGateBedroom : MonoBehaviour
 {
     public string scene;
     public int counterNeeded;
-    public GameManager gameManager;
+    public GMBP gameManager;
     public bool isDone;
     public Animator animGate;
    // public AudioSource gateSound;
     // Start is called before the first frame update
     void Start()
     {
-        gameManager = FindObjectOfType<GameManager>();
+        gameManager = FindObjectOfType<GMBP>();
     }
 
     // Update is called once per frame

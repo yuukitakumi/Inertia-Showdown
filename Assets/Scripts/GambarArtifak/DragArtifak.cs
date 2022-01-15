@@ -6,12 +6,12 @@ public class DragArtifak : MonoBehaviour
 {
     public GameObject detector;
     Vector3 pos_awal;
-    public GameManager gameManager;
+    //public GameManager gameManager;
     public bool on_pos = false, on_tempel = false;
     // Start is called before the first frame update
     void Start()
     {
-        gameManager = FindObjectOfType<GameManager>();
+        //gameManager = FindObjectOfType<GameManager>();
         pos_awal = transform.position;
         // scale_awal = transform.localScale;
     }
@@ -29,7 +29,7 @@ public class DragArtifak : MonoBehaviour
             transform.position = detector.transform.position;
             //transform.localScale = new Vector2(1f, 1f);
             on_tempel = true;
-            gameManager.counter++;
+            //gameManager.counter++;
         }
         else
         {

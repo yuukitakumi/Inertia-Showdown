@@ -5285,7 +5285,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scene: Ruang Patung Dapur 2 (Future)
-  counterNeeded: 1
+  counterNeeded: 14
   gameManager: {fileID: 0}
   isDone: 0
   animGate: {fileID: 347001759}

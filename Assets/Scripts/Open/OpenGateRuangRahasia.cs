@@ -18,7 +18,7 @@ public class OpenGateRuangRahasia : MonoBehaviour
         // Update is called once per frame
         void Update()
         {
-            if (gameManager.counter == counterNeeded)
+            if (gameManager.counter >= counterNeeded)
             {
                 isDone = true;
                 gameObject.GetComponent<BoxCollider2D>().enabled = false;

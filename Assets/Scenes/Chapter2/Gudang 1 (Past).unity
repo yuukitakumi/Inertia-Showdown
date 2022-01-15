@@ -405,7 +405,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 95a2eac4da7e9074aae2d2926caf430f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  counterNeeded: 1
+  counterNeeded: 3
   gameManager: {fileID: 0}
   isDone: 0
   animGate: {fileID: 42386964}

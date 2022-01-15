@@ -36,6 +36,7 @@ public class DragBear : MonoBehaviour
             transform.position = pos_awal;
             // transform.localScale = scale_awal;
             on_tempel = false;
+            gameManager.counter--;
         }
     }
 

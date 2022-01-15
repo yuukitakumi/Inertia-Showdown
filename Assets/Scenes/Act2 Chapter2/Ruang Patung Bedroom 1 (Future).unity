@@ -9221,7 +9221,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scene: Ruang Hancur (Future)
-  counterNeeded: 5
+  counterNeeded: 8
   gameManager: {fileID: 0}
   isDone: 0
   animGate: {fileID: 275529085}

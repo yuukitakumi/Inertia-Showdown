@@ -805,7 +805,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   detector: {fileID: 40607139}
-  gameManager: {fileID: 0}
   on_pos: 0
   on_tempel: 0
 --- !u!1001 &197774455
@@ -8644,7 +8643,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   detector: {fileID: 363453038}
-  gameManager: {fileID: 0}
   on_pos: 0
   on_tempel: 0
 --- !u!1 &2056500254
@@ -9159,7 +9157,7 @@ GameObject:
   - component: {fileID: 2143369436}
   - component: {fileID: 2143369435}
   m_Layer: 0
-  m_Name: Game Manager
+  m_Name: Game Manager Asli
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

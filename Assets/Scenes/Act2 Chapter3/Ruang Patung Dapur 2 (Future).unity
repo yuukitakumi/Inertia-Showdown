@@ -8527,7 +8527,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scene: Ruang Baju Zirah (Future)
-  counterNeeded: 5
+  counterNeeded: 19
   gameManager: {fileID: 0}
   isDone: 0
   animGate: {fileID: 275529085}
@@ -9777,11 +9777,6 @@ PrefabInstance:
       propertyPath: SuaraDorong7
       value: 
       objectReference: {fileID: 606856676}
-    - target: {fileID: 5015716659799180137, guid: 0b23122a76bc8cc438f86906eee6772f,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 2
-      objectReference: {fileID: 0}
     - target: {fileID: 2373511449829782434, guid: 0b23122a76bc8cc438f86906eee6772f,
         type: 3}
       propertyPath: m_Sprite
@@ -9807,6 +9802,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_RootOrder
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5015716659799180137, guid: 0b23122a76bc8cc438f86906eee6772f,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0b23122a76bc8cc438f86906eee6772f, type: 3}
