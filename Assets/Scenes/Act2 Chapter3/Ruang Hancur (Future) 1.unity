@@ -6006,7 +6006,7 @@ MonoBehaviour:
   interactUI: {fileID: 1962534984}
   tombolNex: {fileID: 723225032}
   tombolPrev: {fileID: 1724382168}
-  noteSound: {fileID: 0}
+  noteSound: {fileID: 932045335}
   anim: {fileID: 0}
   note: 
   PlayerInRange: 0
