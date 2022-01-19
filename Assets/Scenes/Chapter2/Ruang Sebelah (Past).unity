@@ -350,6 +350,11 @@ PrefabInstance:
       propertyPath: m_Controller
       value: 
       objectReference: {fileID: 9100000, guid: f1144e4a0d856d04890fb973712937c9, type: 2}
+    - target: {fileID: 6454471996746756088, guid: 38b9c2816a94f0849b160786a0ce4d7d,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8370828399110470559, guid: 38b9c2816a94f0849b160786a0ce4d7d,
         type: 3}
       propertyPath: m_IsActive
@@ -421,6 +426,12 @@ GameObject:
 --- !u!82 &41991482 stripped
 AudioSource:
   m_CorrespondingSourceObject: {fileID: 451862809575158336, guid: 38b9c2816a94f0849b160786a0ce4d7d,
+    type: 3}
+  m_PrefabInstance: {fileID: 41991479}
+  m_PrefabAsset: {fileID: 0}
+--- !u!82 &41991483 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 8219688045952870191, guid: 38b9c2816a94f0849b160786a0ce4d7d,
     type: 3}
   m_PrefabInstance: {fileID: 41991479}
   m_PrefabAsset: {fileID: 0}
@@ -5192,7 +5203,7 @@ MonoBehaviour:
   panelNote: {fileID: 697009377}
   interactUI: {fileID: 1580859219}
   komponen: {fileID: 824014204}
-  noteSound: {fileID: 814621985}
+  noteSound: {fileID: 41991483}
   note: 
   PlayerInRange: 0
 --- !u!1 &831427207
