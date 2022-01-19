@@ -538,7 +538,7 @@ GameObject:
   - component: {fileID: 156673155}
   - component: {fileID: 156673157}
   m_Layer: 0
-  m_Name: ujung1
+  m_Name: suara setan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -855,6 +855,11 @@ PrefabInstance:
       propertyPath: m_Controller
       value: 
       objectReference: {fileID: 9100000, guid: f1144e4a0d856d04890fb973712937c9, type: 2}
+    - target: {fileID: 6454471996746756088, guid: 38b9c2816a94f0849b160786a0ce4d7d,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7457329022791461065, guid: 38b9c2816a94f0849b160786a0ce4d7d,
         type: 3}
       propertyPath: m_RootOrder
@@ -910,10 +915,15 @@ PrefabInstance:
       propertyPath: m_RootOrder
       value: 16
       objectReference: {fileID: 0}
-    - target: {fileID: 6454471996746756088, guid: 38b9c2816a94f0849b160786a0ce4d7d,
+    - target: {fileID: 8827633603873534040, guid: 38b9c2816a94f0849b160786a0ce4d7d,
         type: 3}
-      propertyPath: m_IsActive
-      value: 1
+      propertyPath: m_RootOrder
+      value: 17
+      objectReference: {fileID: 0}
+    - target: {fileID: 7434479729315204558, guid: 38b9c2816a94f0849b160786a0ce4d7d,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 18
       objectReference: {fileID: 0}
     - target: {fileID: 3514853190653884008, guid: 38b9c2816a94f0849b160786a0ce4d7d,
         type: 3}
@@ -935,16 +945,6 @@ PrefabInstance:
         type: 3}
       propertyPath: moveSpeed
       value: 0.7
-      objectReference: {fileID: 0}
-    - target: {fileID: 8827633603873534040, guid: 38b9c2816a94f0849b160786a0ce4d7d,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 17
-      objectReference: {fileID: 0}
-    - target: {fileID: 7434479729315204558, guid: 38b9c2816a94f0849b160786a0ce4d7d,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 18
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 2194519476029622664, guid: 38b9c2816a94f0849b160786a0ce4d7d, type: 3}
@@ -3549,7 +3549,7 @@ MonoBehaviour:
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 8d3b0245362a61644a1a35ee0c816b50, type: 3}
+    m_Font: {fileID: 12800000, guid: 31681e3a38202964db4c2480bdd33681, type: 3}
     m_FontSize: 38
     m_FontStyle: 0
     m_BestFit: 0
@@ -3883,7 +3883,7 @@ MonoBehaviour:
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 8d3b0245362a61644a1a35ee0c816b50, type: 3}
+    m_Font: {fileID: 12800000, guid: 31681e3a38202964db4c2480bdd33681, type: 3}
     m_FontSize: 38
     m_FontStyle: 0
     m_BestFit: 0
@@ -9534,7 +9534,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.23698807, y: -0.12436867}
+  m_Offset: {x: -1.888607, y: -0.12436867}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -9545,7 +9545,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 2.7795334, y: 1.6549873}
+  m_Size: {x: 6.0827713, y: 1.6549873}
   m_EdgeRadius: 0
 --- !u!1 &1446726337
 GameObject:
@@ -10856,7 +10856,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 3.4949937, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -10867,7 +10867,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.9375, y: 1.40625}
+  m_Size: {x: 7.9274874, y: 1.40625}
   m_EdgeRadius: 0
 --- !u!1 &1823340385
 GameObject:
@@ -11233,7 +11233,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.91087484, y: -0.44679356}
+  m_Offset: {x: 2.1954675, y: -0.44679356}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -11244,7 +11244,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 3.8095655, y: 2.299837}
+  m_Size: {x: 6.378751, y: 2.299837}
   m_EdgeRadius: 0
 --- !u!1 &1918158014
 GameObject:
@@ -11304,7 +11304,7 @@ MonoBehaviour:
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 8d3b0245362a61644a1a35ee0c816b50, type: 3}
+    m_Font: {fileID: 12800000, guid: 31681e3a38202964db4c2480bdd33681, type: 3}
     m_FontSize: 38
     m_FontStyle: 0
     m_BestFit: 0
@@ -11457,7 +11457,7 @@ MonoBehaviour:
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 8d3b0245362a61644a1a35ee0c816b50, type: 3}
+    m_Font: {fileID: 12800000, guid: 31681e3a38202964db4c2480bdd33681, type: 3}
     m_FontSize: 38
     m_FontStyle: 0
     m_BestFit: 0
@@ -11852,7 +11852,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 1.2385163, y: 0.11877155}
+  m_Offset: {x: -1.7344608, y: 0.11877155}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -11863,7 +11863,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 6.4775763, y: 1.6437931}
+  m_Size: {x: 12.423531, y: 1.6437931}
   m_EdgeRadius: 0
 --- !u!1 &2059286683
 GameObject:
@@ -12133,7 +12133,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.051362514, y: -0.59264374}
+  m_Offset: {x: -0.051362514, y: -1.1412106}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -12144,7 +12144,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 13.011609, y: 0.5765457}
+  m_Size: {x: 13.011609, y: 1.4155388}
   m_EdgeRadius: 0
 --- !u!61 &2075156078
 BoxCollider2D:

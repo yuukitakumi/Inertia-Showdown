@@ -238,7 +238,7 @@ RectTransform:
   m_GameObject: {fileID: 32654877}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 4.589683, y: 5.922172, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 0}
   m_Children: []
   m_Father: {fileID: 878508524}
   m_RootOrder: 0
@@ -246,7 +246,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 111, y: 117.1}
+  m_SizeDelta: {x: 1920, y: 1080}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &32654879
 MonoBehaviour:
@@ -268,7 +268,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 4ecea74bdcd91db42b964a4725a68b1b, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 98e97d6d6d524e9459371151d3312bda, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -405,7 +405,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 95a2eac4da7e9074aae2d2926caf430f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  counterNeeded: 3
+  counterNeeded: 1
   gameManager: {fileID: 0}
   isDone: 0
   animGate: {fileID: 42386964}
@@ -4093,7 +4093,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -704.3, y: 221.1}
+  m_AnchoredPosition: {x: -704.3, y: 202}
   m_SizeDelta: {x: 393.48, y: 69.35}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &999317344
@@ -4129,8 +4129,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: "> Rapikan kardus di ruang sebelah\r\n> Carilah mekanisme agar bisa \n   masuk
-    ke ruang meeting"
+  m_Text: "> Jelajahi dan rapikan kardus \n   di ruang sebelah\r\n> Carilah mekanisme
+    agar bisa \n   masuk ke ruang meeting"
 --- !u!222 &999317345
 CanvasRenderer:
   m_ObjectHideFlags: 0

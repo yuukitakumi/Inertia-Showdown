@@ -978,15 +978,75 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 2373511449829782434, guid: 0b23122a76bc8cc438f86906eee6772f,
+        type: 3}
+      propertyPath: m_SortingOrder
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6137530813435743073, guid: 0b23122a76bc8cc438f86906eee6772f,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6137530813435743073, guid: 0b23122a76bc8cc438f86906eee6772f,
+        type: 3}
+      propertyPath: m_TagString
+      value: SFX
+      objectReference: {fileID: 0}
+    - target: {fileID: 7838512629506354953, guid: 0b23122a76bc8cc438f86906eee6772f,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4967545168735099822, guid: 0b23122a76bc8cc438f86906eee6772f,
         type: 3}
       propertyPath: m_Name
       value: Xmove
       objectReference: {fileID: 0}
+    - target: {fileID: 3746930152828539237, guid: 0b23122a76bc8cc438f86906eee6772f,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3746930152828539237, guid: 0b23122a76bc8cc438f86906eee6772f,
+        type: 3}
+      propertyPath: m_TagString
+      value: SFX
+      objectReference: {fileID: 0}
+    - target: {fileID: 8280272693501152602, guid: 0b23122a76bc8cc438f86906eee6772f,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8280272693501152602, guid: 0b23122a76bc8cc438f86906eee6772f,
+        type: 3}
+      propertyPath: m_TagString
+      value: SFX
+      objectReference: {fileID: 0}
     - target: {fileID: 525754676651571704, guid: 0b23122a76bc8cc438f86906eee6772f,
         type: 3}
       propertyPath: m_SortingOrder
       value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5015716659799180137, guid: 0b23122a76bc8cc438f86906eee6772f,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 1.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 5015716659799180137, guid: 0b23122a76bc8cc438f86906eee6772f,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.863
+      objectReference: {fileID: 0}
+    - target: {fileID: 5015716659799180137, guid: 0b23122a76bc8cc438f86906eee6772f,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.054
+      objectReference: {fileID: 0}
+    - target: {fileID: 5015716659799180137, guid: 0b23122a76bc8cc438f86906eee6772f,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.045159996
       objectReference: {fileID: 0}
     - target: {fileID: 2373511449829782446, guid: 0b23122a76bc8cc438f86906eee6772f,
         type: 3}
@@ -1013,36 +1073,6 @@ PrefabInstance:
       propertyPath: walkSound
       value: 
       objectReference: {fileID: 507618714}
-    - target: {fileID: 5015716659799180137, guid: 0b23122a76bc8cc438f86906eee6772f,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 1.05
-      objectReference: {fileID: 0}
-    - target: {fileID: 5015716659799180137, guid: 0b23122a76bc8cc438f86906eee6772f,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0.863
-      objectReference: {fileID: 0}
-    - target: {fileID: 5015716659799180137, guid: 0b23122a76bc8cc438f86906eee6772f,
-        type: 3}
-      propertyPath: m_LocalScale.x
-      value: 0.054
-      objectReference: {fileID: 0}
-    - target: {fileID: 5015716659799180137, guid: 0b23122a76bc8cc438f86906eee6772f,
-        type: 3}
-      propertyPath: m_LocalScale.y
-      value: 0.045159996
-      objectReference: {fileID: 0}
-    - target: {fileID: 7838512629506354953, guid: 0b23122a76bc8cc438f86906eee6772f,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2373511449829782434, guid: 0b23122a76bc8cc438f86906eee6772f,
-        type: 3}
-      propertyPath: m_SortingOrder
-      value: 5
-      objectReference: {fileID: 0}
     - target: {fileID: 1488957967816119489, guid: 0b23122a76bc8cc438f86906eee6772f,
         type: 3}
       propertyPath: m_IsActive
@@ -1063,42 +1093,12 @@ PrefabInstance:
       propertyPath: m_TagString
       value: SFX
       objectReference: {fileID: 0}
-    - target: {fileID: 3746930152828539237, guid: 0b23122a76bc8cc438f86906eee6772f,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3746930152828539237, guid: 0b23122a76bc8cc438f86906eee6772f,
-        type: 3}
-      propertyPath: m_TagString
-      value: SFX
-      objectReference: {fileID: 0}
     - target: {fileID: 7165108336431749587, guid: 0b23122a76bc8cc438f86906eee6772f,
         type: 3}
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7165108336431749587, guid: 0b23122a76bc8cc438f86906eee6772f,
-        type: 3}
-      propertyPath: m_TagString
-      value: SFX
-      objectReference: {fileID: 0}
-    - target: {fileID: 8280272693501152602, guid: 0b23122a76bc8cc438f86906eee6772f,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8280272693501152602, guid: 0b23122a76bc8cc438f86906eee6772f,
-        type: 3}
-      propertyPath: m_TagString
-      value: SFX
-      objectReference: {fileID: 0}
-    - target: {fileID: 6137530813435743073, guid: 0b23122a76bc8cc438f86906eee6772f,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6137530813435743073, guid: 0b23122a76bc8cc438f86906eee6772f,
         type: 3}
       propertyPath: m_TagString
       value: SFX
@@ -12675,7 +12675,7 @@ GameObject:
   - component: {fileID: 1765929292}
   - component: {fileID: 1765929291}
   m_Layer: 0
-  m_Name: Gamemanager
+  m_Name: GamemanagerLibFut
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

@@ -206,6 +206,7 @@ GameObject:
   - component: {fileID: 487620769}
   - component: {fileID: 487620768}
   - component: {fileID: 487620767}
+  - component: {fileID: 487620770}
   m_Layer: 5
   m_Name: Image
   m_TagString: Untagged
@@ -246,7 +247,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Loadbar: {fileID: 0}
   now: 0
-  speed: 15
+  speed: 20
   scene: Act2C3D1
 --- !u!114 &487620768
 MonoBehaviour:
@@ -285,6 +286,25 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 487620765}
   m_CullTransparentMesh: 0
+--- !u!95 &487620770
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 487620765}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 788b1506216fb1f4f93c2b921cfac589, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &1507547165
 GameObject:
   m_ObjectHideFlags: 0

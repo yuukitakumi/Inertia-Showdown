@@ -124,8 +124,9 @@ GameObject:
   - component: {fileID: 182120094}
   - component: {fileID: 182120093}
   - component: {fileID: 182120095}
+  - component: {fileID: 182120096}
   m_Layer: 5
-  m_Name: Image
+  m_Name: Animation
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -203,6 +204,25 @@ MonoBehaviour:
   now: 0
   speed: 20
   scene: Act2C3D2
+--- !u!95 &182120096
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 182120091}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 788b1506216fb1f4f93c2b921cfac589, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &1084927523
 GameObject:
   m_ObjectHideFlags: 0

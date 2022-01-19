@@ -871,6 +871,16 @@ PrefabInstance:
       propertyPath: Xmove
       value: 
       objectReference: {fileID: 153026556}
+    - target: {fileID: 2373511449829782434, guid: 0b23122a76bc8cc438f86906eee6772f,
+        type: 3}
+      propertyPath: m_SortingOrder
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6137530813435743073, guid: 0b23122a76bc8cc438f86906eee6772f,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4967545168735099822, guid: 0b23122a76bc8cc438f86906eee6772f,
         type: 3}
       propertyPath: m_Name
@@ -880,26 +890,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_SortingOrder
       value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 2373511449829782446, guid: 0b23122a76bc8cc438f86906eee6772f,
-        type: 3}
-      propertyPath: codePanel
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 2373511449829782446, guid: 0b23122a76bc8cc438f86906eee6772f,
-        type: 3}
-      propertyPath: closedSafe
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 2373511449829782446, guid: 0b23122a76bc8cc438f86906eee6772f,
-        type: 3}
-      propertyPath: openedSafe
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 2373511449829782446, guid: 0b23122a76bc8cc438f86906eee6772f,
-        type: 3}
-      propertyPath: diarySafe
-      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 5015716659799180137, guid: 0b23122a76bc8cc438f86906eee6772f,
         type: 3}
@@ -921,15 +911,25 @@ PrefabInstance:
       propertyPath: m_LocalScale.y
       value: 0.045159996
       objectReference: {fileID: 0}
-    - target: {fileID: 2373511449829782434, guid: 0b23122a76bc8cc438f86906eee6772f,
+    - target: {fileID: 2373511449829782446, guid: 0b23122a76bc8cc438f86906eee6772f,
         type: 3}
-      propertyPath: m_SortingOrder
-      value: 5
+      propertyPath: codePanel
+      value: 
       objectReference: {fileID: 0}
-    - target: {fileID: 6137530813435743073, guid: 0b23122a76bc8cc438f86906eee6772f,
+    - target: {fileID: 2373511449829782446, guid: 0b23122a76bc8cc438f86906eee6772f,
         type: 3}
-      propertyPath: m_IsActive
-      value: 1
+      propertyPath: closedSafe
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2373511449829782446, guid: 0b23122a76bc8cc438f86906eee6772f,
+        type: 3}
+      propertyPath: openedSafe
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2373511449829782446, guid: 0b23122a76bc8cc438f86906eee6772f,
+        type: 3}
+      propertyPath: diarySafe
+      value: 
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0b23122a76bc8cc438f86906eee6772f, type: 3}
@@ -1228,7 +1228,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: "> Carilah cara untuk pergi \n   ke lantai bawah dimana \n   suara itu berasal"
+  m_Text: "> Carilah cara untuk pergi \n   ke lantai bawah melalui\n   kamar tidur"
 --- !u!222 &181157189
 CanvasRenderer:
   m_ObjectHideFlags: 0
