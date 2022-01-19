@@ -2862,14 +2862,14 @@ PrefabInstance:
       propertyPath: m_Pivot.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1375205860792255764, guid: ee52614acb8dbac4f8be7d71089c144d,
-        type: 3}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 1375205860380735286, guid: ee52614acb8dbac4f8be7d71089c144d,
         type: 3}
       propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1375205860792255764, guid: ee52614acb8dbac4f8be7d71089c144d,
+        type: 3}
+      propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1375205860006719621, guid: ee52614acb8dbac4f8be7d71089c144d,
@@ -3129,7 +3129,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   detector: {fileID: 1053779658}
-  gameManager: {fileID: 0}
   on_pos: 0
   on_tempel: 0
 --- !u!212 &680658219
@@ -3252,7 +3251,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   detector: {fileID: 649119571}
-  gameManager: {fileID: 0}
   on_pos: 0
   on_tempel: 0
 --- !u!212 &687549741
@@ -4755,7 +4753,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   detector: {fileID: 1193019132}
-  gameManager: {fileID: 0}
   on_pos: 0
   on_tempel: 0
 --- !u!212 &1068586079
@@ -5510,7 +5507,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   detector: {fileID: 1965379801}
-  gameManager: {fileID: 0}
   on_pos: 0
   on_tempel: 0
 --- !u!212 &1167590102
@@ -9162,7 +9158,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   detector: {fileID: 2125896648}
-  gameManager: {fileID: 0}
   on_pos: 0
   on_tempel: 0
 --- !u!212 &1967388090
@@ -9540,8 +9535,7 @@ MonoBehaviour:
   - actorId: 1
     message: Aku panik tahu! Kamu lama sekali tidak segera kembali ke kamar.
   - actorId: 2
-    message: Lantas aku mencarimu di ruang dekat ruang pertemuan ganti jadi Lantas
-      aku
+    message: Lantas aku mencarimu di ruang dekat ruang pertemuan
   - actorId: 2
     message: Bagaimana kamu bisa tiba-tiba di sini?
   - actorId: 3
@@ -9663,7 +9657,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -2.5855002, y: 1.7160497}
+  m_Offset: {x: -2.5855002, y: 2.0334876}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -9674,7 +9668,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 3.7303464, y: 1.5966425}
+  m_Size: {x: 3.7303467, y: 0.9617667}
   m_EdgeRadius: 0
 --- !u!4 &2114168299
 Transform:
