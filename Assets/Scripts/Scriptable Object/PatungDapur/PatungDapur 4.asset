@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d40444ae50053a548aefb6e97d59bf00, type: 3}
   m_Name: PatungDapur 4
   m_EditorClassIdentifier: 
-  patungPosition: {x: -5.97, y: -4.37}
-  patungPositionNew: {x: -5.97, y: -4.37}
+  patungPosition: {x: -8, y: -4.37}
+  patungPositionNew: {x: -5.937082, y: -4.4747653}

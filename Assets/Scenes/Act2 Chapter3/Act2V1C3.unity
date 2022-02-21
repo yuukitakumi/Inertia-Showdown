@@ -583,11 +583,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1413792392}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c22996d663072484b9fd75957f39d384, type: 3}
+  m_Script: {fileID: 11500000, guid: d9d9b9b4d8b573d41a9111474eff5225, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   VideoPlayer: {fileID: 1413792396}
-  scene: mainmenu
 --- !u!1 &1721870392
 GameObject:
   m_ObjectHideFlags: 0

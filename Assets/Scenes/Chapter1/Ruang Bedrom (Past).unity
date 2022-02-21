@@ -836,14 +836,14 @@ PrefabInstance:
       propertyPath: m_Pivot.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1375205860792255764, guid: ee52614acb8dbac4f8be7d71089c144d,
-        type: 3}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 1375205860380735286, guid: ee52614acb8dbac4f8be7d71089c144d,
         type: 3}
       propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1375205860792255764, guid: ee52614acb8dbac4f8be7d71089c144d,
+        type: 3}
+      propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1375205860006719621, guid: ee52614acb8dbac4f8be7d71089c144d,
@@ -3526,7 +3526,7 @@ MonoBehaviour:
   panelNote: {fileID: 179463387}
   interactUI: {fileID: 748526715}
   komponen: {fileID: 908965730}
-  noteSound: {fileID: 781576241}
+  noteSound: {fileID: 1990273449}
   note: 
   PlayerInRange: 0
 --- !u!1 &929040802
@@ -5568,6 +5568,12 @@ Transform:
 --- !u!1 &1963099544 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8293165169655984513, guid: 38b9c2816a94f0849b160786a0ce4d7d,
+    type: 3}
+  m_PrefabInstance: {fileID: 854397947}
+  m_PrefabAsset: {fileID: 0}
+--- !u!82 &1990273449 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 451862809575158336, guid: 38b9c2816a94f0849b160786a0ce4d7d,
     type: 3}
   m_PrefabInstance: {fileID: 854397947}
   m_PrefabAsset: {fileID: 0}

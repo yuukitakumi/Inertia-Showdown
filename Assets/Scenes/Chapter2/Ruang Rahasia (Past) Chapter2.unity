@@ -3274,7 +3274,7 @@ MonoBehaviour:
   panelNote: {fileID: 853382250}
   interactUI: {fileID: 1213052985}
   komponen: {fileID: 1133607628}
-  noteSound: {fileID: 1419409187}
+  noteSound: {fileID: 1662252578}
   note: 
   PlayerInRange: 0
 --- !u!60 &1133607632
@@ -4025,12 +4025,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scene: Library (Past) 3
---- !u!82 &1419409187 stripped
-AudioSource:
-  m_CorrespondingSourceObject: {fileID: 8219688045952870191, guid: 38b9c2816a94f0849b160786a0ce4d7d,
-    type: 3}
-  m_PrefabInstance: {fileID: 1662252576}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1440787553
 GameObject:
   m_ObjectHideFlags: 0
@@ -4668,6 +4662,12 @@ PrefabInstance:
 --- !u!4 &1662252577 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 314835513, guid: 38b9c2816a94f0849b160786a0ce4d7d,
+    type: 3}
+  m_PrefabInstance: {fileID: 1662252576}
+  m_PrefabAsset: {fileID: 0}
+--- !u!82 &1662252578 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 451862809575158336, guid: 38b9c2816a94f0849b160786a0ce4d7d,
     type: 3}
   m_PrefabInstance: {fileID: 1662252576}
   m_PrefabAsset: {fileID: 0}

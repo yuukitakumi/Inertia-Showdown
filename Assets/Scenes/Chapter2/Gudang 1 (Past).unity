@@ -3573,7 +3573,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -2.904261, y: 2.7}
+  m_Offset: {x: -2.904261, y: 2.0678294}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -3584,7 +3584,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.2978716, y: 2.3406787}
+  m_Size: {x: 0.2978716, y: 3.60502}
   m_EdgeRadius: 0
 --- !u!50 &799078756
 Rigidbody2D:
@@ -3716,6 +3716,16 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 4459424290262172224, guid: 38b9c2816a94f0849b160786a0ce4d7d,
+        type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: edcbcccdac1db894c981568e13cab8d9, type: 3}
+    - target: {fileID: 4459424290262172224, guid: 38b9c2816a94f0849b160786a0ce4d7d,
+        type: 3}
+      propertyPath: m_Volume
+      value: 0.7
+      objectReference: {fileID: 0}
     - target: {fileID: 314835513, guid: 38b9c2816a94f0849b160786a0ce4d7d, type: 3}
       propertyPath: m_LocalPosition.x
       value: -10.5
@@ -3821,11 +3831,6 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 4459424290262172224, guid: 38b9c2816a94f0849b160786a0ce4d7d,
-        type: 3}
-      propertyPath: m_audioClip
-      value: 
-      objectReference: {fileID: 8300000, guid: edcbcccdac1db894c981568e13cab8d9, type: 3}
     m_RemovedComponents:
     - {fileID: 2194519476029622664, guid: 38b9c2816a94f0849b160786a0ce4d7d, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 38b9c2816a94f0849b160786a0ce4d7d, type: 3}
@@ -4116,6 +4121,12 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!82 &934358003 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 451862809575158336, guid: 38b9c2816a94f0849b160786a0ce4d7d,
+    type: 3}
+  m_PrefabInstance: {fileID: 879901222}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &999317342
 GameObject:
   m_ObjectHideFlags: 0
@@ -4750,7 +4761,7 @@ MonoBehaviour:
   panelNote: {fileID: 878508523}
   interactUI: {fileID: 1193932115}
   komponen: {fileID: 1425491192}
-  noteSound: {fileID: 494347047}
+  noteSound: {fileID: 934358003}
   note: 
   PlayerInRange: 0
 --- !u!1 &1484092010
